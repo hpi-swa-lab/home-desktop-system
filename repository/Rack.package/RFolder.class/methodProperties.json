@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"/" : "pre 3/16/2017 11:49",
+		"addEntryNamed:with:" : "pre 3/16/2017 11:51",
+		"contents" : "pre 3/16/2017 11:49",
+		"createFolder:" : "pre 3/16/2017 11:50",
+		"createFolder:withQuery:" : "pre 3/16/2017 11:51",
+		"createFolderInteractively" : "pre 3/15/2017 17:32",
+		"createFolderWithQueryInteractively" : "pre 3/15/2017 17:34",
+		"entries" : "pre 3/16/2017 11:49",
+		"isRackFolder" : "pre 10/22/2016 20:51",
+		"removeEntry:" : "pre 3/16/2017 11:52",
+		"requestFolderName" : "pre 3/15/2017 17:32" } }

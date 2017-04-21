@@ -1,0 +1,4 @@
+accessing
+entries
+
+	^ self values

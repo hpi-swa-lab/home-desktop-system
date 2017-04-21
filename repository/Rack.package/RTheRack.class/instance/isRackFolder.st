@@ -1,0 +1,4 @@
+*Rack
+isRackFolder
+
+	^ true

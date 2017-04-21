@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"open" : "pre 3/2/2017 16:53" },
+	"instance" : {
+		"addMenuOperation:for:to:" : "pre 3/16/2017 12:18",
+		"buildWith:" : "pre 3/16/2017 12:13",
+		"dragFromRack:" : "pre 3/16/2017 11:53",
+		"drop:ontoEntry:shouldCopy:" : "pre 3/23/2017 16:06",
+		"elementNameOf:" : "pre 3/16/2017 11:54",
+		"elementsOfFolder:" : "pre 3/16/2017 11:54",
+		"generalMenu:" : "pre 3/16/2017 12:19",
+		"getSelectedEntry" : "pre 3/16/2017 12:13",
+		"isNonEmptyFolder:" : "pre 3/16/2017 11:55",
+		"rootRackFolder" : "pre 3/16/2017 12:04",
+		"setSelectedEntryTo:" : "pre 3/16/2017 12:14",
+		"wantsDroppedObject:" : "pre 10/22/2016 21:07" } }

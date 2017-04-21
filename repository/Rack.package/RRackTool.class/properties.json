@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedElement" ],
+	"name" : "RRackTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RackDragAndDropIsActivated" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RWorldIcon",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

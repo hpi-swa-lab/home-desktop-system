@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RBoxTransient",
+	"pools" : [
+		 ],
+	"super" : "RBox",
+	"type" : "normal" }

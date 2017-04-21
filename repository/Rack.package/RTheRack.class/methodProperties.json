@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"install" : "pre 3/2/2017 16:53" },
+	"instance" : {
+		"/" : "pre 10/22/2016 20:40",
+		"contents" : "pre 10/22/2016 20:52",
+		"createFolder:" : "pre 10/22/2016 20:41",
+		"createFolder:withQuery:" : "pre 3/2/2017 17:01",
+		"createFolderInteractively" : "pre 3/15/2017 17:37",
+		"createFolderWithQueryInteractively" : "pre 3/15/2017 17:37",
+		"entries" : "pre 10/22/2016 21:01",
+		"initialize" : "pre 10/22/2016 20:39",
+		"isRackFolder" : "pre 10/22/2016 20:51",
+		"requestFolderName" : "pre 3/23/2017 16:05" } }

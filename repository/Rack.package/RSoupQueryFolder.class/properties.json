@@ -1,0 +1,15 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"query",
+		"postProcessing" ],
+	"name" : "RSoupQueryFolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

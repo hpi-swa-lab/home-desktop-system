@@ -1,0 +1,16 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"item",
+		"label" ],
+	"name" : "RBox",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

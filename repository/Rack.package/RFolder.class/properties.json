@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RFolder",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

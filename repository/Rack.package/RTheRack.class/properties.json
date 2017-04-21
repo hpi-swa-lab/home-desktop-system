@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hierarchy" ],
+	"name" : "RTheRack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
