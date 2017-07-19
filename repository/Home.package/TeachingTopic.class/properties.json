@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Teaching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title" ],
+	"name" : "TeachingTopic",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

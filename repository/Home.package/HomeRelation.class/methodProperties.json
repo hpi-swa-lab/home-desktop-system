@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"for:" : "pre 7/10/2017 13:53",
+		"relationAuthor" : "pre 7/10/2017 13:56",
+		"relationDeleted" : "pre 7/13/2017 11:12",
+		"relationIsbn" : "pre 7/10/2017 14:23",
+		"relationIssn" : "pre 7/10/2017 14:24",
+		"relationPublicationType" : "pre 7/10/2017 14:34",
+		"relationSetToDone" : "pre 7/11/2017 21:07",
+		"relationTags" : "pre 7/10/2017 13:56",
+		"relations" : "pre 7/10/2017 13:36" },
+	"instance" : {
+		"identifier" : "pre 7/10/2017 13:34",
+		"identifier:" : "pre 7/10/2017 13:34",
+		"isOrdered" : "pre 7/10/2017 13:34",
+		"isOrdered:" : "pre 7/10/2017 13:34",
+		"receiverCardinality" : "pre 7/10/2017 13:34",
+		"receiverCardinality:" : "pre 7/10/2017 13:34",
+		"setValue:on:" : "pre 7/10/2017 13:55",
+		"targetCardinality" : "pre 7/10/2017 13:34",
+		"targetCardinality:" : "pre 7/10/2017 13:34" } }

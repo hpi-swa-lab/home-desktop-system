@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Bibliography",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title" ],
+	"name" : "CreativeWork",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

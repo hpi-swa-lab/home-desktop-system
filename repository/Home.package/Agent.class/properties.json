@@ -1,0 +1,14 @@
+{
+	"category" : "Home-World",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "Agent",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

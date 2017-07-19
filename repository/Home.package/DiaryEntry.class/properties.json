@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Diary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content",
+		"date" ],
+	"name" : "DiaryEntry",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

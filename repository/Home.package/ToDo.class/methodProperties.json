@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"new:" : "pre 3/2/2017 16:35" },
+	"instance" : {
+		"description" : "pre 3/2/2017 16:32",
+		"description:" : "pre 3/2/2017 16:32",
+		"done" : "pre 3/2/2017 16:32",
+		"done:" : "pre 6/21/2017 17:19",
+		"dueDate" : "pre 3/2/2017 16:32",
+		"dueDate:" : "pre 3/2/2017 16:32",
+		"initialize" : "pre 7/18/2017 14:54",
+		"isDone" : "pre 3/2/2017 16:41",
+		"isToDo" : "pre 3/7/2017 20:52",
+		"printOn:" : "pre 3/2/2017 16:41",
+		"reminderDate" : "pre 3/2/2017 16:32",
+		"reminderDate:" : "pre 6/21/2017 21:41",
+		"scheduleForNextWeek" : "pre 6/29/2017 17:04",
+		"scheduleForToday" : "pre 6/29/2017 16:41",
+		"scheduleForTomorrow" : "pre 6/29/2017 17:04",
+		"scheduledFor" : "pre 6/29/2017 17:05",
+		"scheduledFor:" : "pre 6/29/2017 17:05",
+		"setDone" : "pre 5/16/2017 15:42",
+		"setUndone" : "pre 5/16/2017 15:42" } }

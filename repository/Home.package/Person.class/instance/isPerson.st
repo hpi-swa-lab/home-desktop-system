@@ -1,0 +1,4 @@
+accessing
+isPerson
+
+	^ true

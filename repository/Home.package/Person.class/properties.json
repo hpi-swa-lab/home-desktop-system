@@ -1,0 +1,17 @@
+{
+	"category" : "Home-World",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"firstname",
+		"middleNames",
+		"lastname",
+		"email" ],
+	"name" : "Person",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

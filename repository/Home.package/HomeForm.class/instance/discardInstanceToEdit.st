@@ -1,0 +1,4 @@
+as yet unclassified
+discardInstanceToEdit
+
+	self instanceToEdit interactiveDelete

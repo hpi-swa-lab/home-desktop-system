@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeSet",
+	"pools" : [
+		 ],
+	"super" : "IdentitySet",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+SystemOrganization addCategory: #'Home-ToDo'!
+SystemOrganization addCategory: #'Home-Teaching'!
+SystemOrganization addCategory: #'Home-World'!
+SystemOrganization addCategory: #'Home-Garden'!
+SystemOrganization addCategory: #'Home-Diary'!
+SystemOrganization addCategory: #'Home-Experiment'!
+SystemOrganization addCategory: #'Home-PDF'!
+SystemOrganization addCategory: #'Home-Importer'!
+SystemOrganization addCategory: #'Home-Bibliography'!
+SystemOrganization addCategory: #'Home-UI'!
+SystemOrganization addCategory: #'Home-Core'!

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Experiment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeScreenRecorder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

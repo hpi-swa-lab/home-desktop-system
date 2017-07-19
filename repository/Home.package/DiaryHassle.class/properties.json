@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Diary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DiaryHassle",
+	"pools" : [
+		 ],
+	"super" : "DiaryEntry",
+	"type" : "normal" }

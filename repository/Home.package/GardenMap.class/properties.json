@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Garden",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pots",
+		"pointInTime" ],
+	"name" : "GardenMap",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+worldIconText
+
+	^ self courseName

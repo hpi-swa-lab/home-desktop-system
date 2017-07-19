@@ -1,0 +1,18 @@
+{
+	"category" : "Home-ToDo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"description",
+		"done",
+		"dueDate",
+		"reminderDate",
+		"scheduledFor" ],
+	"name" : "ToDo",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

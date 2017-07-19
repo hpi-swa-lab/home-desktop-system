@@ -1,0 +1,16 @@
+{
+	"category" : "Home-Garden",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"end",
+		"plant" ],
+	"name" : "GardenPlanting",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"has:" : "pre 5/8/2017 17:05",
+		"isAnyOf:" : "pre 6/30/2017 15:51",
+		"isDiaryEntry" : "pre 3/7/2017 20:52",
+		"isEvent" : "pre 3/15/2017 17:35",
+		"isPerson" : "pre 4/24/2017 10:10",
+		"isToDo" : "pre 6/20/2017 20:33" } }

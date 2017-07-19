@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Importer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BibtexEntries",
+	"pools" : [
+		 ],
+	"super" : "OhmSynthesizedAttribute",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+isDone
+
+	^ self done

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Importer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BibtexImporter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Bibliography",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Conference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

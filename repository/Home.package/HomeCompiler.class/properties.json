@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeCompiler",
+	"pools" : [
+		 ],
+	"super" : "Compiler",
+	"type" : "normal" }

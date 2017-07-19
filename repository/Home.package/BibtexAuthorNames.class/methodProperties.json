@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"Author:withAuthor:" : "pre 6/30/2017 17:02",
+		"Authors:withAuthor:withManyMoreAuthorss:" : "pre 6/30/2017 17:02",
+		"FirstnameAuthor:withNamePart:" : "pre 6/30/2017 17:03",
+		"LastnameAuthor:withManyNameParts:withPrimitive:withManyNameParts:" : "pre 6/30/2017 17:04",
+		"MoreAuthors:withPrimitive:withAuthor:" : "pre 6/30/2017 17:03",
+		"namePart:withManyPieces:withOptionalPrimitive:" : "pre 6/30/2017 17:04" } }

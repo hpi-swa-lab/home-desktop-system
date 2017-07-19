@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Teaching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"courseName",
+		"teams" ],
+	"name" : "Course",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

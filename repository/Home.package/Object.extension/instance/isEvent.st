@@ -1,0 +1,4 @@
+*Home
+isEvent
+
+	^ false

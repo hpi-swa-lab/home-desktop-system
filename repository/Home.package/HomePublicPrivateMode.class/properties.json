@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Experiment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomePublicPrivateMode",
+	"pools" : [
+		 ],
+	"super" : "ProcessLocalVariable",
+	"type" : "normal" }
