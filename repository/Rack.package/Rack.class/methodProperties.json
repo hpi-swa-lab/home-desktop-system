@@ -2,7 +2,12 @@
 	"class" : {
 		"activateRackDragAndDrop" : "pre 3/7/2017 12:09",
 		"activateRackDragAndDrop:" : "pre 3/7/2017 12:18",
+		"blue" : "pre 4/24/2017 16:56",
+		"brightBlue" : "pre 4/24/2017 16:56",
 		"doActivateDragAndDrop" : "pre 3/7/2017 12:17",
-		"doDeactivateDragAndDrop" : "pre 3/7/2017 12:17" },
+		"doDeactivateDragAndDrop" : "pre 3/7/2017 12:17",
+		"orange" : "pre 4/24/2017 16:56",
+		"purple" : "pre 4/24/2017 16:56",
+		"red" : "pre 4/24/2017 16:56" },
 	"instance" : {
 		 } }

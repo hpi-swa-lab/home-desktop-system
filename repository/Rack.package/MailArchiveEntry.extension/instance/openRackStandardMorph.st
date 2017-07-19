@@ -1,4 +1,4 @@
 *Rack
-rackStandardTool
+openRackStandardMorph
 
 	^ ICEmailDialog openWith: self message

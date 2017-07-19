@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"closedLidVertices" : "pre 4/24/2017 16:15",
+		"initialize" : "pre 5/16/2017 15:35",
+		"makeClosedLid" : "pre 5/16/2017 15:37",
+		"makeLidFromVertices:" : "pre 5/16/2017 15:38",
+		"makeOpenedLid" : "pre 5/16/2017 15:37",
+		"openLidVertices" : "pre 4/24/2017 16:15" } }

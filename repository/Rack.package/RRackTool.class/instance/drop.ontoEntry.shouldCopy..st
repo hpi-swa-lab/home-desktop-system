@@ -11,6 +11,7 @@ drop: anObject ontoEntry: anEntry shouldCopy: shouldCopy
 	
 	newName := UIManager default request: 'Under which name should the object be stored?'.
 	
+	newName isEmptyOrNil ifTrue: [newName := anObject worldIconText].
 	anEntry item addEntryNamed: newName asSymbol with: anObject.
 	
 	self changed: #rootRackFolder.

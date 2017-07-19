@@ -1,0 +1,4 @@
+*Rack
+worldIconMorph
+
+	^ RMailIcon new

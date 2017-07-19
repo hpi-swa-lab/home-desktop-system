@@ -1,0 +1,5 @@
+*Rack
+interactiveDelete
+
+	
+	self delete

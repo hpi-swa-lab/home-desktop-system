@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedElement" ],
+		"selectedElement",
+		"selectedPath",
+		"selectedParent" ],
 	"name" : "RRackTool",
 	"pools" : [
 		 ],

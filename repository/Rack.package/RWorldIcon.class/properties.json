@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"RackDragAndDropIsActivated" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"object" ],
 	"name" : "RWorldIcon",
 	"pools" : [
 		 ],

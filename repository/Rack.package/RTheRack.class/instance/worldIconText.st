@@ -1,0 +1,4 @@
+*Rack
+worldIconText
+
+	^ 'The Rack'

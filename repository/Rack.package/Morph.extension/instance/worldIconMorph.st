@@ -1,4 +1,4 @@
 *Rack
 worldIconMorph
 
-	^ self asForm scaledToSize: 100@100
+	^ (self imageFormForRectangle: (0@0 corner: 100@100)) asMorph

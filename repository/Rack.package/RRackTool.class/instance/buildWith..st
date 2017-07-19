@@ -1,7 +1,7 @@
 as yet unclassified
 buildWith: aBuilder
 	
-	| windowSpec listSpec |
+	| windowSpec listSpec window |
 	
 	windowSpec := aBuilder pluggableWindowSpec new
 		model: self;
@@ -17,12 +17,19 @@ buildWith: aBuilder
 		getChildren: #elementsOfFolder:;
 		setSelected: #setSelectedEntryTo:;
 		getSelected: #getSelectedEntry;
+		setSelectedParent: #selectedParent:;
+		setSelectedPath: #selectedPath:;
+		getSelectedPath: #selectedPath;
 		dragItem: #dragFromRack:;
 		dropAccept: #wantsDroppedObject:;
 		dropItem: #drop:ontoEntry:shouldCopy:;
+		doubleClick: #doubleClickOn:;
 		autoDeselect: false;
 		menu: #generalMenu:;
 		frame: (0@0 corner: 1@1).
 	windowSpec children add: listSpec.
 	
-	^ aBuilder build: windowSpec
+	window := aBuilder build: windowSpec.
+	self changed: #expandRootsRequested.
+	^ window
+	
