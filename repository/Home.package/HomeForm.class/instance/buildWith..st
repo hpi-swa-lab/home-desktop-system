@@ -38,10 +38,10 @@ buildWith: aBuilder
 	self instanceToEdit class instVarNames withIndexDo: [:instVarName :index |
 		setterSelector := (instVarName , $:) asSymbol.
 		windowSpec children add: (aBuilder pluggableInputFieldSpec new
-			model: self instanceToEdit;
+			model: (HomeFormField new target: self instanceToEdit; yourself);
 			indicateUnacceptedChanges: false;
 			getText: instVarName asSymbol;
-			setText: (instVarName , $:) asSymbol;
+			setText: setterSelector;
 			editText: setterSelector;
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;

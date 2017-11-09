@@ -1,0 +1,16 @@
+{
+	"category" : "Home-World",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemDescription",
+		"date",
+		"borrower" ],
+	"name" : "Lending",
+	"pools" : [
+		 ],
+	"super" : "PersistentObject",
+	"type" : "normal" }

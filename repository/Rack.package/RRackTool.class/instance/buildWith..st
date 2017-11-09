@@ -24,7 +24,9 @@ buildWith: aBuilder
 		dropAccept: #wantsDroppedObject:;
 		dropItem: #drop:ontoEntry:shouldCopy:;
 		doubleClick: #doubleClickOn:;
+		keyPress: #keyPressed:;
 		autoDeselect: false;
+		icon: #iconFor:;
 		menu: #generalMenu:;
 		frame: (0@0 corner: 1@1).
 	windowSpec children add: listSpec.

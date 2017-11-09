@@ -1,4 +1,5 @@
 as yet unclassified
 delete
 
-	soup doRemove: self
+	soup doRemove: self.
+	self deleted: true

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target" ],
+	"name" : "HomeFormField",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

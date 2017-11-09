@@ -9,7 +9,9 @@ drop: anObject ontoEntry: anEntry shouldCopy: shouldCopy
 		anEntry value at: anObject label put: anObject item.
 		^ self ].
 	
-	newName := UIManager default request: 'Under which name should the object be stored?'.
+	newName := UIManager default 
+		request: 'Under which name should the object be stored?'
+		initialAnswer: anObject worldIconText.
 	
 	newName isEmptyOrNil ifTrue: [newName := anObject worldIconText].
 	anEntry item addEntryNamed: newName asSymbol with: anObject.

@@ -3,7 +3,4 @@ interactiveSynchronize
 
 	<rackOperationLabel: 'synchronize' inContextMenus: true>
 
-	self 
-		synchronizeSubBoxes;
-		synchronizeMessageEntries
-		
+	self mailArchive synchronize

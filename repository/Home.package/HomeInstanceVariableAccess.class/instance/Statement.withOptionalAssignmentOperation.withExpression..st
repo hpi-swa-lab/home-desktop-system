@@ -3,11 +3,14 @@ Statement: aNode withOptionalAssignmentOperation: optionalAssignmentOperation wi
 
 	| assignedVariableName |
 	
-	(optionalAssignmentOperation isNil 	or: [optionalAssignmentOperation interval contents isEmpty])
+	(optionalAssignmentOperation isNil 	
+		or: [optionalAssignmentOperation interval contents isEmpty])
 			ifTrue: [^ self value: Expression].
 	
 	assignedVariableName := self value: optionalAssignmentOperation.
 
 	^ (self variablesToBeReplaced includes: assignedVariableName asSymbol)
-		ifTrue: [ self replaceInstVarWriteFor: assignedVariableName withValue: (self value: Expression) ]
+		ifTrue: [ self 
+					replaceInstVarWriteFor: assignedVariableName 
+					withValue: (self value: Expression) ]
 		ifFalse: [ assignedVariableName , ' := ' , (self value: Expression)]

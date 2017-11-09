@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newManuelInterventionResultFromResults:for:" : "pre 9/6/2017 11:42" },
+	"instance" : {
+		"addRule:" : "pre 9/6/2017 11:28",
+		"doesRequireManualIntervention" : "pre 9/6/2017 11:37",
+		"initialize" : "pre 9/6/2017 11:28",
+		"noActionWasRequired" : "pre 9/6/2017 11:37",
+		"object" : "pre 9/6/2017 11:27",
+		"object:" : "pre 9/6/2017 11:27",
+		"objectWasCleansed" : "pre 9/6/2017 11:37",
+		"requiresManualIntervention" : "pre 9/6/2017 11:37",
+		"resultState" : "pre 9/6/2017 11:27",
+		"resultState:" : "pre 9/6/2017 11:27",
+		"rules" : "pre 9/6/2017 11:27",
+		"rules:" : "pre 9/6/2017 11:27" } }

@@ -1,0 +1,4 @@
+*Home
+isExtended
+
+	^ false

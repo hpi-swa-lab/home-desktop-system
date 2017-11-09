@@ -1,4 +1,4 @@
 as yet unclassified
 all
 
-	^ self allInstances
+	^ (soup select: [:o | o isKindOf: self]) asArray

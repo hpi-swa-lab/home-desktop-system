@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"automaticCleansingBlock" : "pre 9/6/2017 11:15",
+		"automaticCleansingBlock:" : "pre 9/6/2017 11:15",
+		"automaticResolutionRequested" : "pre 9/6/2017 11:15",
+		"automaticResolutionRequested:" : "pre 9/6/2017 11:15",
+		"condition" : "pre 9/6/2017 11:15",
+		"condition:" : "pre 9/6/2017 11:15",
+		"executeOn:" : "pre 9/6/2017 11:31",
+		"initialize" : "pre 9/6/2017 11:28",
+		"thenCleanse:" : "pre 9/6/2017 11:17",
+		"when:" : "pre 9/6/2017 11:16" } }

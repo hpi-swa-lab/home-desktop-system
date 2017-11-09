@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"constraint" : "pre 9/6/2017 11:15",
+		"constraint:" : "pre 9/6/2017 11:15",
+		"everyObjectCompliesWith:" : "pre 9/6/2017 11:36",
+		"executeOn:" : "pre 9/6/2017 11:35",
+		"initialize" : "pre 9/6/2017 11:28" } }

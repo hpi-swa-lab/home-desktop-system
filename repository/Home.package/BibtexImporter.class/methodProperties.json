@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"importFrom:" : "pre 6/30/2017 15:55",
-		"processAuthors:at:in:" : "pre 7/6/2017 15:14",
-		"processBibTexProperties:" : "pre 7/7/2017 16:29",
+		"importFrom:" : "pre 10/10/2017 10:21",
+		"processAuthors:at:in:" : "pre 9/21/2017 11:54",
+		"processBibTexProperties:" : "pre 9/1/2017 15:52",
 		"processBooktitle:at:in:" : "pre 7/6/2017 15:14",
-		"processDate:at:in:" : "pre 7/7/2017 16:57",
+		"processDate:at:in:" : "pre 9/22/2017 11:44",
 		"processKeywords:at:in:" : "pre 7/6/2017 15:14",
-		"processPageRange:at:in:" : "pre 7/7/2017 17:25",
+		"processPageRange:at:in:" : "pre 9/19/2017 17:18",
+		"processTimestamp:at:in:" : "pre 9/1/2017 16:00",
+		"processTitle:at:in:" : "pre 9/1/2017 16:06",
 		"processUrl:at:in:" : "pre 7/6/2017 15:15" },
 	"instance" : {
 		 } }

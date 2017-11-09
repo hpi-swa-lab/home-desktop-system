@@ -6,10 +6,4 @@ importFrom: stream
 	
 	parseResult failed ifTrue: [self halt].
 	
-	(OhmBibtex semanticAction: BibtexEntries new) value: parseResult.
-	
-	self halt.
-	
-	^ parseResult
-	
-	
+	^ (OhmBibtex semanticAction: BibtexEntries new) value: parseResult	

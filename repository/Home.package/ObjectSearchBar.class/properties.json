@@ -1,0 +1,17 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originatingWidget",
+		"searchTerm",
+		"selection",
+		"resultsWidget" ],
+	"name" : "ObjectSearchBar",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

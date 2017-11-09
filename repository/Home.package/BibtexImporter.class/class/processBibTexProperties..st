@@ -11,6 +11,7 @@ processBibTexProperties: properties
 		#year -> #processDate:at:in: .
 		#month -> #processDate:at:in: .
 		#day -> #processDate:at:in: .
+		#title -> #processTitle:at:in: .
 	}.
 	
 	^ properties associations collect: [:p |

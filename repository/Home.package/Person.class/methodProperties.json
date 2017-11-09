@@ -2,7 +2,8 @@
 	"class" : {
 		"descriptionFirstname" : "pre 7/6/2017 16:19",
 		"descriptionFriend" : "pre 7/6/2017 16:19",
-		"descriptionLastname" : "pre 7/6/2017 16:19" },
+		"descriptionLastname" : "pre 7/6/2017 16:19",
+		"integrityRules" : "pre 9/18/2017 15:52" },
 	"instance" : {
 		"descriptionEmail" : "pre 7/6/2017 17:15",
 		"descriptionFirstname" : "pre 7/6/2017 16:20",
@@ -10,13 +11,14 @@
 		"descriptionLastname" : "pre 7/6/2017 16:56",
 		"email" : "pre 12/8/2016 11:01",
 		"email:" : "pre 12/8/2016 11:01",
-		"firstname" : "pre 7/6/2017 17:10",
-		"firstname:" : "pre 12/8/2016 11:01",
+		"firstName" : "pre 10/2/2017 14:03",
 		"friend" : "pre 7/6/2017 17:22",
-		"fullName" : "pre 7/13/2017 12:59",
+		"fullName" : "pre 9/18/2017 15:45",
+		"fullName:" : "pre 9/18/2017 15:39",
+		"initialize" : "pre 10/2/2017 15:43",
+		"initializeForInteractiveCreate:" : "pre 9/18/2017 16:31",
 		"isPerson" : "pre 4/24/2017 10:10",
-		"lastname" : "pre 12/8/2016 11:01",
-		"lastname:" : "pre 12/8/2016 11:01",
-		"middleNames" : "pre 7/3/2017 13:10",
+		"lastName" : "pre 10/2/2017 14:03",
+		"middleNames" : "pre 10/2/2017 14:07",
 		"middleNames:" : "pre 7/3/2017 13:10",
-		"printOn:" : "pre 7/3/2017 14:28" } }
+		"printOn:" : "pre 9/18/2017 15:45" } }

@@ -1,4 +1,4 @@
 as yet unclassified
 ? selector
 
-	^ (self has: selector) ifTrue: [self getAdditionalStateAt: selector] ifFalse: [^ nil]
+	^ (self respondsTo: selector) ifTrue: [self perform: selector] ifFalse: [^ nil]

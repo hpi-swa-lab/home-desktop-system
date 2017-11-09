@@ -1,0 +1,16 @@
+{
+	"category" : "Home-DataIntegrity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"rules",
+		"resultState" ],
+	"name" : "HomeDataIntegrityRuleResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

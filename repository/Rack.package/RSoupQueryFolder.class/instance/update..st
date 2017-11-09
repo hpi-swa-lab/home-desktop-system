@@ -1,4 +1,4 @@
 accessing
 update: anObject
 	
-	self changed
+	WorldState addDeferredUIMessage: [self changed]

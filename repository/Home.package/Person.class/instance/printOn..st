@@ -1,4 +1,4 @@
 accessing
 printOn: aStream
 
-	^ aStream << self firstname asString; << ' '; << self lastname asString
+	^ aStream << self fullName

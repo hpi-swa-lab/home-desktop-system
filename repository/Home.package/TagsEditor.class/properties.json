@@ -1,0 +1,16 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instanceToEdit",
+		"selectedTagIndex",
+		"newTagToBeCreated" ],
+	"name" : "TagsEditor",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"open" : "pre 8/29/2017 09:41",
+		"openOn:" : "pre 8/29/2017 09:48" },
+	"instance" : {
+		"acceptNewTag:" : "pre 8/29/2017 10:03",
+		"buildFormElementWith:" : "pre 8/29/2017 10:11",
+		"buildWith:" : "pre 8/29/2017 09:51",
+		"dialogTitle" : "pre 8/30/2017 15:54",
+		"instanceToEdit" : "pre 8/29/2017 09:47",
+		"instanceToEdit:" : "pre 8/29/2017 09:47",
+		"keyPressed:" : "pre 8/29/2017 10:13",
+		"listOfTags" : "pre 8/29/2017 09:53",
+		"newTag" : "pre 8/29/2017 09:49",
+		"removeSelectedTag" : "pre 8/29/2017 10:04",
+		"selectedTagIndex" : "pre 8/29/2017 09:49",
+		"selectedTagIndex:" : "pre 8/29/2017 10:05",
+		"tagMenu:" : "pre 8/29/2017 10:02" } }

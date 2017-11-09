@@ -1,4 +1,4 @@
 accessing
-lastname
+lastName
 
-	^ lastname
+	^ self fullName substrings last

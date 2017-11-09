@@ -1,0 +1,16 @@
+{
+	"category" : "Home-DataIntegrity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"condition",
+		"automaticResolutionRequested",
+		"automaticCleansingBlock" ],
+	"name" : "HomeCleansingRule",
+	"pools" : [
+		 ],
+	"super" : "HomeDataIntegrityRule",
+	"type" : "normal" }

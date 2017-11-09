@@ -1,0 +1,14 @@
+{
+	"category" : "Home-DataIntegrity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"constraint" ],
+	"name" : "HomeDataSanityRule",
+	"pools" : [
+		 ],
+	"super" : "HomeDataIntegrityRule",
+	"type" : "normal" }

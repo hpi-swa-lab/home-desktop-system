@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Experiment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeDiaryReminder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

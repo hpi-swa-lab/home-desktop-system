@@ -9,4 +9,4 @@ processAuthors: authorsString at: key in: properties
 	names := (OhmBibtexAuthors synthesizedAttribute: BibtexAuthorNames new) 
 				value: parseResult.
 	
-	^ #authors -> (names collect: [:n | Person resolve: (n joinSeparatedBy: ' ') ])
+	^ #authors -> (names collect: [:n | Person resolve: (n joinSeparatedBy: ' ') automaticAccept: true])

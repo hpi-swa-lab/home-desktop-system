@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"build" : "pre 8/30/2017 09:20" },
+	"instance" : {
+		"activate:in:" : "pre 8/30/2017 09:35",
+		"buildWith:" : "pre 8/30/2017 09:35",
+		"menu:shifted:" : "pre 8/30/2017 09:18",
+		"removeResultsWidget" : "pre 8/30/2017 09:18",
+		"searchTerm" : "pre 8/30/2017 09:18",
+		"searchTerm:" : "pre 8/30/2017 09:18",
+		"searchTermSilently:" : "pre 8/30/2017 09:18",
+		"selection" : "pre 8/30/2017 09:18",
+		"selection:" : "pre 8/30/2017 09:18",
+		"smartSearch:in:" : "pre 10/12/2017 20:13" } }

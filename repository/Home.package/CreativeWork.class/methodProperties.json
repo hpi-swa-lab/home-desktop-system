@@ -1,7 +1,14 @@
 {
 	"class" : {
-		 },
+		"integrityRules" : "pre 9/18/2017 15:53",
+		"liveprogStudyPapers" : "pre 10/26/2017 07:43" },
 	"instance" : {
-		"printString" : "pre 7/7/2017 16:22",
+		"editTags" : "pre 8/30/2017 09:56",
+		"initializeForInteractiveCreate:" : "pre 9/18/2017 16:32",
+		"liveprogstudyOriginKeywords" : "pre 10/26/2017 07:31",
+		"liveprogstudyOriginLocations" : "pre 10/26/2017 07:31",
+		"parts" : "pre 10/16/2017 22:08",
+		"printOn:" : "pre 7/19/2017 10:32",
+		"swaSchemaFileName" : "pre 10/4/2017 11:56",
 		"title" : "pre 7/7/2017 16:22",
 		"title:" : "pre 7/7/2017 16:22" } }

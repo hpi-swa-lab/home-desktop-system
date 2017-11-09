@@ -1,6 +1,7 @@
-as yet unclassified
+initialize-release
 initialize
 
 	super initialize.
 	self date: Date today.
-	self content: Text new.
+	
+	self content: self initialString asText.

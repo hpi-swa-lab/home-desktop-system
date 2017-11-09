@@ -1,0 +1,4 @@
+accessing
+newTag
+
+	^ newTagToBeCreated ifNil: ['']

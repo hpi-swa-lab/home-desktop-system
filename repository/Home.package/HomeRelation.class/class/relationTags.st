@@ -3,7 +3,7 @@ relationTags
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: Float infinity;
+		targetCardinality: 1;
 		isOrdered: false;
 		identifier: 'tags' asSymbol;		
 		yourself
