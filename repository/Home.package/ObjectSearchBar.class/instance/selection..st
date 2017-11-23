@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selection: anInterval
 
 	selection := anInterval.

@@ -1,4 +1,4 @@
-as yet unclassified
+error handling
 doesNotUnderstand: aMessage
 
 	^ self target perform: aMessage selector withArguments: 

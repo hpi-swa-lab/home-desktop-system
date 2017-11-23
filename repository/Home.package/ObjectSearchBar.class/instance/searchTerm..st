@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 searchTerm: aString
 
 	searchTerm := aString.

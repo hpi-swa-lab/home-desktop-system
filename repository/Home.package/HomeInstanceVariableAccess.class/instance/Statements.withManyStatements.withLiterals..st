@@ -1,4 +1,4 @@
-as yet unclassified
+rewriting
 Statements: aNode withManyStatements: statements withLiterals: literals
 	
 	^ statements children 

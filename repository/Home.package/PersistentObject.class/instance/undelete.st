@@ -1,4 +1,4 @@
-as yet unclassified
+persistence
 undelete
 
 	soup add: self.

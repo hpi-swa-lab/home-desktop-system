@@ -1,4 +1,4 @@
-accessing
+construction
 everyObjectCompliesWith: anObject
 
 	self constraint: anObject

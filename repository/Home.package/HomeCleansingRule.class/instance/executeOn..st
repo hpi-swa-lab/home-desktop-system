@@ -1,4 +1,4 @@
-accessing
+execution
 executeOn: anObject
 
 	| result |

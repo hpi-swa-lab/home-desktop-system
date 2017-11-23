@@ -1,4 +1,4 @@
-as yet unclassified
+*Home
 search: aString
 
 	| normalizedString terms |

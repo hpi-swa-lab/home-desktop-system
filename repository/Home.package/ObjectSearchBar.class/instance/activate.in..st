@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 activate: event in: morph 
 	
 	self selection: (1 to: self searchTerm size).

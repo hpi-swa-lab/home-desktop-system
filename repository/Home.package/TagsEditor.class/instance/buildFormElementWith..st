@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildFormElementWith: aBuilder
 
 	| formPanel tagInputHeight |

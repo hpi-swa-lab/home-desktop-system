@@ -1,4 +1,4 @@
-as yet unclassified
+screenshots
 takeScreenshot
 
 	HomePublicPrivateMode value: #public.

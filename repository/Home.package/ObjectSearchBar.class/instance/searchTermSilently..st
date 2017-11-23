@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 searchTermSilently: aString.
 	"Do not signal it to the model."
 	

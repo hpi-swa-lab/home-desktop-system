@@ -1,4 +1,4 @@
-as yet unclassified
+standard attributes
 listExpression: aNode
 
 	^ self defaultExpression: aNode

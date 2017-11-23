@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 removeResultsWidget
 
 	resultsWidget ifNotNil: [:w | w delete].

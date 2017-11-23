@@ -1,4 +1,4 @@
-as yet unclassified
+*Home
 has: selector
 
 	^ self hasAdditionalState: selector

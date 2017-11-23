@@ -36,8 +36,7 @@ initialStringContent
 
 5. It was easy for me to explore many different ideas, options, designs, or outcomes, using this system or tool. 
 
-6. The system or tool was helpful in allowing me to track different ideas, outcomes,
-or possibilities.
+6. The system or tool was helpful in allowing me to track different ideas, outcomes, or possibilities.
 
 7. I was able to be very creative while doing the activity inside this system or tool. 
 
@@ -51,5 +50,5 @@ or possibilities.
 
 12. What I was able to produce was worth the effort I had to exert to produce it.
 
-
+# When I am using the environment as I did today it is most important that I am able to...
 '

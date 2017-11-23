@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 removeSelectedTag
 
 	self instanceToEdit tags: ((self instanceToEdit ?? #tags) copyWithout: (self listOfTags at: self selectedTagIndex)).

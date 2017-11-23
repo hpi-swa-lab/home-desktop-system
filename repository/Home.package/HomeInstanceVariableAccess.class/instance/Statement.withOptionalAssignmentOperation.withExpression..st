@@ -1,4 +1,4 @@
-as yet unclassified
+rewriting
 Statement: aNode withOptionalAssignmentOperation: optionalAssignmentOperation withExpression: Expression 
 
 	| assignedVariableName |

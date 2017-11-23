@@ -1,4 +1,4 @@
-as yet unclassified
+additional-state
 additionalStateSelectors
 
 	^ (soupadditionalState at: self ifAbsent: [^ #()]) keys

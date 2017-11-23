@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 formTitle
 
 	^ 'Edit ' , self instanceToEdit class printString , ': ' , 

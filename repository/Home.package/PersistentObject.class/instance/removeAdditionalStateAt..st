@@ -1,4 +1,4 @@
-as yet unclassified
+additional-state
 removeAdditionalStateAt: selector
 
 	(soupadditionalState at: self ifAbsent: [^ true])

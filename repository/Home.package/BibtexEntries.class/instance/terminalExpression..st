@@ -1,4 +1,4 @@
-as yet unclassified
+standard attributes
 terminalExpression: aNode
 
 	^ aNode interval contents

@@ -1,4 +1,4 @@
-as yet unclassified
+additional-state
 getAdditionalStateAt: selector
 
 	^ (soupadditionalState at: self ifAbsent: [^ NotFound signal: selector])

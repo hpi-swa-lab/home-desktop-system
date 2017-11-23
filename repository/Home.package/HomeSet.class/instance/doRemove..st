@@ -1,4 +1,4 @@
-as yet unclassified
+private
 doRemove: anObject
 
 	^ super remove: anObject

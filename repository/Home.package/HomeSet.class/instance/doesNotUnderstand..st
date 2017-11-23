@@ -1,4 +1,4 @@
-as yet unclassified
+error handling
 doesNotUnderstand: aMessage
 
 	| typeSelector |

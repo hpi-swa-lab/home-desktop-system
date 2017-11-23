@@ -1,4 +1,4 @@
-as yet unclassified
+tool support
 referencesToMe
 
-	^ (PointerFinder pointersTo: self except: {soup})
+	^ PointerFinder pointersTo: self except: {soup}

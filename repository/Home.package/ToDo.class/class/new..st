@@ -2,5 +2,6 @@ as yet unclassified
 new: description
 
 	^ self new
-		description: description;
+		description: (self extractDescription: description);
+		tags: (self extractTags: description);
 		yourself

@@ -1,4 +1,4 @@
-accessing
+construction
 when: aBlock
 
 	self condition: aBlock.

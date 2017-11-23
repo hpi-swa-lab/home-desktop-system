@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 smartSearch: text in: morph
 	"Take the user input and perform an appropriate search"
 	| input |

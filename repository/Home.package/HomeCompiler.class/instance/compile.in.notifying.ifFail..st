@@ -1,4 +1,4 @@
-as yet unclassified
+public access
 compile: code in: class notifying: requestor ifFail: failBlock
 		
 	| newCode rewriter |

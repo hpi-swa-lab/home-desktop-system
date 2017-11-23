@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 remove: anObject
 
 	self shouldNotImplement

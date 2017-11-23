@@ -1,5 +1,5 @@
 *Home
-getSender
+messageSender
 
 	| senders sendersText |
 	senders := mailMessage from.

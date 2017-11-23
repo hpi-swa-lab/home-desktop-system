@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 discardInstanceToEdit
 
 	self instanceToEdit interactiveDelete
