@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 createFolderInteractively
 	
 	<rackOperationLabel: 'create folder' inContextMenus: true>

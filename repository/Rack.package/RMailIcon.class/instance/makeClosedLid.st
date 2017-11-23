@@ -1,4 +1,4 @@
-as yet unclassified
+submorph-creation
 makeClosedLid
 
 	self makeLidFromVertices: self closedLidVertices

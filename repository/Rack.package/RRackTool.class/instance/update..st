@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: anObject
 
 	WorldState addDeferredUIMessage: [self changed: #rootRackFolder]

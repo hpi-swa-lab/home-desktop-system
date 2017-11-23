@@ -1,12 +1,12 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	
 	self 
 		width: 40;
-		height: 25;
+		height: 18;
 		color: Color white;
-		borderWidth: 2. "px"
+		borderWidth: 1. "px"
 	
 	self makeClosedLid.

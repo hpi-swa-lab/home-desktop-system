@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 elementNameOf: entry
 
 	^ entry label

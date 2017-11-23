@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTransferMorph",
+	"pools" : [
+		 ],
+	"super" : "TransferMorph",
+	"type" : "normal" }

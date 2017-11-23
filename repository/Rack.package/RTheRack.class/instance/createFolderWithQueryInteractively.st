@@ -1,4 +1,4 @@
-as yet unclassified
+interactive operations
 createFolderWithQueryInteractively
 
 	<rackOperationLabel: 'create query folder' inContextMenus: true>

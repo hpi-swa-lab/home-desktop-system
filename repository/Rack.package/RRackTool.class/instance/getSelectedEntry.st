@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getSelectedEntry
 	
 	^ selectedElement

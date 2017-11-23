@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 createFolder: folderName
 
 	^ hierarchy createFolder: folderName

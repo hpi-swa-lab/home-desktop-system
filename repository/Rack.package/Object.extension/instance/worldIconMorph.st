@@ -1,4 +1,9 @@
 *Rack
 worldIconMorph
 
-	^ CircleMorph new color: Rack blue; borderWidth: 0; yourself
+	^ CircleMorph new 
+		color: Color transparent; 
+		borderColor: Rack red;
+		borderWidth: 2; 
+		width: 25;
+		yourself

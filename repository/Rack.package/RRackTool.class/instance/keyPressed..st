@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 keyPressed: character
 
 	character = Character space

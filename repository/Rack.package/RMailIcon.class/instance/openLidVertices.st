@@ -1,4 +1,4 @@
-as yet unclassified
+submorph-creation
 openLidVertices
 	
 	^ {self topLeft + (1@0) . 

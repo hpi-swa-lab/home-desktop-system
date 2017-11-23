@@ -1,4 +1,7 @@
-as yet unclassified
+dropping/grabbing
 startDragging: evt
 
-	evt hand grabMorph: self "(TransferMorph withPassenger: self object from: self)"
+	| transferMorph |
+	transferMorph := RTransferMorph withPassenger: self object from: self.
+	transferMorph position: self position.
+	evt hand grabMorph: transferMorph

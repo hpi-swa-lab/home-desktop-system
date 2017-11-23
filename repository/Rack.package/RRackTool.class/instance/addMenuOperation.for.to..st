@@ -1,4 +1,4 @@
-as yet unclassified
+menu
 addMenuOperation: operation for: item to: aMenu
 	
 	aMenu 

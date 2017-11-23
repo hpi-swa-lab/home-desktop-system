@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asDraggableMorph" : "pre 11/23/2017 10:17",
 		"interactiveCreateToDoForIt" : "pre 5/16/2017 15:31",
 		"interactiveExplore" : "pre 8/7/2017 16:32",
 		"interactiveSoupSearch" : "pre 8/5/2017 14:32",
@@ -11,5 +12,5 @@
 		"menuOperations" : "pre 6/29/2017 16:45",
 		"openRackStandardMorph" : "pre 4/26/2017 16:34",
 		"worldIcon" : "pre 4/21/2017 19:52",
-		"worldIconMorph" : "pre 4/24/2017 16:58",
+		"worldIconMorph" : "pre 11/23/2017 13:38",
 		"worldIconText" : "pre 4/21/2017 19:52" } }

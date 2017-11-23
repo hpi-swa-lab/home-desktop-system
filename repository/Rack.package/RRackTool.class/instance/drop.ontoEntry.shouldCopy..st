@@ -1,4 +1,4 @@
-as yet unclassified
+drag and drop
 drop: anObject ontoEntry: anEntry shouldCopy: shouldCopy
 
 	| newName |

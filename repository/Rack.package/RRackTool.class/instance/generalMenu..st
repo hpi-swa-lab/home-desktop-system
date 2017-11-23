@@ -1,4 +1,4 @@
-as yet unclassified
+menu
 generalMenu: aMenu
 
 	self getSelectedEntry item menuOperations do: [:operation |

@@ -1,4 +1,4 @@
-as yet unclassified
+tool builder
 buildWith: aBuilder
 	
 	| windowSpec listSpec window |
