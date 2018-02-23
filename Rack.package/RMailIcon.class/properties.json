@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lidMorph" ],
+	"name" : "RMailIcon",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testFolder" ],
+	"name" : "RackFolderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

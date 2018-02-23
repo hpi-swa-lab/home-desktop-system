@@ -1,0 +1,4 @@
+as yet unclassified
+doActivateDragAndDrop
+
+	ActiveWorld transferMorphConverter: #openMorphOrInspectorForTransferMorph:.

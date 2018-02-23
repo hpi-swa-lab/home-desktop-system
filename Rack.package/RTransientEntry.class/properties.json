@@ -1,0 +1,14 @@
+{
+	"category" : "Rack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTransientEntry",
+	"pools" : [
+		 ],
+	"super" : "REntry",
+	"type" : "normal" }

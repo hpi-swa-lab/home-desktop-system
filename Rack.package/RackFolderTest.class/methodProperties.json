@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pre 2/23/2018 18:53",
+		"testAdd" : "pre 2/23/2018 18:16",
+		"testAddAll" : "pre 2/23/2018 18:34",
+		"testAddAnEntry" : "pre 2/23/2018 18:22",
+		"testCreateFolderAsShortcut" : "pre 2/23/2018 18:15",
+		"testIsEmptyAndNotEmpty" : "pre 2/23/2018 18:44",
+		"testRackFolderClassExists" : "pre 2/23/2018 18:53",
+		"testRemove" : "pre 2/23/2018 18:34",
+		"testRename" : "pre 2/23/2018 18:35",
+		"testSlashForNavigatingMultipleFolders" : "pre 2/23/2018 18:53",
+		"testSlashForNavigation" : "pre 2/23/2018 18:14" } }
