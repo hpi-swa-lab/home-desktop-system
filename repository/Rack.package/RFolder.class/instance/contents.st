@@ -1,4 +1,5 @@
 accessing
 contents
 
-	^ self values collect: [:entry | entry item]
+	^ boxes collect: [:entry | entry item]
+		

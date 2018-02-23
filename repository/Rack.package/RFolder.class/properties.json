@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"boxes" ],
 	"name" : "RFolder",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "Object",
 	"type" : "normal" }

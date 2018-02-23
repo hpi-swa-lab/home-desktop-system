@@ -1,11 +1,12 @@
 {
-	"category" : "Rack",
+	"category" : "Rack-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"root",
 		"selectedElement",
 		"selectedPath",
 		"selectedParent" ],

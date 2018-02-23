@@ -3,6 +3,9 @@ initializeIconAndText
 
 	| iconMorph textMorph |
 	iconMorph := self object worldIconMorph.
+	iconMorph isImageMorph ifTrue: [
+		iconMorph image: (iconMorph image collectColors: [:c |
+			ActiveWorld color negated alpha: c alpha])].
 	self addMorph: iconMorph.
 	iconMorph position: self position.
 	textMorph := self object worldIconText asText asTextMorph.

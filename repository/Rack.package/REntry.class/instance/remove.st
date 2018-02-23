@@ -3,4 +3,4 @@ remove
 
 	<rackOperationLabel: 'remove from folder' inContextMenus: true>
 	
-	^ self parent removeEntry: self label
+	^ self parent remove: self label

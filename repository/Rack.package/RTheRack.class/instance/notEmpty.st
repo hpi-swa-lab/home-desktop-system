@@ -1,0 +1,4 @@
+testing
+notEmpty
+
+	^ hierarchy notEmpty

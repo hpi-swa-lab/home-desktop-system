@@ -1,16 +1,14 @@
 {
-	"category" : "Rack",
+	"category" : "Rack-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parent",
-		"item",
-		"label" ],
-	"name" : "RBox",
+		"testFolder" ],
+	"name" : "RackFolderTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

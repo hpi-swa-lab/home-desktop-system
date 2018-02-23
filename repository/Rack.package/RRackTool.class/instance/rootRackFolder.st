@@ -1,4 +1,4 @@
 accessing
 rootRackFolder
 
-	^ {RBoxTransient in: TheRack named: #root  containing: TheRack}
+	^ self root ifNil: [{RTransientEntry in: TheRack named: #root containing: TheRack}]

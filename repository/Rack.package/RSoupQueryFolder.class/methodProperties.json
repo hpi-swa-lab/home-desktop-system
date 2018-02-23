@@ -2,12 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"collect:" : "pre 11/28/2017 11:45",
 		"contents" : "pre 3/7/2017 12:27",
 		"editPostProcessing" : "pre 7/13/2017 14:24",
 		"editQuery" : "pre 6/6/2017 10:19",
-		"entries" : "pre 7/18/2017 14:57",
+		"entries" : "pre 2/23/2018 19:02",
 		"initialize" : "pre 3/7/2017 12:27",
+		"isEmpty" : "pre 12/27/2017 13:48",
 		"isRackFolder" : "pre 3/2/2017 17:02",
+		"notEmpty" : "pre 12/27/2017 13:48",
+		"openRackStandardMorph" : "pre 11/28/2017 11:43",
 		"postProcessing" : "pre 3/7/2017 12:26",
 		"postProcessing:" : "pre 3/7/2017 12:26",
 		"query" : "pre 3/2/2017 16:57",
