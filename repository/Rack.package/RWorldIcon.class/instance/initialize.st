@@ -2,10 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self 
-		color: Color transparent;
-		width: 60;
-		height: 60.
+	self color: Color transparent.
 	
 	self initializeIconAndText.
 	

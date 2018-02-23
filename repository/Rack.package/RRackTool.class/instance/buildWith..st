@@ -32,6 +32,6 @@ buildWith: aBuilder
 	windowSpec children add: listSpec.
 	
 	window := aBuilder build: windowSpec.
-	self showsTheRackRoot ifTrue: [self changed: #expandRootsRequested].
+	self changed: #expandRootsRequested.
 	^ window
 	

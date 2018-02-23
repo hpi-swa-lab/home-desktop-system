@@ -1,4 +1,4 @@
 modifying
 createFolder: folderName
 
-	^ self add: self class new named: folderName
+	self addEntryNamed: folderName with: self class new

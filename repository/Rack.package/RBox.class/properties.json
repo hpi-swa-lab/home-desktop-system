@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"object" ],
-	"name" : "RWorldIcon",
+		"parent",
+		"item",
+		"label" ],
+	"name" : "RBox",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

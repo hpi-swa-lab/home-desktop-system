@@ -1,6 +1,4 @@
 modifying
 createFolder: folderName withQuery: aBlock
 
-	^ self 
-		add: (RSoupQueryFolder new query: aBlock; yourself) 
-		named: folderName
+	self addEntryNamed: folderName with: (RSoupQueryFolder new query: aBlock; yourself)

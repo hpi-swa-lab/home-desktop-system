@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"object" ],
-	"name" : "RWorldIcon",
+		 ],
+	"name" : "RBoxTransient",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "RBox",
 	"type" : "normal" }

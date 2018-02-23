@@ -1,4 +1,0 @@
-*Rack
-openRackStandardMorph
-
-	^ RRackTool open

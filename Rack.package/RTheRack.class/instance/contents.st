@@ -1,4 +1,0 @@
-accessing
-contents
-
-	^ hierarchy contents

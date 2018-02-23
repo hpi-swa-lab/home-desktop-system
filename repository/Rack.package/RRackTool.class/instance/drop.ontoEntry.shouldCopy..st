@@ -5,7 +5,7 @@ drop: anObject ontoEntry: anEntry shouldCopy: shouldCopy
 	anEntry item isRackFolder ifFalse: [^ self].
 	
 	self flag: #todo. "What about overriding stuff --pre"
-	(anObject isKindOf: REntry) ifTrue: [
+	(anObject isKindOf: RBox) ifTrue: [
 		anEntry value at: anObject label put: anObject item.
 		^ self ].
 	
@@ -14,6 +14,6 @@ drop: anObject ontoEntry: anEntry shouldCopy: shouldCopy
 		initialAnswer: anObject worldIconText.
 	
 	newName isEmptyOrNil ifTrue: [newName := anObject worldIconText].
-	anEntry item add: anObject named: newName asSymbol.
+	anEntry item addEntryNamed: newName asSymbol with: anObject.
 	
 	self changed: #rootRackFolder.
