@@ -1,9 +1,4 @@
 *Rack
 worldIconMorph
 
-	^ CircleMorph new 
-		color: Color transparent; 
-		borderColor: Rack red;
-		borderWidth: 2; 
-		width: 25;
-		yourself
+	^ (RIcons icons8MindMap64px2Icon scaledToSize: 24@24) asMorph

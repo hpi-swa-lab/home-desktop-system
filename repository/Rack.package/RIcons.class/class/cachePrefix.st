@@ -1,0 +1,4 @@
+caching
+cachePrefix
+
+	^ 'icon8'

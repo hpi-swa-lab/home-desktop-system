@@ -1,9 +1,7 @@
 *Rack
 worldIconMorph
-
 	| icon |
-	icon := RMailIcon new.
-	self hasBeenRead
-		ifTrue: [icon makeOpenedLid]
-		ifFalse: [icon makeClosedLid].
-	^ icon
+	icon := self hasBeenRead
+		ifTrue: [RIcons icons8ReadMessage64px1Icon]
+		ifFalse: [RIcons icons8Message64px1Icon].
+	^ (icon scaledToSize: 35@35) asMorph

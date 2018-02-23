@@ -1,4 +1,4 @@
 *Rack
 worldIconMorph
 
-	^ RMailIcon new
+	^ (UiPapirusIcons64 mailmarkunreadsymbolicIcon scaledToSize: 35@35) asMorph
