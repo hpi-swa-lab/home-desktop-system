@@ -10,8 +10,10 @@ The Home System is a desktop system build on top of Squeak/Smalltalk. It is base
  
 The system can be used to accomplish many everyday computing tasks:
 
-![Screenshot of the Home Desktop System in use](https://github.com/hpi-swa-lab/home-desktop-system/blob/master/documentation/screenshot.png)
- 
+<p align="center">
+<img alt="Screenshot of the Home Desktop System in use" src="https://github.com/hpi-swa-lab/home-desktop-system/blob/master/documentation/screenshot.png" width=450></img>
+</p>
+
 ## Creating Persistent Domain Objects
 
 ### Creating and Deleting a Persistent Domain Object
