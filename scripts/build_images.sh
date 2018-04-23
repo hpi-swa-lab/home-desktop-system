@@ -37,7 +37,7 @@ DEPLOY_IMAGE="Home-${TRAVIS_SMALLTALK_VERSION}.image"
 DEPLOY_CHANGES="Home-${TRAVIS_SMALLTALK_VERSION}.changes"
 COG_VM_PARAM=""
 if [[ "$(uname -s)" == "Linux" ]]; then
-    COG_VM_PARAM="-nosound"
+    COG_VM_PARAM="-nosound -nodisplay"
 fi
 # ==============================================================================
 
