@@ -4,10 +4,19 @@ sudo: false
 smalltalk:
   - Squeak-trunk
   - Squeak-5.1
-  
-os:
-  - linux
-  - osx
+  - Squeak-5.0
+
+after_success: bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
+
+deploy:
+  skip_cleanup: true
+  overwrite: true
+  provider: releases
+  file_glob: true
+  file: Home*.zip
+  on:
+    repo: hpi-swa-lab/home-desktop-system
+    tags: true
 
 matrix:
     allow_failures:
