@@ -1,4 +1,0 @@
-*Rack
-asDraggableMorph
-
-	^ self worldIcon

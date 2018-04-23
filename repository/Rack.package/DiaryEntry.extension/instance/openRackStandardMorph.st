@@ -1,4 +1,0 @@
-*Rack
-openRackStandardMorph
-
-	^ self edit

@@ -1,5 +1,0 @@
-*Rack
-interactiveDelete
-
-	
-	self delete

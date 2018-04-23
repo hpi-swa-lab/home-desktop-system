@@ -1,4 +1,0 @@
-*Rack
-isRackFolder
-
-	^ false
