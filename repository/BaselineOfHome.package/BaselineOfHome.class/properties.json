@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfHome",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHome",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
