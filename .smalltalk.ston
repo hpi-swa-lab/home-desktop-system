@@ -8,5 +8,6 @@ SmalltalkCISpec {
   ],
   #testing : {
     #categories : [ 'Home-*' ],
+    #failOnZeroTests : false
   }
 }
