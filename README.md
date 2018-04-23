@@ -1,12 +1,16 @@
 # A New Home [![Build Status](https://travis-ci.org/hpi-swa-lab/home-desktop-system.svg?branch=master)](https://travis-ci.org/hpi-swa-lab/home-desktop-system)
 
-The Home System is a desktop system build on top of Squeak/Smalltalk. It is based upon the idea of storing data in living objects. The system comes with:
+The Home System is a desktop system build on top of Squeak/Smalltalk. It is based upon the idea of storing data in living objects and allowing its users to adapt it completely to their needs. The system comes with:
 
  - Mechanisms to create persistent domain objects in the image
  - The global domain object collection *soup* which allows access to all domain objects
  - A basic set of domain objects (e.g. Person, Collaboration, ToDo)
  - Ways to store and access arbitrary fields on domain objects
  - The [Rack](https://github.com/hpi-swa/Rack) for organizing domain objects in a hierarchical structure
+ 
+The system can be used to accomplish many everyday computing tasks:
+
+![Screenshot of the Home Desktop System in use](https://github.com/hpi-swa-lab/home-desktop-system/blob/master/documentation/screenshot.png)
  
 ## Creating Persistent Domain Objects
 
