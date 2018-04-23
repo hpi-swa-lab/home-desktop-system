@@ -9,6 +9,7 @@ function print_info {
     printf "\e[0;34m$1\e[0m\n"
 }
 
+
 # Check required arguments
 # ==============================================================================
 if [[ "${TRAVIS_TAG}" != "v"* ]]; then
@@ -36,7 +37,7 @@ DEPLOY_IMAGE="Home-${TRAVIS_SMALLTALK_VERSION}.image"
 DEPLOY_CHANGES="Home-${TRAVIS_SMALLTALK_VERSION}.changes"
 COG_VM_PARAM=""
 if [[ "$(uname -s)" == "Linux" ]]; then
-    COG_VM_PARAM="-nosound -nodisplay"
+    COG_VM_PARAM="-nosound"
 fi
 # ==============================================================================
 
@@ -61,7 +62,7 @@ mv *.changes "${DEPLOY_CHANGES}"
 
 print_info "Preparing ${TRAVIS_SMALLTALK_VERSION} image..."
 EXIT_STATUS=0
-"${SMALLTALK_CI_VM}" $COG_VM_PARAM "${SAR_IMAGE}" "${TRAVIS_BUILD_DIR}/scripts/prepare_image.st" || EXIT_STATUS=$?
+"${SMALLTALK_CI_VM}" $COG_VM_PARAM "${DEPLOY_IMAGE}" "${TRAVIS_BUILD_DIR}/scripts/prepare_image.st" || EXIT_STATUS=$?
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
     zip "Home-${TRAVIS_SMALLTALK_VERSION}.zip" *.image *.changes *.sources

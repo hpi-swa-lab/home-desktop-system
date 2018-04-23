@@ -17,27 +17,27 @@ Installer gemsource
 (Smalltalk at: #Metacello) new
   configuration: 'MetacelloPreview';
   version: #stable;
-  repository: 'github://Metacello/metacello:configuration';
+  repository: 'github://metacello/metacello:configuration';
   load.
 
 "Now load latest version of Metacello"
 (Smalltalk at: #Metacello) new
   baseline: 'Metacello';
-  repository: 'github://Metacello/metacello:master/repository';
+  repository: 'github://metacello/metacello:master/repository';
   get.
 (Smalltalk at: #Metacello) new
   baseline: 'Metacello';
-  repository: 'github://Metacello/metacello:master/repository';
+  repository: 'github://metacello/metacello:master/repository';
   load.
 
 "If e.g. your tests change code in the image dynamically, the image will require you to set 
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
-(Smalltalk at: #MetacelloPlatform) current authorName: 'Rack'.
+(Smalltalk at: #MetacelloPlatform) current authorName: 'HomeInstallation'.
 
 "Load Home into image"
 Metacello new
   baseline: 'Home';
   repository: 'github://hpi-swa-lab/home-desktop-system/repository';
-  load: 'tests'.
+  load: 'default'.
 
 SmalltalkImage current snapshot: false andQuit: true.
