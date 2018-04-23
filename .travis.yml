@@ -1,0 +1,14 @@
+language: smalltalk
+sudo: false
+
+smalltalk:
+  - Squeak-trunk
+  - Squeak-5.1
+  
+os:
+  - linux
+  - osx
+
+matrix:
+    allow_failures:
+        - smalltalk: Squeak-trunk
