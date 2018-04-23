@@ -1,4 +1,4 @@
-|package zip|
+|package zip ws|
 
 "Update the image."
 [MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
@@ -40,4 +40,13 @@ Metacello new
   repository: 'github://hpi-swa-lab/home-desktop-system/repository';
   load: 'default'.
 
-SmalltalkImage current snapshot: false andQuit: true.
+"Prepare Image a little bit"
+PluggableSystemWindow allInstances do: #abandon.
+ws := Workspace new.
+ws contents: '#Welcome to your New Home
+This is just an example object which you can safely delete.'.
+TheRack add: ws named: 'Welcome'.
+RRackTool open.
+(ActiveWorld submorphNamed: 'Your Object Rack') bounds: (30@30 corner: 330@430).
+
+SmalltalkImage current snapshot: true andQuit: true.
