@@ -12,6 +12,7 @@ deploy:
   file: Home*.zip
   on:
     repo: hpi-swa-lab/home-desktop-system
+    tags: true
 matrix:
   allow_failures:
   - smalltalk: Squeak-trunk
