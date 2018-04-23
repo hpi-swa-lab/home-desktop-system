@@ -9,7 +9,7 @@ Entry: aNode withIdentifier: identifier withLiteral: x withKey: key andBody: bod
 	properties add: #referenceKey -> refKey.
 	properties := properties collect: [:p | p key asLowercase -> p value].
 	properties := Dictionary newFrom: properties.
-	
+	self halt.
 	(properties includesKey: #doi)
 		ifTrue: [ |doi doiCandidates|
 			doi := (properties at: #doi) copyWithoutAll: '{}'.

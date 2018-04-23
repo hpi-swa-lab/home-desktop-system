@@ -10,5 +10,5 @@
 	"name" : "Agent",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

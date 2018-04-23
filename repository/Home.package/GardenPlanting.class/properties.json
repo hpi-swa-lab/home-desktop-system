@@ -12,5 +12,5 @@
 	"name" : "GardenPlanting",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

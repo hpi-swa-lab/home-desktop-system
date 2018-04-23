@@ -1,0 +1,4 @@
+toolbuilder
+listOfObjectsToBeMerged
+
+	^ self objectsToMerge

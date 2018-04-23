@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"open" : "pre 1/8/2018 17:55" },
+	"instance" : {
+		"buildFormElementsWith:" : "pre 1/8/2018 18:17",
+		"buildWith:" : "pre 1/8/2018 17:55",
+		"doubleClickOnDuplicate" : "pre 1/8/2018 18:16",
+		"dragDuplicate:" : "pre 1/8/2018 18:07",
+		"duplicateCandidates" : "pre 1/8/2018 17:52",
+		"duplicateCandidates:" : "pre 1/8/2018 17:52",
+		"initialize" : "pre 1/8/2018 18:15",
+		"listOfDuplicates" : "pre 1/8/2018 18:12",
+		"originals" : "pre 1/8/2018 17:52",
+		"originals:" : "pre 1/8/2018 17:52",
+		"selectedDuplicate" : "pre 1/8/2018 18:17",
+		"selectedDuplicateIndex" : "pre 1/8/2018 18:09",
+		"selectedDuplicateIndex:" : "pre 1/8/2018 18:09",
+		"selectedOriginal" : "pre 1/8/2018 17:59",
+		"selectedOriginalIndex" : "pre 1/8/2018 17:57",
+		"selectedOriginalIndex:" : "pre 1/8/2018 18:11",
+		"updateListOfDuplicates" : "pre 1/8/2018 18:12" } }

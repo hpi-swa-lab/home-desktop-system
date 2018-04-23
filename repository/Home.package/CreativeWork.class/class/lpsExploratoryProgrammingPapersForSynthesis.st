@@ -1,0 +1,4 @@
+as yet unclassified
+lpsExploratoryProgrammingPapersForSynthesis
+
+	^ self selectPapersForSynthesis: self lpsExploratoryProgrammingPapers

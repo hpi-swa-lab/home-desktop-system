@@ -11,5 +11,5 @@
 	"name" : "GardenMap",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

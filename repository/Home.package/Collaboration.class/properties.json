@@ -1,0 +1,14 @@
+{
+	"category" : "Home-World",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Collaboration",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

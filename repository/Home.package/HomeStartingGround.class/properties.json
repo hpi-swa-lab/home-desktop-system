@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ActivatedByKeyboard",
+		"DefaultInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeStartingGround",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

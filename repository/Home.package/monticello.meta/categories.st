@@ -9,4 +9,6 @@ SystemOrganization addCategory: #'Home-PDF'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-UI'!
+SystemOrganization addCategory: #'Home-Surrogates-Tests'!
+SystemOrganization addCategory: #'Home-Surrogates'!
 SystemOrganization addCategory: #'Home-World'!

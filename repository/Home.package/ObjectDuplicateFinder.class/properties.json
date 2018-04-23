@@ -1,0 +1,17 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originals",
+		"duplicateCandidates",
+		"selectedOriginalIndex",
+		"selectedDuplicateIndex" ],
+	"name" : "ObjectDuplicateFinder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

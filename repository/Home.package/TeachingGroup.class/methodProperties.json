@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"groupMailAddresses" : "pre 4/28/2017 10:44",
+		"groupMailAddresses" : "pre 3/26/2018 11:14",
 		"initialize" : "pre 4/24/2017 14:04",
+		"interactiveSendMail" : "pre 4/18/2018 10:19",
 		"members" : "pre 4/24/2017 10:03",
 		"members:" : "pre 4/24/2017 10:03",
-		"printOn:" : "pre 11/8/2017 09:34" } }
+		"printOn:" : "pre 4/18/2018 10:28" } }

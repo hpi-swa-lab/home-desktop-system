@@ -12,5 +12,5 @@
 	"name" : "Lending",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

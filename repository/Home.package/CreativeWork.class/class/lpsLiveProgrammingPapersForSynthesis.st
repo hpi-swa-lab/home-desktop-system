@@ -1,0 +1,4 @@
+as yet unclassified
+lpsLiveProgrammingPapersForSynthesis
+
+	^ self selectPapersForSynthesis: self lpsLiveProgrammingPapers

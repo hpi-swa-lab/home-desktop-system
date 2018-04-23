@@ -1,0 +1,17 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"targetIsSelected",
+		"objectsToMerge",
+		"selectedObjectToBeMerged" ],
+	"name" : "ObjectMerger",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

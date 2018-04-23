@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"open" : "pre 1/8/2018 13:59" },
+	"instance" : {
+		"becomeTheTarget" : "pre 1/8/2018 15:16",
+		"buildButtonsWith:" : "pre 1/8/2018 14:46",
+		"buildFormElementsWith:" : "pre 1/8/2018 14:13",
+		"buildWith:" : "pre 1/8/2018 14:47",
+		"dialogTitle" : "pre 1/8/2018 13:56",
+		"fillTarget" : "pre 1/8/2018 15:11",
+		"initialize" : "pre 1/8/2018 13:57",
+		"listOfObjectsToBeMerged" : "pre 1/8/2018 14:12",
+		"objectsToBeMergedDrop:" : "pre 1/8/2018 14:12",
+		"objectsToBeMergedDropAccept:" : "pre 1/8/2018 14:10",
+		"objectsToMerge" : "pre 1/8/2018 13:53",
+		"objectsToMerge:" : "pre 1/8/2018 13:53",
+		"resetForm" : "pre 1/8/2018 14:58",
+		"selectedObjectToBeMerged" : "pre 1/8/2018 13:58",
+		"selectedObjectToBeMerged:" : "pre 1/8/2018 13:53",
+		"target" : "pre 1/8/2018 15:12",
+		"target:" : "pre 1/8/2018 13:53",
+		"targetAsList" : "pre 1/8/2018 15:12",
+		"targetDrop:" : "pre 1/8/2018 14:03",
+		"targetDropAccept:" : "pre 1/8/2018 14:02",
+		"targetIsSelected" : "pre 1/8/2018 13:53",
+		"targetIsSelected:" : "pre 1/8/2018 13:53" } }

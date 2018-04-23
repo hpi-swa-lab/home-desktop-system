@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pre 4/13/2018 18:54",
+		"tearDown" : "pre 4/13/2018 19:07",
+		"testEquivalentSurrogatesProvideAllInformation" : "pre 4/13/2018 19:10",
+		"testSurrogateProvideInformation" : "pre 4/13/2018 18:57" } }

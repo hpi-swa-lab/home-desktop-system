@@ -1,0 +1,4 @@
+accessing
+targetIsSelected
+
+	^ 1

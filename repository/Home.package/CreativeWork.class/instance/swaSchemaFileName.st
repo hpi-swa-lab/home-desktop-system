@@ -12,6 +12,6 @@ swaSchemaFileName
 				ifNotNilDo: [:date | date year asString]]
 		ifNotNilDo: [:year | year asString].
 		
-	titlePart := (((self title copyWithoutAll: ',.:!?-_') findTokens: ' ') collect: [:t | t withBlanksTrimmed capitalized]) 				joinSeparatedBy: ''.
+	titlePart := (((self title copyWithoutAll: ',.:!?-_/') findTokens: ' ') collect: [:t | t withBlanksTrimmed capitalized]) 				joinSeparatedBy: ''.
 					
 	^ {authorsPart . yearPart . titlePart} joinSeparatedBy: '_'

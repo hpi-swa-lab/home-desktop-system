@@ -1,0 +1,4 @@
+event-handling
+doubleClickOnDuplicate
+
+	self selectedDuplicate explore

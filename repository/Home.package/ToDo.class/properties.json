@@ -14,5 +14,5 @@
 	"name" : "ToDo",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

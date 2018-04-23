@@ -1,0 +1,4 @@
+toolbuilder
+dialogTitle
+
+	^ 'Object merger'

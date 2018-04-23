@@ -11,5 +11,5 @@
 	"name" : "Person",
 	"pools" : [
 		 ],
-	"super" : "PersistentObject",
+	"super" : "DomainObject",
 	"type" : "normal" }

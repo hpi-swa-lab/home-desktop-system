@@ -16,7 +16,7 @@
 		"isToDo" : "pre 3/7/2017 20:52",
 		"printOn:" : "pre 3/2/2017 16:41",
 		"reminderDate" : "pre 3/2/2017 16:32",
-		"reminderDate:" : "pre 7/26/2017 16:32",
+		"reminderDate:" : "pre 1/9/2018 14:52",
 		"scheduleForNextMonth" : "pre 11/1/2017 17:42",
 		"scheduleForNextWeek" : "pre 6/29/2017 17:04",
 		"scheduleForToday" : "pre 6/29/2017 16:41",
@@ -25,4 +25,6 @@
 		"scheduledFor:" : "pre 7/26/2017 16:32",
 		"setDone" : "pre 5/16/2017 15:42",
 		"setUndone" : "pre 5/16/2017 15:42",
-		"unschedule" : "pre 9/11/2017 18:10" } }
+		"unschedule" : "pre 9/11/2017 18:10",
+		"worldIconMorph" : "pre 2/21/2018 17:20",
+		"worldIconText" : "pre 5/16/2017 15:49" } }

@@ -1,4 +1,4 @@
 accessing
 groupMailAddresses
 
-	^ (self members collect: [:m | m email]) joinSeparatedBy: ';' 
+	^ (self members asArray collect: [:m | m email]) joinSeparatedBy: ';' 
