@@ -4,15 +4,20 @@ smalltalk:
 - Squeak-trunk
 - Squeak-5.1
 - Squeak-5.0
+
 after_success: bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
 deploy:
   provider: releases
+  skip_cleanup: true
+  overwrite: true
   api_key:
     secure: ZcMSWh16MzXAlC9zs0ixCf9POIFVnnlbumzle4nuf9s1FnIT4Baue9x1cHfOea5SFUxh4NQ8VKBgx6VqBbf3gZ9kvIXnnSFh3RHRcdhJ6G4tDuft+VJ4e7EnuIBINvkDEQxMRuLtfxm6gAfWn5Wgd7UcfCj6RiKMTPP8bUY/T2BetodsX89Bc4Sp8gPCJXjV9cGETPdkzkIHO5AwZnMuDCP/MzHcCvytjXXlKvbtcO/NR/4dv55l9qaokp6i+Z+ntBT9D3k7ovnXgkHGxdVSpXxWh7c4uB0MsTJTSHUoQ1BBYiDC4BeFzge3B0jpUOlQDCs9zjY11+2HT04zdxVwfY4ThoifQteUmUjqMkXj8k7Bk0zoU8T2yYT5h2Gp7FrNJmGtz9IvkjIigZuSAPJDe83K8he/k01kK9PPJqc7kva8FievpCNoI9AilSuHtM6Yg8hYx6WQEuIbauJJO5tfim/qAY2+PL51rcqMz677xqixkkAvEDpMlFYdc3Q701a1yopb4f703b0mnGjVGc4inplyShO7BnWxOq6PcyDkt3q5rhb8Hx60hRC3fEzayHkSUpXUP87VFQliUfsXJXx+DJwtXW6JuKReT0m/+ql7rYmbuQ9uSNrXZNLewUHMsJlkSFp1W2Y6ySTa5rCQlAOQPLO5IW/J2R+QU/rU4F1DgQY=
+  file_glob: true
   file: Home*.zip
   on:
     repo: hpi-swa-lab/home-desktop-system
     tags: true
+
 matrix:
   allow_failures:
   - smalltalk: Squeak-trunk
