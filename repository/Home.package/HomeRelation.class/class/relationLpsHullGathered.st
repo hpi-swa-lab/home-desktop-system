@@ -1,9 +1,0 @@
-as yet unclassified
-relationLpsHullGathered
-
-	^ self new
-		receiverCardinality: 1;
-		targetCardinality: 1;
-		isOrdered: false;
-		identifier: 'lpsHullGathered' asSymbol;		
-		yourself

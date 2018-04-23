@@ -1,4 +1,0 @@
-accessing
-isOrdered
-
-	^ isOrdered
