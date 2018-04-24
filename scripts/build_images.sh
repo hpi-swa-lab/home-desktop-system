@@ -68,7 +68,7 @@ if [[ $EXIT_STATUS -eq 0 ]]; then
     zip "Home-${TRAVIS_SMALLTALK_VERSION}.zip" *.image *.changes *.sources
     cp Home-*.zip "${TRAVIS_BUILD_DIR}/"
 else
-    print_info "Preparation of sar file failed."
+    print_info "Preparation of image file failed."
 fi
 
 exit $EXIT_STATUS
