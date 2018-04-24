@@ -14,6 +14,19 @@ The system can be used to accomplish many everyday computing tasks:
 <img alt="Screenshot of the Home Desktop System in use" src="https://github.com/hpi-swa-lab/home-desktop-system/blob/master/documentation/screenshot.png" width=450></img>
 </p>
 
+## Installation
+The easiest way to run the Home system is to get the newest version from the [Github releases](https://github.com/hpi-swa-lab/home-desktop-system/releases). Get the zip file and a recent [virtual machine](http://squeak.org/downloads/).
+
+### Manual Installation
+You can also install the Home System manually. It requires a Squeak with updates up to the 24th of April 2018 (update number #17908). You also need [Metacello](https://github.com/Metacello/metacello) installed. Then you can execute the following:
+
+```Smalltalk
+Metacello new
+  baseline: 'Home';
+  repository: 'github://hpi-swa-lab/home-desktop-system/repository';
+  load.
+```
+
 ## Creating Persistent Domain Objects
 
 ### Creating and Deleting a Persistent Domain Object
