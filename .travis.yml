@@ -17,6 +17,7 @@ deploy:
   on:
     repo: hpi-swa-lab/home-desktop-system
     tags: true
+    condition: "${TRAVIS_SMALLTALK_VERSION}" == "Squeak-trunk"
 
 matrix:
   allow_failures:
