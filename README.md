@@ -7,6 +7,8 @@ The Home System is a desktop system build on top of Squeak/Smalltalk. It is base
  - A basic set of domain objects (e.g. Person, Collaboration, ToDo)
  - Ways to store and access arbitrary fields on domain objects
  - The [Rack](https://github.com/hpi-swa/Rack) for organizing domain objects in a hierarchical structure
+ - The object search for searching for specific objects
+ - Context menus for invoking methods on objects
  
 The system can be used to accomplish many everyday computing tasks:
 
@@ -27,20 +29,25 @@ Metacello new
   load.
 ```
 
-## Creating Persistent Domain Objects
+## Using the System
+The Home desktop system provides a programming interface for domain objeccts as well as graphical tools for searching, managing, and accessing domain objects.
 
-### Creating and Deleting a Persistent Domain Object
-Instantiation of existing domain object classes works just like normal object instantiation (e.g. `Person new`). Note that whenever you create a new instance, this instance is directly persisted and will not be garbage collected.
 
-You can delete such a persisten object by calling `delete`.
+### Object Search
+The system provides a system-wide search for objects. You can start a search through the search field left of the code search in the top right corner. You can access that search through the keyboard shortcut Ctrl/Cmd + 9.
 
-### Creating your own Persistent Domain Object Class
-All management methods and the persistence mechanism are contained in the class `DomainObject`. Any new persistent domain object class must subclass from this class. When creating new domain object classes make sure to not include to many fixed instance variables. Any information which does not define such a domain object (or is not frequently used) might just as well be added as instance-specific fields.
+### Invoking Methods through the Context Menus
+As all information is stored in objects you can always invoke methods on them. Some of these methods are exposed in context menus accessible in the object explorer or the Rack. 
 
-## Accessing Persistent Domain Objects
+You can make methods accessible in the context menu by using the Pragma `rackOperationLabel: label inContextMenus: true` (see for example Todo>>#setDone).
+
+### Accessing Persistent Domain Objects
 You can access all persistent domain objects through the `soup` which is a global entry point. The `soup` provides the interface of a `Set`. Additionally you can use the `search:` message to start a simply full-text search on the stored objects.
 
 Beyond that you can also access all persisted instances of a class through the `all` message (e.g. `Person all`).
+
+### Creating your own Persistent Domain Object Class
+All management methods and the persistence mechanism are contained in the class `DomainObject`. Any new persistent domain object class must subclass from this class. When creating new domain object classes make sure to not include to many fixed instance variables. Any information which does not define such a domain object (or is not frequently used) might just as well be added as instance-specific fields.
 
 ## Other
 
