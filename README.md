@@ -34,10 +34,12 @@ The Home desktop system provides a programming interface for domain objeccts as 
 
 
 ### Object Search
-coming soon
+The system provides a system-wide search for objects. You can start a search through the search field left of the code search in the top right corner. You can access that search through the keyboard shortcut Ctrl/Cmd + 9.
 
 ### Invoking Methods through the Context Menus
-coming soon
+As all information is stored in objects you can always invoke methods on them. Some of these methods are exposed in context menus accessible in the object explorer or the Rack. 
+
+You can make methods accessible in the context menu by using the Pragma `rackOperationLabel: label inContextMenus: true` (see for example Todo>>#setDone).
 
 ### Accessing Persistent Domain Objects
 You can access all persistent domain objects through the `soup` which is a global entry point. The `soup` provides the interface of a `Set`. Additionally you can use the `search:` message to start a simply full-text search on the stored objects.
