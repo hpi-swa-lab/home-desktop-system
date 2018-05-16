@@ -30,7 +30,7 @@ Metacello new
 ```
 
 ## Using the System
-The Home desktop system provides a programming interface for domain objeccts as well as graphical tools for searching, managing, and accessing domain objects.
+The Home desktop system provides a programming interface for domain objects as well as graphical tools for searching, managing, and accessing domain objects.
 
 
 ### Object Search
