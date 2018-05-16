@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"applyStyleAttributes:" : "pre 5/3/2018 16:51",
+		"for:" : "pre 5/4/2018 19:52",
+		"text:" : "pre 4/27/2018 13:44" },
+	"instance" : {
+		"aboutToBeGrabbedBy:" : "pre 5/3/2018 16:20",
+		"editButtonClicked" : "pre 5/3/2018 16:55",
+		"initialize" : "pre 5/14/2018 15:31",
+		"initializeButton" : "pre 5/14/2018 15:32",
+		"instance" : "pre 4/27/2018 14:55",
+		"instance:" : "pre 4/27/2018 14:55",
+		"label" : "pre 4/27/2018 13:43",
+		"label:" : "pre 4/27/2018 14:55",
+		"mouseUp:" : "pre 5/4/2018 20:26",
+		"openMenu" : "pre 5/4/2018 20:26",
+		"startDragging:" : "pre 4/30/2018 18:46",
+		"text" : "pre 4/27/2018 13:44",
+		"text:" : "pre 5/15/2018 11:22",
+		"triggerRightClicked:" : "pre 5/4/2018 20:07" } }

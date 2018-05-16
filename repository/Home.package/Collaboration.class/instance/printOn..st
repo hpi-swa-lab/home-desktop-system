@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printOn: aStream
 
 	(self has: #explicitName) ifTrue: [^ aStream << self explicitName].

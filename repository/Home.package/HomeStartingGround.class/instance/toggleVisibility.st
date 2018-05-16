@@ -1,4 +1,4 @@
-as yet unclassified
+visuals
 toggleVisibility
 
 	self isInWorld

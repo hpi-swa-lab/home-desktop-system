@@ -1,4 +1,4 @@
-as yet unclassified
+Rack
 openOSViewer
 
 	<rackOperationLabel: 'show external file' inContextMenus: true>

@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"setter",
+		"remover" ],
+	"name" : "ObjectEditorWrapper",
+	"pools" : [
+		 ],
+	"super" : "ObjectExplorerWrapper",
+	"type" : "normal" }

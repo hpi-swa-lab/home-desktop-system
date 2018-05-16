@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instance",
+		"fieldList" ],
+	"name" : "ObjectEditor",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

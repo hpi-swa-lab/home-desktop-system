@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"with:name:model:setter:" : "pre 5/16/2018 08:36",
+		"with:name:model:setter:remover:" : "pre 5/16/2018 08:37" },
+	"instance" : {
+		"changeValueTo:" : "pre 4/27/2018 13:53",
+		"refresh" : "pre 5/3/2018 14:53",
+		"removeField" : "pre 5/16/2018 08:50",
+		"remover" : "pre 5/16/2018 08:37",
+		"remover:" : "pre 5/16/2018 08:37",
+		"setter" : "pre 4/27/2018 13:51",
+		"setter:" : "pre 4/27/2018 13:51" } }

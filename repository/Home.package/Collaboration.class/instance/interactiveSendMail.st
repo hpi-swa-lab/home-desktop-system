@@ -1,4 +1,4 @@
-as yet unclassified
+Rack
 interactiveSendMail
 
 	<rackOperationLabel: 'write email' inContextMenus: true>
