@@ -3,7 +3,6 @@ sudo: false
 smalltalk:
 - Squeak-trunk
 - Squeak-5.1
-- Squeak-5.0
 
 after_success: bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
 deploy:
