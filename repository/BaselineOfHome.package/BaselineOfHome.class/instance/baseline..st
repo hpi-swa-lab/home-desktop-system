@@ -9,9 +9,11 @@ baseline: spec
 					[ spec repository: 'github://hpi-swa/Rack:master/repository' ];
 				baseline: 'Ohm' with: 
 					[ spec repository: 'github://hpi-swa/Ohm-S:master/packages' ];
+				baseline: 'Pheno' with:
+					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				package: 'Home' with: [spec requires: #('libraries')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Rack' 'Ohm')];
+				group: 'libraries' with: #('Rack' 'Ohm' 'Pheno')];
 				yourself
