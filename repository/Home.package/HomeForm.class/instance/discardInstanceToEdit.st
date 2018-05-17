@@ -1,4 +1,0 @@
-actions
-discardInstanceToEdit
-
-	self instanceToEdit interactiveDelete
