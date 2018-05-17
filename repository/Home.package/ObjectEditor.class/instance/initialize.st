@@ -8,9 +8,12 @@ initialize
 		withLayout;
 		extent: self initialExtent;
 		addStyles;
-		withPadding.
+		withPadding;
+		addStyleClass: #withPadding;
+		addStyleClass: #objectEditor.
 		
 	self	
 		updateFields;
 		initializeAddButton.
 		
+	

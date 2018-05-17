@@ -6,6 +6,7 @@ widgetFor: aWrapper
 	labelColumn := (PHPage row
 			expand: false;
 			align: #(center start);
+			maxSize: 150@(-1);
 			yourself).
 	widgetColumn := (ObjectEditorField column
 			expand: true;
