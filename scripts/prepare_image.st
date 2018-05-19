@@ -1,4 +1,4 @@
-|package zip ws rackIcon|
+|package zip ws rackIcon contact editor|
 
 "Update the image."
 [MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
@@ -60,5 +60,14 @@ PreferenceWizardMorph allInstances do: #abandon.
 rackIcon := TheRack worldIcon.
 ActiveWorld addMorph: rackIcon.
 rackIcon position: 360@30.
+
+contact := Person new
+		email: 'hi@patrickrein.de';
+		fullName: 'Patrick Rein';
+		note: 'If you have questions, comments, suggestions just drop me an email';
+		yourself.
+editor := ObjectEditor openOn: contact.
+editor bounds: (360@100 corner: 640@500).
+
 
 SmalltalkImage current snapshot: true andQuit: true.
