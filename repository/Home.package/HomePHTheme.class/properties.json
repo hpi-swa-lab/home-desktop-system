@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomePHTheme",
+	"pools" : [
+		 ],
+	"super" : "PHSqueakTheme",
+	"type" : "normal" }
