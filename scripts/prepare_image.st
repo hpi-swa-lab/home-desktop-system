@@ -64,10 +64,10 @@ rackIcon position: 360@30.
 contact := Person new
 		email: 'hi@patrickrein.de';
 		fullName: 'Patrick Rein';
-		note: 'If you have questions, comments, suggestions just drop me an email';
+		note: 'If you have questions, comments, suggestions just drop me an email! I am happy to help :)';
 		yourself.
 editor := ObjectEditor openOn: contact.
-editor bounds: (360@100 corner: 640@500).
+editor bounds: (360@100 corner: 740@550).
 
 
 SmalltalkImage current snapshot: true andQuit: true.
