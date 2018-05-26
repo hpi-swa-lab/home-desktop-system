@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationPartOf
 
 	^ self new

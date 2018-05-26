@@ -1,0 +1,4 @@
+constants
+many
+
+	^ Float infinity

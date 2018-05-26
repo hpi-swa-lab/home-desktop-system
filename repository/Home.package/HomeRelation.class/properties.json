@@ -9,7 +9,8 @@
 		"receiverCardinality",
 		"targetCardinality",
 		"identifier",
-		"isOrdered" ],
+		"isOrdered",
+		"defaultInitialization" ],
 	"name" : "HomeRelation",
 	"pools" : [
 		 ],

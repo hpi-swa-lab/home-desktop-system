@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationLiveProgrammingStudyHubReviewed
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'liveprogstudySelectedHubReviewed' asSymbol;		
+		identifier: 'liveprogstudySelectedHubReviewed' asSymbol;
+		defaultInitialization: [false];
 		yourself

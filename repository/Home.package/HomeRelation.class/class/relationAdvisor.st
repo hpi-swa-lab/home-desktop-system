@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationAdvisor
 
 	^ self new

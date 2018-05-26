@@ -1,9 +1,9 @@
-as yet unclassified
+relations
 relationAuthors
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: 1;
+		targetCardinality: self many;
 		isOrdered: true;
-		identifier: 'authors' asSymbol;		
+		identifier: 'authors' asSymbol;
 		yourself

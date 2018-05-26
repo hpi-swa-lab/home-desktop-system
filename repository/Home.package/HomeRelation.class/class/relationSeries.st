@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationSeries
 
 	^ self new

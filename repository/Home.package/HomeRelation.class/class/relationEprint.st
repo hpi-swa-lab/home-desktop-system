@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationEprint
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'eprint' asSymbol;		
+		identifier: 'eprint' asSymbol;
+		defaultInitialization: String;	
 		yourself

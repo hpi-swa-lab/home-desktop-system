@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationPublicationType
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'publicationtype' asSymbol;		
+		identifier: 'publicationtype' asSymbol;
+		defaultInitialization: String;	
 		yourself

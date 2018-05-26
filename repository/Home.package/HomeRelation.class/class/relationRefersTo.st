@@ -1,9 +1,9 @@
-as yet unclassified
+relations
 relationRefersTo
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: Float infinity;
+		targetCardinality: self many;
 		isOrdered: false;
 		identifier: 'refersTo' asSymbol;		
 		yourself

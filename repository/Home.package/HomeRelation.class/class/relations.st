@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relations
 
 	^ (self class selectors copyWithout: #relations) 

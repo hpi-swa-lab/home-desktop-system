@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationLpsIsRelevantPaperFromFirstHull
 
 	^ self new

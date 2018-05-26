@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationAbstract
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'abstract' asSymbol;		
+		identifier: 'abstract' asSymbol;
+		defaultInitialization: String;
 		yourself

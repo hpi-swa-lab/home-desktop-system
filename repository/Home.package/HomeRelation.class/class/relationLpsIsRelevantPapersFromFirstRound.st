@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationLpsIsRelevantPapersFromFirstRound
 
 	^ self new

@@ -1,9 +1,9 @@
-as yet unclassified
+relations
 relationSetToDone
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		isOrdered: false;
-		identifier: 'setToDone' asSymbol;		
+		identifier: 'setToDone' asSymbol;
+		defaultInitialization: [false];	
 		yourself

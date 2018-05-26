@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationIntrahash
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'intrahash' asSymbol;		
+		identifier: 'intrahash' asSymbol;	
+		defaultInitialization: String;	
 		yourself

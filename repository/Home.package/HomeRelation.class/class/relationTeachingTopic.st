@@ -1,9 +1,9 @@
-as yet unclassified
+relations
 relationTeachingTopic
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: Float infinity;
+		targetCardinality: 1;
 		isOrdered: false;
 		identifier: 'teachingTopic' asSymbol;		
 		yourself

@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationKey
 
 	^ self new

@@ -1,4 +1,4 @@
 as yet unclassified
 edit: anObject
 
-	^ self newOn: anObject
+	^ self openOn: anObject

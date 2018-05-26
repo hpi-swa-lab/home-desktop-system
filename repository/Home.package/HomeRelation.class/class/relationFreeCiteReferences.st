@@ -1,8 +1,8 @@
-as yet unclassified
+relations
 relationFreeCiteReferences
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: 1;
-		identifier: 'freeCiteReferences' asSymbol;		
+		targetCardinality: self many;
+		identifier: 'freeCiteReferences' asSymbol;	
 		yourself

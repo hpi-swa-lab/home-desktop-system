@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationLpsIsRelevant
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'lpsIsRelevant' asSymbol;		
+		identifier: 'lpsIsRelevant' asSymbol;	
+		defaultInitialization: [false];
 		yourself

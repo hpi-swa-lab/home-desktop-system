@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationAssignedTopic
 
 	^ self new

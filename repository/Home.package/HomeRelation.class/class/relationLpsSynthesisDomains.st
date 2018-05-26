@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationLpsSynthesisDomains
 
 	^ self new

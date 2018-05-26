@@ -1,4 +1,4 @@
-as yet unclassified
+relations
 relationLpsKeywordsOfPaper
 
 	^ self new

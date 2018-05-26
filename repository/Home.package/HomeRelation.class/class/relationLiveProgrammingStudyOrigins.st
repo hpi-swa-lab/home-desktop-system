@@ -1,8 +1,8 @@
-as yet unclassified
+relations
 relationLiveProgrammingStudyOrigins
 
 	^ self new
 		receiverCardinality: 1;
-		targetCardinality: 1;
+		targetCardinality: self many;
 		identifier: 'liveprogstudyOrigins' asSymbol;		
 		yourself

@@ -16,9 +16,6 @@ addStyles
 			add: ((PHStyle for: #adjustFieldButton state: #hover)
 					color: #'777';
 					yourself);
-			add: ((PHStyle for: #objectEditor)
-					backgroundColor: Color white;
-					yourself)
 			yourself).
 			
 		

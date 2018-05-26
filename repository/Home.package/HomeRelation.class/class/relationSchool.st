@@ -1,8 +1,8 @@
-as yet unclassified
+relations
 relationSchool
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'school' asSymbol;		
+		identifier: 'school' asSymbol;
 		yourself

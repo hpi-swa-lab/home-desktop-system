@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"edit:" : "pre 5/17/2018 15:11",
+		"edit:" : "pre 5/24/2018 15:39",
 		"edit:basedOn:" : "pre 5/17/2018 15:11",
 		"for:" : "pre 4/27/2018 08:58",
 		"openOn:" : "pre 5/17/2018 15:35",
 		"splitIdentifier:" : "pre 5/21/2018 11:00" },
 	"instance" : {
-		"addFieldButtonClicked" : "pre 5/4/2018 20:34",
-		"addStyles" : "pre 5/21/2018 11:32",
+		"addFieldButtonClicked" : "pre 5/26/2018 10:47",
+		"addStyles" : "pre 5/23/2018 12:51",
 		"askForNewObject" : "pre 5/21/2018 11:33",
 		"createWidgetFor:in:" : "pre 5/21/2018 11:43",
 		"createWidgetLabelFor:in:nextTo:" : "pre 5/21/2018 11:42",

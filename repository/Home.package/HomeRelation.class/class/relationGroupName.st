@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationGroupName
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'groupName' asSymbol;		
+		identifier: 'groupName' asSymbol;
+		defaultInitialization: String;	
 		yourself

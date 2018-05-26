@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationPages
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'pages' asSymbol;		
+		identifier: 'pages' asSymbol;
+		defaultInitialization: [0 to: 0];	
 		yourself

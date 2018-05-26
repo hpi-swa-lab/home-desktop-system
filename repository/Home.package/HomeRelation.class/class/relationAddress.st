@@ -1,8 +1,9 @@
-as yet unclassified
+relations
 relationAddress
 
 	^ self new
 		receiverCardinality: 1;
 		targetCardinality: 1;
-		identifier: 'address' asSymbol;		
+		identifier: 'address' asSymbol;	
+		defaultInitialization: String;
 		yourself
