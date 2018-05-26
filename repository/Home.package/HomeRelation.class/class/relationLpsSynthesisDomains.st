@@ -1,0 +1,8 @@
+as yet unclassified
+relationLpsSynthesisDomains
+
+	^ self new
+		receiverCardinality: 1;
+		targetCardinality: 1;
+		identifier: 'lpsSynthesisDomains' asSymbol;		
+		yourself
