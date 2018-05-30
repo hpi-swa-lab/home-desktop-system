@@ -38,7 +38,7 @@ author initials which might fail these tests. So we set some dummy initials here
 Metacello new
   baseline: 'Home';
   repository: 'github://hpi-swa-lab/home-desktop-system/repository';
-  load: 'default'.
+  load: 'release'.
 
 "Making sure the Icons are initialized"
 RIcons initialize.

@@ -12,8 +12,10 @@ baseline: spec
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				package: 'Home' with: [spec requires: #('libraries')];
+				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Rack' 'Ohm' 'Pheno')];
-				yourself
+				group: 'libraries' with: #('Rack' 'Ohm' 'Pheno');
+				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
+		yourself
