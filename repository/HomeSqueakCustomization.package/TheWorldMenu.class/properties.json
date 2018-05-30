@@ -1,0 +1,16 @@
+{
+	"category" : "HomeSqueakCustomization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"OpenMenuRegistry" ],
+	"commentStamp" : "sw 10/5/2002 00:44",
+	"instvars" : [
+		"myProject",
+		"myWorld",
+		"myHand" ],
+	"name" : "TheWorldMenu",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

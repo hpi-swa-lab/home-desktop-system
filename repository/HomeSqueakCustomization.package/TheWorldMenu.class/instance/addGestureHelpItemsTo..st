@@ -1,0 +1,2 @@
+menu
+addGestureHelpItemsTo: aMenuMorph 

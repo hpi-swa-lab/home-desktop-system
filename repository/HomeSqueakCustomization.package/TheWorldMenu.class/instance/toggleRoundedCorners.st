@@ -1,0 +1,4 @@
+action
+toggleRoundedCorners
+
+	SystemWindow roundedWindowCorners: SystemWindow roundedWindowCorners not.

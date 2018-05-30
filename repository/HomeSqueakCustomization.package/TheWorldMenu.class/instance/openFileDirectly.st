@@ -1,0 +1,4 @@
+commands
+openFileDirectly
+
+	FileList openFileDirectly
