@@ -68,7 +68,8 @@ rackIcon position: 930@30.
 contact := Person new
   email: 'hi@patrickrein.de';
   fullName: 'Patrick Rein';
-  note: 'If you have questions, comments, suggestions just drop me an email. I am happy to help :)';
+  note: 'If you have questions, comments, suggestions just 
+drop me an email. I am happy to help :)';
   yourself.
 editor := ObjectEditor openOn: contact.
 editor bounds: (430@120 corner: 900@370).
