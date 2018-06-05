@@ -7,5 +7,5 @@ askForNewObject
 		chooseFrom: classes
 		title: 'What kind of object do you want to create?'.
 		
-	index ifNil: [^nil].
+	index isZero ifTrue: [^nil].
 	^ (classes at: index) new

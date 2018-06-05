@@ -3,12 +3,12 @@
 		"edit:" : "pre 5/24/2018 15:39",
 		"edit:basedOn:" : "pre 5/17/2018 15:11",
 		"for:" : "pre 4/27/2018 08:58",
-		"openOn:" : "pre 5/17/2018 15:35",
+		"openOn:" : "pre 6/5/2018 20:00",
 		"splitIdentifier:" : "pre 5/21/2018 11:00" },
 	"instance" : {
-		"addFieldButtonClicked" : "pre 5/26/2018 10:47",
+		"addFieldButtonClicked" : "pre 6/5/2018 09:29",
 		"addStyles" : "pre 5/23/2018 12:51",
-		"askForNewObject" : "pre 5/21/2018 11:33",
+		"askForNewObject" : "pre 5/31/2018 10:45",
 		"createWidgetFor:in:" : "pre 5/21/2018 11:43",
 		"createWidgetLabelFor:in:nextTo:" : "pre 5/21/2018 11:42",
 		"initialExtent" : "pre 5/3/2018 16:55",
@@ -21,5 +21,5 @@
 		"toggleEditorFor:in:" : "pre 5/4/2018 19:58",
 		"updateFields" : "pre 5/17/2018 14:51",
 		"updateWidgetColumn:for:withValue:" : "pre 5/21/2018 11:27",
-		"widgetFor:" : "pre 5/21/2018 11:43",
+		"widgetFor:" : "pre 5/31/2018 10:45",
 		"widgetLabelFrom:" : "pre 4/30/2018 18:59" } }
