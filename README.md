@@ -52,7 +52,7 @@ All management methods and the persistence mechanism are contained in the class 
 ## Other
 
 ### How to cite this work
-If you did work based on / or build using the Rack and want to write about the work, you can reference the Rack through the reference at the bottom.
+If you did work based on / or build using the Rack and want to write about the work, you can reference the Rack through the reference at the bottom (You can find the author version [here](https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/ReinLinckeRamsonMattisHirschfeld_2017_LivingInYourProgrammingEnvironmentTowardsAnEnvironmentForExploratoryAdaptationsOfProductivityTools_AcmDL.pdf)).
 
 ````Bibtex
 inproceedings{Rein2017LYP,
