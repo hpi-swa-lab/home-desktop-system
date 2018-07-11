@@ -11,6 +11,6 @@ asBibtexString
 		fieldTemplate format: {association key . association value}]) asArray
 		joinSeparatedBy: ', ' , String crlf.
 	
-	^'@{1} \{{2},
+	^'@{1}\{{2},
 {3}
-	\}' format: {publicationType . referenceKey . fieldsString}
+\}' format: {publicationType . referenceKey . fieldsString}

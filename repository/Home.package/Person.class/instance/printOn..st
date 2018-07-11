@@ -1,4 +1,4 @@
 accessing
 printOn: aStream
 
-	^ aStream << self fullName
+	^ aStream << self fullName asString

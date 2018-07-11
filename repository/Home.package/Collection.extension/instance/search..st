@@ -1,4 +1,4 @@
-*Home
+*Home-Core
 search: aString
 
 	| normalizedString terms |

@@ -3,7 +3,7 @@ bibTexFields
 
 	| associations fields date |
 	fields := (self additionalStateSelectors , {#title}) asSet intersection: #(
-		title journal series address doi abstract location pages publisher series advisors note issue_date
+		title journal series address doi abstract location publisher series advisors note issue_date
 		issn isbn number issue volume file howpublished school url organization urldate).
 		
 	associations := (fields collect: [:f | f -> (self ? f)]) reject: [:a | a value isNil].
@@ -22,8 +22,11 @@ bibTexFields
 		date := self ? #publicationDate ifNil: [self ? #publicationdate].
 		associations add: #year -> date year].
 	
-	#('lpsSynthesisMethodOfInquiry' 'lpsSynthesisIntendedEffect' 'lpsSynthesisDomains' 'lpsSynthesisMotivation') collect: [:key |
-		associations add: key -> ((self ?? key asSymbol) joinSeparatedBy: ', ')].
+	((self has: #pages) and: [self pages isInterval]) ifTrue: [
+		associations add: #pages -> (self pages first asString , ' - ' , self pages last asString)].
+	
+	#('lpsSynthesisMethodOfInquiry' 'lpsSynthesisIntendedEffect' 'lpsSynthesisDomains' 'lpsSynthesisMotivation' 'liveprogstudyOrigins') collect: [:key |
+		associations add: key -> ((self ?? key asSymbol) asArray joinSeparatedBy: ', ')].
 	
 	^ associations
 		
