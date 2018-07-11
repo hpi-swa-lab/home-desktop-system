@@ -10,6 +10,6 @@ for: aSelector
 		^ self new
 			receiverCardinality: 1;
 			targetCardinality: 1;
-			identifier: aSelector;		
+			identifier: (aSelector copyWithout: $:);		
 			yourself].
 	^ candidates first

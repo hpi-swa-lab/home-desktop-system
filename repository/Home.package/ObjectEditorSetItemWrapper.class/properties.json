@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI-ObjectEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 7/4/2018 18:41",
+	"instvars" : [
+		"previousValue",
+		"index" ],
+	"name" : "ObjectEditorSetItemWrapper",
+	"pools" : [
+		 ],
+	"super" : "ObjectEditorWrapper",
+	"type" : "normal" }

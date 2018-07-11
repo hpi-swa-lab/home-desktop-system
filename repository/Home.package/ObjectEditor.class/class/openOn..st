@@ -1,15 +1,24 @@
-as yet unclassified
+instance creation
 openOn: anObject
 
-	| scollArea editor badge area |
-	badge := ObjectBadge for: anObject.
-	editor := self for: anObject.
-	area := PHPage column
-		add: badge;
-		add: editor.
-	scollArea := PHScrollArea new
-		policy: #(show scroll);
-		content: area;
-		extent: editor extent;
-		yourself.
-	^ scollArea openInWindowLabeled: 'Editor on ', anObject printString
+	| editor area |
+	editor := self expandedFor: anObject.
+	editor 
+		width: (600 max: editor width);
+		height: (500 max: editor height);
+		hResizing: #spaceFill.
+	area := UiScrollArea new
+		width: editor width;
+		height: editor height;
+		color: editor color;
+		horizontalScrollBarPolicy: #alwaysOff;
+		widgetResizable: true;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		widget: editor.
+	area verticalScrollBar
+		singleStep: 20;
+		outerBorderWidth: 0;
+		color: Color transparent.
+	area openInWindowLabeled: 'Object editor on ' , editor instance objectEditorPrintString.
+	

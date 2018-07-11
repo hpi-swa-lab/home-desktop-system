@@ -1,14 +1,14 @@
-initialize-release
+private
 openMenu
 
 	| menu |
-	menu := MenuMorph new defaultTarget: self instance.
+	menu := MenuMorph new defaultTarget: instance.
 	
-	self instance menuOperations do: [:operation |
+	instance menuOperations do: [:operation |
 		menu 
 			addWithLabel: operation arguments first
 			enablementSelector: nil 
-			target: self instance
+			target: instance
 			selector: operation method selector
 			argumentList: #()].
 		

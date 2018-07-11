@@ -1,4 +1,4 @@
-accessing
+actions
 changeValueTo: anObject
-
-	self setter value: anObject
+	
+	self subclassResponsibility

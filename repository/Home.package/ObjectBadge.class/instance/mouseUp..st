@@ -1,6 +1,8 @@
-accessing
+event handling
 mouseUp: anEvent
 
-	anEvent yellowButtonChanged
-		ifTrue: [self triggerRightClicked: anEvent]
-		ifFalse: [super mouseUp: anEvent]
+	anEvent yellowButtonChanged 
+		ifTrue: [self openMenu]
+		ifFalse: [
+			super click: anEvent.
+			self triggerEvent: #clicked]

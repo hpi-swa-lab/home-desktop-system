@@ -1,0 +1,1 @@
+A set item wrapper provides access to set items. As a set is a hashed collection the wrapper replaces an object on a change.

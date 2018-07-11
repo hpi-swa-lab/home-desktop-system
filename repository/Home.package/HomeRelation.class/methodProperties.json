@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultUrl" : "pre 5/26/2018 10:52",
-		"for:" : "pre 5/26/2018 10:23",
+		"for:" : "pre 6/27/2018 14:07",
 		"many" : "pre 5/26/2018 10:24",
 		"relationAbstract" : "pre 5/26/2018 10:26",
 		"relationAcmid" : "pre 5/26/2018 10:34",
@@ -23,6 +23,7 @@
 		"relationDoi" : "pre 5/26/2018 10:38",
 		"relationEdition" : "pre 5/26/2018 10:39",
 		"relationEditor" : "pre 9/1/2017 16:27",
+		"relationEffortEstimation" : "pre 6/28/2018 12:54",
 		"relationEprint" : "pre 5/26/2018 10:39",
 		"relationExplicitName" : "pre 5/26/2018 10:39",
 		"relationFile" : "pre 5/26/2018 10:39",
@@ -86,6 +87,7 @@
 		"relationTeachingGroups" : "pre 5/26/2018 10:55",
 		"relationTeachingTopic" : "pre 5/26/2018 10:55",
 		"relationTeachingTopics" : "pre 5/26/2018 10:55",
+		"relationTestField" : "pre 7/9/2018 12:19",
 		"relationTimestamp" : "pre 5/26/2018 10:56",
 		"relationTopicWishes" : "pre 5/26/2018 10:56",
 		"relationUrlDate" : "pre 5/26/2018 10:56",

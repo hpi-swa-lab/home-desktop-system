@@ -1,5 +1,5 @@
 {
-	"category" : "Home-UI",
+	"category" : "Home-UI-ObjectEditor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"instance",
-		"fieldList" ],
+		"badge",
+		"wrappersToRows" ],
 	"name" : "ObjectEditor",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "UiContainer",
 	"type" : "normal" }

@@ -1,15 +1,21 @@
 *Home-UI
 editorContents
 
-	^ (self class allInstVarNames asOrderedCollection withIndexCollect: [:each :index |
-		ObjectEditorWrapper
-			with: (self instVarAt: index)
-			name: each
-			model: self
-			setter: [:newValue | self instVarAt: index put: newValue]]) ,
-		((1 to: self basicSize) collect: [:index |
-			ObjectEditorWrapper
-				with: (self  basicAt: index)
-				name: index printString
-				model: self
-				setter: [:newValue | self basicAt: index put: newValue] ])
+	| variablesWithGetters variablesWithOnlyGetters variablesWithSetters |
+	variablesWithGetters := (self class allInstVarNames asOrderedCollection collect: #asSymbol) intersection: self class allSelectors.
+	variablesWithSetters := variablesWithGetters select: [:variableName | self respondsTo: variableName asMutator].
+	variablesWithOnlyGetters := variablesWithGetters difference: variablesWithSetters.
+	
+	^ 	(variablesWithOnlyGetters collect: [:varName |
+			ObjectEditorSlotWrapper new
+				label: (ObjectEditorSlotWrapper labelFrom: varName);
+				instance: self;
+				getterSelector: varName;
+				yourself]),
+		(variablesWithSetters collect: [:varName |
+			ObjectEditorSlotWrapper new
+				label: (ObjectEditorSlotWrapper labelFrom: varName);
+				instance: self;
+				getterSelector: varName;
+				setterSelector: (varName asMutator);
+				yourself])

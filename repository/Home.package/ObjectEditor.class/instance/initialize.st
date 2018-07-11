@@ -1,19 +1,18 @@
-initialize-release
+initialization
 initialize
 
 	super initialize.
 	
-	self
-		vertical: true;
-		withLayout;
-		extent: self initialExtent;
-		addStyles;
-		withPadding;
-		addStyleClass: #withPadding;
-		addStyleClass: #objectEditor.
-		
-	self	
-		updateFields;
-		initializeAddButton.
-		
+	wrappersToRows := Dictionary new.
 	
+	self 
+		layoutPolicy: HomeVerticalLayout new;
+		listDirection: #topToBottom;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
+		cellInset: 7;
+		layoutInset: 0.
+		
+	self color: (UserInterfaceTheme current userInterfaceTheme get: #color for: PluggableTextMorphPlus).
+		
+	self addBadge

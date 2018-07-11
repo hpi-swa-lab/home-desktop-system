@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"labelFrom:" : "pre 7/4/2018 09:38",
+		"splitIdentifier:" : "pre 7/4/2018 09:38" },
+	"instance" : {
+		"changeValueTo:" : "pre 7/4/2018 14:56",
+		"getterSelector" : "pre 6/28/2018 15:59",
+		"getterSelector:" : "pre 6/28/2018 16:09",
+		"initialize" : "pre 7/4/2018 14:57",
+		"isReadable" : "pre 6/28/2018 16:04",
+		"isWritable" : "pre 6/28/2018 16:04",
+		"matchesVariableName:" : "pre 6/29/2018 10:17",
+		"refresh" : "pre 6/29/2018 14:59",
+		"removeField" : "pre 7/7/2018 10:44",
+		"setValueTo:" : "pre 7/10/2018 15:49",
+		"setterSelector" : "pre 6/28/2018 15:59",
+		"setterSelector:" : "pre 6/28/2018 16:09",
+		"update:with:" : "pre 7/10/2018 15:49" } }

@@ -1,4 +1,4 @@
 comparing
 <= anotherWrapper
 
-	^ self itemName <= anotherWrapper itemName
+	^ self label <= anotherWrapper label

@@ -2,5 +2,7 @@ generic-observer
 setInstVarAndSendUpdateFor: instVarName theValue: value 
 	
 	self instVarNamed: instVarName put: value.
-	self changed.
+	self 
+		changed;
+		changed: instVarName with: value
 	

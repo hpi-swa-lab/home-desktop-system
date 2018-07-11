@@ -1,15 +1,14 @@
 {
-	"category" : "Home-UI",
+	"category" : "Home-UI-ObjectEditor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"instance",
-		"label" ],
+		"instance" ],
 	"name" : "ObjectBadge",
 	"pools" : [
 		 ],
-	"super" : "PHClickable",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

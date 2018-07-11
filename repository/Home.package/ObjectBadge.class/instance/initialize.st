@@ -4,25 +4,16 @@ initialize
 	super initialize.
 
 	self
-		addStyleClass: #objectBadge;
-		add: self initializeButton at: 2;
-		withLayout;
-		align: #(fill start);
-		expand: true;
-		on: #startDrag send: #startDragging: to: self;
-		on: #doubleClick send: #doubleClick: to: self;
-		when: #rightClicked send: #openMenu to: self.
+		layoutPolicy: ObjectBadgeLayoutPolicy new;
+		listDirection: #leftToRight;
+		cellInset: 10;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
+		layoutInset: 5;
+		borderWidth: 1;
+		borderColor: (UserInterfaceTheme current get: #textColor for: PluggableTextMorphPlus);
+		color: (UserInterfaceTheme current get: #color for: PluggableTextMorphPlus).
 		
-	self addFallbackStyles: (PHStyleProvider new
-		add: ((PHStyle for: #objectBadge)
-					border: 0 color: #'000';
-					backgroundColor: #'FFF';
-					padding: (Rectangle left: 6 right: 0 top: 4 bottom: 4);
-					color: #'000');
-		add: ((PHStyle for: #objectBadge asStyle > #label)
-					padding: (Rectangle left: 6 right: 0 top: 4 bottom: 4));
-		add: ((PHStyle for: #objectBadge asStyle > #button)
-				backgroundColor: #ccc;
-				color: #'000';
-				border: 0 color: #'000');	
-		yourself)
+	self 
+		on: #startDrag send: #startDragging: to: self.
+	

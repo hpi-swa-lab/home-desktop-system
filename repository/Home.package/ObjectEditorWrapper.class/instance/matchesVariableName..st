@@ -1,0 +1,4 @@
+testing
+matchesVariableName: aVariableName
+
+	self subclassResponsibility

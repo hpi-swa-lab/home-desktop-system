@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI-ObjectEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getterSelector",
+		"setterSelector" ],
+	"name" : "ObjectEditorSlotWrapper",
+	"pools" : [
+		 ],
+	"super" : "ObjectEditorWrapper",
+	"type" : "normal" }

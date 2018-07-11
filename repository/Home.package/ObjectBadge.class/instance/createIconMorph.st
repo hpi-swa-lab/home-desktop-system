@@ -1,0 +1,4 @@
+private
+createIconMorph
+
+	^ instance worldIconMorph

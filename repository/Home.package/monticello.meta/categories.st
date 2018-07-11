@@ -5,9 +5,12 @@ SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
 SystemOrganization addCategory: #'Home-Garden'!
 SystemOrganization addCategory: #'Home-Importer'!
+SystemOrganization addCategory: #'Home-Surrogates'!
+SystemOrganization addCategory: #'Home-Surrogates-Tests'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-UI'!
-SystemOrganization addCategory: #'Home-Surrogates-Tests'!
-SystemOrganization addCategory: #'Home-Surrogates'!
+SystemOrganization addCategory: #'Home-UI-Layouts'!
+SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
+SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!

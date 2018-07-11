@@ -1,0 +1,16 @@
+{
+	"category" : "Home-UI-ObjectEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"editingWidget",
+		"buttons" ],
+	"name" : "ObjectEditorLine",
+	"pools" : [
+		 ],
+	"super" : "UiContainer",
+	"type" : "normal" }

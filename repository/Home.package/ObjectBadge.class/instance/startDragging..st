@@ -1,7 +1,7 @@
-dropping/grabbing
+event handling
 startDragging: evt
 
 	| transferMorph |
-	transferMorph := RTransferMorph withPassenger: self instance from: self.
-	transferMorph position: (self localPointToGlobal: self topLeft).
+	transferMorph := RTransferMorph withPassenger: instance from: self.
+	transferMorph position: evt hand positionInWorld.
 	evt hand grabMorph: transferMorph

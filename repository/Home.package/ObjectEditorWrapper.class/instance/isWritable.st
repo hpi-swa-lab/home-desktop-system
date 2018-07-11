@@ -1,0 +1,4 @@
+testing
+isWritable
+
+	self subclassResponsibility

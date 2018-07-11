@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI-ObjectEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"index" ],
+	"name" : "ObjectEditorIndexedWrapper",
+	"pools" : [
+		 ],
+	"super" : "ObjectEditorWrapper",
+	"type" : "normal" }

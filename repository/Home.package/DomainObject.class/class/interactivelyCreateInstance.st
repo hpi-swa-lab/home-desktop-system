@@ -1,4 +1,4 @@
 as yet unclassified
 interactivelyCreateInstance
 
-	^ ObjectEditor edit: self new
+	^ self new interactiveEdit

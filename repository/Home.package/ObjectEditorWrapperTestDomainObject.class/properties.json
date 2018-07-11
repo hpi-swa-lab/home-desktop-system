@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ObjectEditorWrapperTestDomainObject",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }
