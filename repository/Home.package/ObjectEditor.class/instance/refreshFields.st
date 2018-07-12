@@ -10,13 +10,7 @@ refreshFields
 			self updateLabelIn: row for: wrapper.
 			self updateEditingWidgetIn: row for: wrapper. 
 			self addMorphBack: row.
-			row when: #objectDropped evaluate: [:obj |
-				wrapper setValueTo: obj].
-			row when: #deleteRequested evaluate: [
-				(UIManager default confirm: ('Do you really want to delete {1}?' format: {wrapper label}))
-					ifTrue: [wrapper removeField. self renewFields]].
-			row when: #initializeRequested evaluate: [
-				wrapper initializeField].
+			self initializeEventsFrom: row with: wrapper.
 			wrapper -> row]).
 		
 	wrappersToRows keysDo: [:wrapper | 

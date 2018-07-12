@@ -1,4 +1,0 @@
-*Home-World
-isEvent
-
-	^ false
