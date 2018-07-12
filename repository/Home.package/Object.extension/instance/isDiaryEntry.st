@@ -1,0 +1,4 @@
+*Home-World
+isDiaryEntry
+
+	^ false

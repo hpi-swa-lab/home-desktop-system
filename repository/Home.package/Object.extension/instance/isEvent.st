@@ -1,0 +1,4 @@
+*Home-World
+isEvent
+
+	^ false
