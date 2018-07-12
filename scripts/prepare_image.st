@@ -10,7 +10,7 @@ Installer gemsource
     install.
 
 "Bootstrap Metacello Preview, using mcz files (#'previewBootstrap' symbolic version"
-((Smalltalk at: #ConfigurationOfMetacello) project 
+((Smalltalk at: #ConfigurationOfMetacello) project
   version: #'previewBootstrap') load.
 
 "Load the Preview version of Metacello from GitHub"
@@ -30,9 +30,11 @@ Installer gemsource
   repository: 'github://metacello/metacello:master/repository';
   load.
 
-"If e.g. your tests change code in the image dynamically, the image will require you to set 
+"If e.g. your tests change code in the image dynamically, the image will require you to set
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
 (Smalltalk at: #MetacelloPlatform) current authorName: 'HomeInstallation'.
+
+ChangeSet fileIntoNewChangeSet: (FileDirectory default fullNameFor: 'ProvideAnswerNotification.1.cs').
 
 "Load Home into image"
 Metacello new
@@ -68,7 +70,7 @@ rackIcon position: 930@30.
 contact := Person new
   email: 'hi@patrickrein.de';
   fullName: 'Patrick Rein';
-  note: 'If you have questions, comments, suggestions just 
+  note: 'If you have questions, comments, suggestions just
 drop me an email. I am happy to help :)';
   yourself.
 editor := ObjectEditor openOn: contact.

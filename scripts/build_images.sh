@@ -59,6 +59,7 @@ fi
 
 mv *.image "${DEPLOY_IMAGE}"
 mv *.changes "${DEPLOY_CHANGES}"
+cp "${TRAVIS_BUILD_DIR}/scripts/ProvideAnswerNotification.1.cs" ProvideAnswerNotification.1.cs
 
 print_info "Preparing ${TRAVIS_SMALLTALK_VERSION} image..."
 EXIT_STATUS=0
