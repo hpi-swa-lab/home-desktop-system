@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "pre 7/10/2018 14:50",
+		"addNewFieldRequested" : "pre 8/18/2018 10:39",
 		"createIconMorph" : "pre 6/29/2018 15:38",
 		"createTextMorph" : "pre 6/29/2018 15:37",
 		"handlesMouseDown:" : "pre 6/8/2018 20:28",
@@ -12,7 +13,7 @@
 		"mouseEnterDragging:" : "pre 7/10/2018 14:37",
 		"mouseLeaveDragging:" : "pre 7/10/2018 14:37",
 		"mouseUp:" : "pre 7/6/2018 16:26",
-		"openMenu" : "pre 7/4/2018 10:32",
+		"openMenu" : "pre 8/18/2018 10:51",
 		"resetBorder" : "pre 7/10/2018 14:37",
 		"startDragging:" : "pre 7/7/2018 10:54",
 		"update:" : "pre 6/29/2018 15:04",

@@ -4,6 +4,15 @@ openMenu
 	| menu |
 	menu := MenuMorph new defaultTarget: instance.
 	
+	menu 
+		addWithLabel: 'add new field'
+		enablementSelector: nil 
+		target: self
+		selector: #addNewFieldRequested
+		argumentList: #().
+		
+	menu addLine.
+	
 	instance menuOperations do: [:operation |
 		menu 
 			addWithLabel: operation arguments first

@@ -10,7 +10,7 @@ initialize
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		cellInset: 7;
+		cellInset: 2;
 		layoutInset: 0.
 		
 	self color: (UserInterfaceTheme current userInterfaceTheme get: #color for: PluggableTextMorphPlus).

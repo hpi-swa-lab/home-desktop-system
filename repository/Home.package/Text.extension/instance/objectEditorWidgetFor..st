@@ -3,7 +3,7 @@ objectEditorWidgetFor: aWrapper
 
 	| widget |
 		
-	widget := self size > 100 ifTrue: [UiTextEdit new] ifFalse: [UiLineEdit new].
+	widget := UiTextEdit new.
 	widget 
 		theText: self;
 		autoAccept: true.
