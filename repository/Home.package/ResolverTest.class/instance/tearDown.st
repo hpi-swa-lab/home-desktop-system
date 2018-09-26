@@ -1,5 +1,0 @@
-as yet unclassified
-tearDown
-
-	SurrogateEquivalenceClass removeEquivalenceClassesFor: surrogate1.
-	SurrogateEquivalenceClass removeEquivalenceClassesFor: surrogate2.
