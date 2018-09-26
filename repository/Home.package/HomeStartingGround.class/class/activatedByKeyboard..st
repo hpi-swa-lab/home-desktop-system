@@ -1,4 +1,4 @@
-as yet unclassified
+preferences
 activatedByKeyboard: aBoolean
 
 	aBoolean

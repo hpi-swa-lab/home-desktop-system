@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newManuelInterventionResultFromResults: aCollectionOfResults for: anObject
 
 	| newResult |

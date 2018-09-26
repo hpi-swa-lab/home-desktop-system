@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 interactivelyCreateInstance
 
 	^ self new interactiveEdit

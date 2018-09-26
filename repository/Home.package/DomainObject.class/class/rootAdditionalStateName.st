@@ -1,4 +1,4 @@
-as yet unclassified
+private
 rootAdditionalStateName
 
 	^ (self rootName , 'additionalState') asSymbol

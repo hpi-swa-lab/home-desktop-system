@@ -1,4 +1,4 @@
-as yet unclassified
+preferences
 activatedByKeyboard
 
 	<preference: 'Open the starting ground by keyboard'

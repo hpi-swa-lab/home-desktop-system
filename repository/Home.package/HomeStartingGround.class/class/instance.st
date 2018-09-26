@@ -1,4 +1,4 @@
-as yet unclassified
+singleton
 instance
 
 	^ DefaultInstance ifNil: [DefaultInstance := self new]

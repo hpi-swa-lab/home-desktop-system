@@ -1,5 +1,9 @@
 {
 	"class" : {
-		"setBackgroundGradient" : "pre 5/30/2018 14:13" },
+		"setAtlasBackgroundGradient" : "pre 8/28/2018 10:50",
+		"setBackgroundGradient" : "pre 5/30/2018 14:13",
+		"setCoolSkyBackgroundGradient" : "pre 8/28/2018 10:44",
+		"setCrazyOrangeBackgroundGradient" : "pre 8/28/2018 10:49",
+		"setSandToBlueBackgroundGradient" : "pre 8/28/2018 10:48" },
 	"instance" : {
 		"windowStyles" : "pre 5/17/2018 15:28" } }
