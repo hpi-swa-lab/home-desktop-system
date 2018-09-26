@@ -3,7 +3,7 @@
 		"integrityRules" : "pre 6/27/2018 13:12" },
 	"instance" : {
 		"asBibtexString" : "pre 5/31/2018 09:30",
-		"bibTexFields" : "pre 6/6/2018 10:39",
+		"bibTexFields" : "pre 7/22/2018 15:19",
 		"bibTexPublicationType" : "pre 1/17/2018 08:45",
 		"bibTexReferenceKey" : "pre 1/29/2018 09:46",
 		"downloadAbstractFromSemanticScholar" : "pre 1/8/2018 12:44",
@@ -16,6 +16,7 @@
 		"editTags" : "pre 8/30/2017 09:56",
 		"initializeForInteractiveCreate:" : "pre 9/18/2017 16:32",
 		"interactiveAddToReadingList" : "pre 4/17/2018 10:42",
+		"interactiveCopyBibtex" : "pre 7/17/2018 14:15",
 		"interactiveRemoveFromReadingList" : "pre 4/17/2018 10:36",
 		"interactiveSetRead" : "pre 4/17/2018 10:37",
 		"liveprogstudyOriginKeywords" : "pre 10/26/2017 07:31",

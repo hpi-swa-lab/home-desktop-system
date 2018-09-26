@@ -4,7 +4,7 @@ resolve: searchString createBasedOn: aString automaticAccept: shouldAutomaticall
 	| candidates candidate |
 	candidates := self all search: searchString.
 		
-	candidates size = 1 ifTrue: [^ candidates first].	
+	"candidates size = 1 ifTrue: [^ candidates first].	"
 	
 	candidates ifEmpty: [candidates := self all].
 	
@@ -26,5 +26,3 @@ resolve: searchString createBasedOn: aString automaticAccept: shouldAutomaticall
 										yourself]
 							ifFalse: [^ self interactivelyCreateInstanceFor: aString]]
 				ifFalse: [^ candidate]
-
-	

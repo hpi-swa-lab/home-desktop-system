@@ -1,4 +1,4 @@
 accessing
 lastName
 
-	^ self fullName substrings last
+	^ self fullName asString substrings last
