@@ -20,4 +20,4 @@ deploy:
 
 matrix:
   allow_failures:
-  - smalltalk: Squeak-trunk
+  - smalltalk: Squeak-5.1
