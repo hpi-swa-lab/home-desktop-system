@@ -15,9 +15,10 @@
 		"initializeButtons" : "pre 7/11/2018 11:08",
 		"label" : "pre 6/29/2018 10:09",
 		"label:" : "pre 6/29/2018 10:09",
-		"mouseEnterDragging:" : "pre 7/10/2018 14:12",
+		"mouseEnterDragging:" : "pre 10/12/2018 14:04",
 		"mouseLeaveDragging:" : "pre 7/3/2018 07:47",
-		"mouseMove:" : "pre 7/10/2018 14:37",
+		"mouseMove:" : "pre 10/12/2018 14:22",
 		"reorder" : "pre 7/7/2018 10:00",
-		"resetBackgroundColor" : "pre 7/3/2018 07:47",
+		"resetBackgroundColor" : "pre 10/12/2018 14:21",
+		"setDraggingBackgroundColor" : "pre 10/12/2018 14:21",
 		"wantsDroppedMorph:event:" : "pre 7/17/2018 14:14" } }

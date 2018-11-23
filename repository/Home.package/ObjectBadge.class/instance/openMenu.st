@@ -13,13 +13,7 @@ openMenu
 		
 	menu addLine.
 	
-	instance menuOperations do: [:operation |
-		menu 
-			addWithLabel: operation arguments first
-			enablementSelector: nil 
-			target: instance
-			selector: operation method selector
-			argumentList: #()].
+	instance addMenuOperationsTo: menu.
 		
 	menu setInvokingView: self.
 	menu popUpEvent: self activeHand lastEvent in: self world	
