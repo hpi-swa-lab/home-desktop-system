@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self fullName: ''; email: ''.
+	
+	self title: String new

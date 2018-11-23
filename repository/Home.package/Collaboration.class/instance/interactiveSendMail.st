@@ -5,9 +5,7 @@ interactiveSendMail
 
 	| addresses |
 	
-	addresses := self 
-		answer: #emailAddress 
-		or: [((((self ? #participants) collect: [:p | p ? #email]) reject: #isNil) joinSeparatedBy: ',')].
+	addresses := self emailAddresses.
 	
 	MailSender sendMessage: (MailMessage new
 		to: addresses;
