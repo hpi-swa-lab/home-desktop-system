@@ -9,11 +9,14 @@ bibTexFields
 	associations := (fields collect: [:f | f -> (self ? f)]) reject: [:a | a value isNil].
 		
 	publicationType := self bibTexPublicationType asString asLowercase.
-	((publicationType includesSubstring: 'proceedings') 
-		or: [publicationType includesSubstring: 'article']) ifTrue: [
-		self partOf isString
-			ifTrue: [associations add: (#booktitle -> self partOf)]
-			ifFalse: [associations add: (#booktitle -> self partOf title)]].
+	((publicationType includesSubstring: 'proceedings') or: [publicationType includesSubstring: 'article']) ifTrue: [|collection|
+		(self has: #partOf) 
+			ifTrue: [collection := self partOf]
+			ifFalse: [(self has: #journal) ifTrue: [collection := self journal]].
+		
+		collection isString
+			ifTrue: [associations add: (#booktitle -> collection)]
+			ifFalse: [associations add: (#booktitle -> collection title)]].
 	
 	(self has: #authors)
 		ifTrue: [	associations add: (#author -> ((self authors collect: [:a | a lastName , ', ' , a firstName]) joinSeparatedBy: ' and '))]. 

@@ -7,7 +7,7 @@ externalTransportRepresentation
 		yourself.
 		
 	(self has: #file) ifTrue: [ | aFile |
-		aFile := (FileDirectory default fileNamed: self externalFileName).
+		aFile := (FileStream fileNamed: self externalFileName).
 		representations at: aFile localName put: aFile.].
 	
 	^ representations
