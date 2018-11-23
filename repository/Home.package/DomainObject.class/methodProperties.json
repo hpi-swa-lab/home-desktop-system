@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"all" : "pre 8/30/2017 10:28",
-		"compilerClass" : "pre 9/25/2018 13:22",
+		"compilerClass" : "pre 10/12/2018 13:51",
 		"initializeStorage" : "pre 7/3/2017 12:49",
 		"integrityRules" : "pre 9/6/2017 11:20",
 		"interactivelyCreateInstance" : "pre 7/11/2018 20:10",
@@ -22,9 +22,9 @@
 		"additionalStateSelectors" : "pre 1/8/2018 15:42",
 		"allAdditionalStateValues" : "pre 1/8/2018 15:42",
 		"answer:or:" : "pre 7/2/2018 15:35",
-		"chooseRelationName" : "pre 8/18/2018 10:48",
+		"chooseRelationName" : "pre 10/8/2018 09:52",
 		"createdAt" : "pre 3/2/2017 16:36",
-		"createdAt:" : "pre 3/2/2017 16:36",
+		"createdAt:" : "pre 10/12/2018 13:55",
 		"delete" : "pre 8/30/2017 10:03",
 		"doesNotUnderstand:" : "pre 5/26/2018 10:22",
 		"editorContents" : "pre 6/28/2018 16:12",
@@ -44,7 +44,7 @@
 		"isToDo" : "pre 5/15/2017 18:58",
 		"objectEditorAdd:" : "pre 8/18/2018 10:46",
 		"objectEditorWrapperFor:" : "pre 7/4/2018 14:50",
-		"openOSViewer" : "pre 8/3/2018 11:03",
+		"openOSViewer" : "pre 9/27/2018 14:19",
 		"privateEnsureAdditionalStateIntegrity" : "pre 1/8/2018 15:46",
 		"privateSetAdditionalStateObject:" : "pre 1/8/2018 15:40",
 		"referencesToMe" : "pre 11/10/2017 08:20",
@@ -52,6 +52,6 @@
 		"removeAdditionalStateAt:" : "pre 1/8/2018 15:41",
 		"respondsTo:" : "pre 5/15/2017 18:54",
 		"setAdditionalStateAt:put:" : "pre 7/3/2018 08:43",
-		"setInstVarAndSendUpdateFor:theValue:" : "pre 9/25/2018 13:21",
+		"setInstVarAndSendUpdateFor:theValue:" : "pre 10/12/2018 13:53",
 		"to:add:" : "pre 1/10/2018 14:59",
 		"undelete" : "pre 8/30/2017 10:03" } }
