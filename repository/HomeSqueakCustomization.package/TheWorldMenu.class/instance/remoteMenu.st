@@ -2,9 +2,9 @@ construction
 remoteMenu
         "Build the Telemorphic menu for the world."
 
-        ^self fillIn: (self menu: 'Telemorphic') from: {
-                { 'local host address' . { #myWorld . #reportLocalAddress } }.
-                { 'connect remote user' . { #myWorld . #connectRemoteUser } }.
-                { 'disconnect remote user' . { #myWorld . #disconnectRemoteUser } }.
-                { 'disconnect all remote users' . { #myWorld . #disconnectAllRemoteUsers } }.
+        ^self fillIn: (self menu: 'Telemorphic' translatedNoop) from: {
+                { 'local host address' translatedNoop. { #myWorld . #reportLocalAddress } }.
+                { 'connect remote user' translatedNoop. { #myWorld . #connectRemoteUser } }.
+                { 'disconnect remote user' translatedNoop. { #myWorld . #disconnectRemoteUser } }.
+                { 'disconnect all remote users' translatedNoop. { #myWorld . #disconnectAllRemoteUsers } }.
         }

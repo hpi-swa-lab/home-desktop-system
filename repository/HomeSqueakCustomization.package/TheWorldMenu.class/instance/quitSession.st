@@ -5,5 +5,5 @@ quitSession
 		snapshot: (UserDialogBoxMorph 
 			confirm: 'Save changes before quitting?' translated 
 			orCancel: [^ self]
-			at: World center)
+			at: Project current world center)
 		andQuit: true

@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'repository\/Home.package' : #SquotCypressCodeSerializer,
+	'repository\/BaselineOfHome.package' : #SquotCypressCodeSerializer,
+	'repository\/HomeSqueakCustomization.package' : #SquotCypressCodeSerializer
+}

@@ -13,7 +13,7 @@ worldMenuHelp
 				[:it | | cnts |
 				(((cnts := it contents) = 'keep this menu up') or: [cnts isEmpty])
 					ifFalse: [aList add: (cnts, ' - ', title translated)]]].
-	aList := aList asSortedCollection: [:a :b | a asLowercase < b asLowercase].
+	aList sort: [:a :b | a caseInsensitiveLessOrEqual: b ].
 
 	explanation := String streamContents: [:aStream | aList do:
 		[:anItem | aStream nextPutAll: anItem; cr]].
