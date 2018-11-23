@@ -1,9 +1,20 @@
 {
 	"class" : {
 		"setAtlasBackgroundGradient" : "pre 8/28/2018 10:50",
-		"setBackgroundGradient" : "pre 5/30/2018 14:13",
+		"setBackgroundGradient" : "pre 9/27/2018 13:51",
 		"setCoolSkyBackgroundGradient" : "pre 8/28/2018 10:44",
 		"setCrazyOrangeBackgroundGradient" : "pre 8/28/2018 10:49",
-		"setSandToBlueBackgroundGradient" : "pre 8/28/2018 10:48" },
+		"setDarkSkiesBackgroundGradient" : "pre 11/2/2018 13:46",
+		"setEasyMedBackgroundGradient" : "pre 10/22/2018 13:48",
+		"setJaipurBackgroundGradient" : "pre 10/22/2018 13:52",
+		"setKyooPalBackgroundGradient" : "pre 10/22/2018 13:52",
+		"setLittleLeafBackgroundGradient" : "pre 10/22/2018 13:52",
+		"setLizardBackgroundGradient" : "pre 11/2/2018 13:47",
+		"setMetallicToadBackgroundGradient" : "pre 11/2/2018 13:51",
+		"setMoorBackgroundGradient" : "pre 11/2/2018 13:55",
+		"setPortraitBackgroundGradient" : "pre 11/2/2018 13:50",
+		"setSandToBlueBackgroundGradient" : "pre 8/28/2018 10:48",
+		"setServQuickBackgroundGradient" : "pre 11/2/2018 13:52",
+		"setTurboscentBackgroundGradient" : "pre 11/2/2018 13:48" },
 	"instance" : {
 		"windowStyles" : "pre 5/17/2018 15:28" } }

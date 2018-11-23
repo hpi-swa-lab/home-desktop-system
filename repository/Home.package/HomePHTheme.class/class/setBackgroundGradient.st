@@ -1,6 +1,6 @@
 background styles
 setBackgroundGradient
-
+	"self setBackgroundGradient"
 	| color1 color2 fill |
 	color1 := Color fromString: '#acc7a6'.
 	color2 := Color fromString: '#486a86'.
