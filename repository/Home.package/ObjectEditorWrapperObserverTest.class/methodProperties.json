@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"factoryMethods" : "pre 11/30/2018 15:42",
+		"newIndexWrapper" : "pre 11/30/2018 15:30",
+		"newSetItemWrapper" : "pre 11/30/2018 15:31",
+		"newSlotWrapper" : "pre 11/30/2018 15:27",
+		"observerNotifications" : "pre 11/30/2018 15:26",
+		"observerNotifications:" : "pre 11/30/2018 15:26",
+		"setUp" : "pre 11/30/2018 15:26",
+		"testChangeValueToTriggersChanged" : "pre 11/30/2018 15:41",
+		"testSetValueToTriggersChanged" : "pre 11/30/2018 15:42",
+		"update:" : "pre 11/30/2018 15:29" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"observerNotifications" ],
+	"name" : "ObjectEditorWrapperObserverTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

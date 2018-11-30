@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "pre 11/30/2018 15:38",
+		"asArray" : "pre 11/30/2018 15:37",
+		"at:" : "pre 11/30/2018 15:37",
+		"at:put:" : "pre 11/30/2018 15:31",
+		"editorContents" : "pre 11/30/2018 15:28",
+		"fieldA" : "pre 11/30/2018 15:28",
+		"fieldA:" : "pre 11/30/2018 15:28",
+		"fieldFactory" : "pre 11/30/2018 15:23",
+		"fieldFactory:" : "pre 11/30/2018 15:23",
+		"initialize" : "pre 11/30/2018 15:38",
+		"remove:ifAbsent:" : "pre 11/30/2018 15:36" } }

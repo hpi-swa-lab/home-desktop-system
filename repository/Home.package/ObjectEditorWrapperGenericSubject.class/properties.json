@@ -1,0 +1,15 @@
+{
+	"category" : "Home-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fieldFactory",
+		"fieldA" ],
+	"name" : "ObjectEditorWrapperGenericSubject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

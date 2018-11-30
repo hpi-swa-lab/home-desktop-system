@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testObjectWrappersRemovesAdditionalState" : "pre 7/7/2018 09:58",
+		"testObjectWrappersChangesValue" : "pre 11/30/2018 15:15",
+		"testObjectWrappersRemovesAdditionalState" : "pre 11/30/2018 15:11",
 		"testObjectWrappersSetsTheFieldToNil" : "pre 7/7/2018 09:54",
+		"testObjectWrappersSetsValue" : "pre 11/30/2018 15:15",
 		"testOrderedCollectionWrappersChangeValueChangesAtIndex" : "pre 10/13/2018 13:11",
 		"testOrderedCollectionWrappersRemoveField" : "pre 7/6/2018 17:31",
 		"testOrderedCollectionWrappersReturnValueAtIndex" : "pre 7/4/2018 18:35",
@@ -11,5 +13,6 @@
 		"testOrderedCollectionWrappersShowIndizes" : "pre 7/4/2018 18:31",
 		"testSetWrappersRemoveTheObject" : "pre 7/6/2018 17:27",
 		"testSetWrappersReplaceInstances" : "pre 7/4/2018 18:34",
+		"testSetWrappersSetValueReplaceInstances" : "pre 11/30/2018 15:16",
 		"testSetWrappersShowSortedIndizes" : "pre 7/4/2018 18:42",
 		"testSetWrappersShowValuesSorted" : "pre 7/4/2018 18:41" } }
