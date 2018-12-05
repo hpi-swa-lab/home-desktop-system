@@ -7,6 +7,7 @@ The Home System is a desktop system build on top of Squeak/Smalltalk. It is base
  - A basic set of domain objects (e.g. Person, Collaboration, ToDo)
  - Ways to store and access arbitrary fields on domain objects
  - The [Rack](https://github.com/hpi-swa/Rack) for organizing domain objects in a hierarchical structure
+ - The Object Editor for interactively changing values on objects
  - The object search for searching for specific objects
  - Context menus for invoking methods on objects
  
