@@ -3,4 +3,5 @@ removeField
 	
 	self instance 
 		remove: self refresh 
-		ifAbsent: []
+		ifAbsent: [].
+	super removeField.

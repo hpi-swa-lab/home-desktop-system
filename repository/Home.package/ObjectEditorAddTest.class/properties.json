@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"recordedEvents" ],
+	"name" : "ObjectEditorAddTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

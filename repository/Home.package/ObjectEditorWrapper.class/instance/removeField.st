@@ -1,4 +1,5 @@
 actions
 removeField
 
-	self subclassResponsibility
+	self onDelete ifNotNil: [:onDeleteBlock | onDeleteBlock value].
+	self instance changed.

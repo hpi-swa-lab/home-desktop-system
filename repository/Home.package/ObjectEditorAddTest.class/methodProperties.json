@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"candidateClasses" : "pre 12/5/2018 15:00",
+		"eventArrived" : "pre 12/5/2018 15:03",
+		"forAllImplementingClasses:" : "pre 12/5/2018 15:05",
+		"recordedEvents" : "pre 12/5/2018 15:01",
+		"recordedEvents:" : "pre 12/5/2018 15:01",
+		"setUp" : "pre 12/5/2018 15:01",
+		"testObjectEditorAddTriggersEvent" : "pre 12/5/2018 15:05",
+		"testObjectEditorAddWorksOnCollections" : "pre 12/5/2018 15:05" } }

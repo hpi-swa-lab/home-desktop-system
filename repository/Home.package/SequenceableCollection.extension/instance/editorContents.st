@@ -9,5 +9,4 @@ editorContents
 					instance: self;
 					label: index printString;
 					index: index;
-					onDelete: [self removeAt: index. self changed];
 					yourself)]]

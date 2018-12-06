@@ -13,3 +13,4 @@ objectEditorAdd: anObject
 	self at: enteredKey asSymbol put: anObject.
 	
 	self changed.
+	self triggerEvent: #objectEditorStructureChanged.

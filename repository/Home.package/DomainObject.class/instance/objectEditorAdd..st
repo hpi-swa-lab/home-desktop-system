@@ -7,4 +7,5 @@ objectEditorAdd: anObject
 	
 	(HomeRelation for: chosenRelationName) setValue: anObject on: self.
 	
+	self changed.
 	self triggerEvent: #objectEditorStructureChanged.
