@@ -2,16 +2,19 @@
 
 The Home System is a desktop system build on top of Squeak/Smalltalk. It is based upon the idea of storing data in living objects and allowing its users to adapt it completely to their needs. The system comes with:
 
+#### New mechanisms
  - Mechanisms to create persistent domain objects in the image
  - The global domain object collection *soup* which allows access to all domain objects
  - A basic set of domain objects (e.g. Person, Collaboration, ToDo)
  - Ways to store and access arbitrary fields on domain objects
- - The [Rack](https://github.com/hpi-swa/Rack) for organizing domain objects in a hierarchical structure
- - The Object Editor for interactively changing values on objects
- - The object search for searching for specific objects
  - Context menus for invoking methods on objects
- 
-The system can be used to accomplish many everyday computing tasks:
+
+#### New tools
+ - The [Rack](https://github.com/hpi-swa/Rack) for organizing domain objects in a hierarchical structure
+ - The object editor for interactively changing values on objects
+ - The global object search for searching for specific objects
+
+The system is ready to be used to accomplish many everyday computing tasks:
 
 <p align="center">
 <img alt="Screenshot of the Home Desktop System in use" src="https://github.com/hpi-swa-lab/home-desktop-system/blob/master/documentation/screenshot.png" width=450></img>
@@ -33,7 +36,6 @@ Metacello new
 ## Using the System
 The Home desktop system provides a programming interface for domain objects as well as graphical tools for searching, managing, and accessing domain objects.
 
-
 ### Object Search
 The system provides a system-wide search for objects. You can start a search through the search field left of the code search in the top right corner. You can access that search through the keyboard shortcut Ctrl/Cmd + 9.
 
@@ -41,6 +43,12 @@ The system provides a system-wide search for objects. You can start a search thr
 As all information is stored in objects you can always invoke methods on them. Some of these methods are exposed in context menus accessible in the object explorer or the Rack. 
 
 You can make methods accessible in the context menu by using the Pragma `rackOperationLabel: label inContextMenus: true` (see for example Todo>>#setDone).
+
+### Object Editor
+A new tool available in Home is the Object Editor which allows you to interactively edit the fields of an object. Through drag and drop you can add objects to collections, use values from fields of one object in another object, and set fields directly to an object. All context menus are also available in the editor.
+
+#### Extending the Editor for your Domain Object
+If you want to provide special fields for your domain object you can override the `editorContents` method. 
 
 ### Accessing Persistent Domain Objects
 You can access all persistent domain objects through the `soup` which is a global entry point. The `soup` provides the interface of a `Set`. Additionally you can use the `search:` message to start a simply full-text search on the stored objects.
