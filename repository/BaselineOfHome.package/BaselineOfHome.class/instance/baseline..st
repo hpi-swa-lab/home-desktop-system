@@ -15,11 +15,14 @@ baseline: spec
 						loads: #(full)];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
-				package: 'Home' with: [spec requires: #('libraries')];
+				baseline: 'MailDir' with: 
+					[ spec repository: 'github://codezeilen/SMailDir:master/repository' ];
+				package: 'Home' with: [spec requires: #('libraries' 'tools')];
 				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Rack' 'Ohm' 'Widgets' 'Pheno');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno');
+				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
