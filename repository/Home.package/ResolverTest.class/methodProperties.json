@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "pre 2/7/2019 15:26",
 		"setUp" : "pre 2/7/2019 12:45",
 		"tearDown" : "pre 2/7/2019 12:57",
-		"testEquivalentSurrogatesProvideAllInformation" : "pre 2/7/2019 14:46",
+		"testEquivalentSurrogatesProvideAllInformation" : "pre 2/7/2019 15:26",
 		"testSurrogateProvideInformation" : "pre 2/7/2019 14:45" } }
