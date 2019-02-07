@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Surrogates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Resolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

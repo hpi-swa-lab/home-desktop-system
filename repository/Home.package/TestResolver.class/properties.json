@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Surrogates-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testData" ],
+	"name" : "TestResolver",
+	"pools" : [
+		 ],
+	"super" : "Resolver",
+	"type" : "normal" }

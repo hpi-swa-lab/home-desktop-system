@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"Cache" : "pre 7/7/2018 14:13",
+		"clearCache" : "pre 7/12/2018 15:13",
+		"normalizedProperties" : "pre 7/11/2018 16:12",
+		"propertiesDictionary" : "pre 7/11/2018 15:33",
+		"propertiesJson" : "pre 7/11/2018 15:33" },
+	"instance" : {
+		"allInformationOn:" : "pre 8/10/2018 11:25",
+		"answer:for:" : "pre 8/10/2018 11:28",
+		"cachedInformationOn:" : "pre 8/10/2018 11:26",
+		"entryPoints" : "pre 8/10/2018 11:24",
+		"extractLabelsFrom:" : "pre 8/9/2018 16:50",
+		"knowsSomethingAbout:" : "pre 8/10/2018 11:26",
+		"knowsSomethingAbout:regarding:" : "pre 8/10/2018 11:26",
+		"parseContentsFrom:" : "pre 8/10/2018 11:30",
+		"retrieveAllInformationOn:" : "pre 8/10/2018 11:27",
+		"selectorIsWikiDataProperty:" : "pre 7/11/2018 16:14",
+		"wikiDataUrlForId:ofType:" : "pre 8/6/2018 18:58" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"default" : "pre 8/11/2018 17:44" },
+	"instance" : {
+		"cache:named:for:" : "pre 8/11/2018 17:38",
+		"cache:named:for:timeout:" : "pre 8/11/2018 17:38",
+		"clearCacheOf:for:" : "pre 8/11/2018 17:39",
+		"defaultTimeout" : "pre 8/11/2018 17:39",
+		"get:orCacheFrom:for:timeout:" : "pre 8/11/2018 17:43",
+		"initialize" : "pre 8/11/2018 17:34" } }

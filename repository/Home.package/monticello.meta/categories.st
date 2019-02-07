@@ -13,3 +13,5 @@ SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
 SystemOrganization addCategory: #'Home-Core-Tests'!
 SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
+SystemOrganization addCategory: #'Home-Surrogates'!
+SystemOrganization addCategory: #'Home-Surrogates-Tests'!

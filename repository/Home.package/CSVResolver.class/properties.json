@@ -1,0 +1,18 @@
+{
+	"category" : "Home-Surrogates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"file",
+		"cache",
+		"fileHasHeaderColumn",
+		"fieldsConfiguration",
+		"labelFieldName" ],
+	"name" : "CSVResolver",
+	"pools" : [
+		 ],
+	"super" : "Resolver",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+private
+clearApi
+
+	api := nil

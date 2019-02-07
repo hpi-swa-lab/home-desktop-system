@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Surrogates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "ResolverCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

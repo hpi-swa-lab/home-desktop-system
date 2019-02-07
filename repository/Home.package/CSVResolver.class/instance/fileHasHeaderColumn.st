@@ -1,0 +1,4 @@
+accessing
+fileHasHeaderColumn
+
+	^ fileHasHeaderColumn

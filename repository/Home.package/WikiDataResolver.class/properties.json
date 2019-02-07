@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Surrogates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Cache",
+		"NamesToProperties" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "WikiDataResolver",
+	"pools" : [
+		 ],
+	"super" : "Resolver",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Surrogates",
+	"classinstvars" : [
+		"Mounts" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Mount",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
