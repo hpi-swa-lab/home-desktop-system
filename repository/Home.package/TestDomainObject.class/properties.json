@@ -1,16 +1,14 @@
 {
-	"category" : "Home-Core",
+	"category" : "Home-Core-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"additionalState",
-		"createdAt",
-		"uuid" ],
-	"name" : "DomainObject",
+		"someField" ],
+	"name" : "TestDomainObject",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DomainObject",
 	"type" : "normal" }

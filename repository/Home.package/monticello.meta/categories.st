@@ -10,5 +10,6 @@ SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-UI'!
 SystemOrganization addCategory: #'Home-UI-Layouts'!
 SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
+SystemOrganization addCategory: #'Home-Core-Tests'!
 SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!

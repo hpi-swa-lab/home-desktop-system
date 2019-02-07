@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"additionalState",
-		"createdAt",
-		"uuid" ],
-	"name" : "DomainObject",
+		"uuidOfObject",
+		"poolOfObjects" ],
+	"name" : "DomainObjectOnDisk",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -5,4 +5,4 @@ handleListenEvent: aKeyboardEvent
 	((aKeyboardEvent isKeyDown "isKeyUp?"
 		and: [aKeyboardEvent commandKeyPressed])
 		and: [aKeyboardEvent keyCharacter = $0])
-		ifTrue: [self toggleVisibility].
+			ifTrue: [self toggleVisibility].

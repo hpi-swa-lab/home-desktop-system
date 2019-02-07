@@ -6,4 +6,4 @@ explorerContents
 			with: (self getAdditionalStateAt: selector)
 			name: (selector printString contractTo: 32)
 			model: self ])
-		, (super explorerContents reject: [:w | w itemName = 'additionalState'])) sorted
+		, (super explorerContents reject: [:w | w itemName isAnyOf: self internalStateNames])) sorted

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pre 2/1/2019 17:33",
+		"testAdditionalStateIsPreserved" : "pre 2/1/2019 17:33",
+		"testAllFieldsArePreserved" : "pre 2/1/2019 17:41",
+		"testCreatedAtIsPreserved" : "pre 2/1/2019 17:34",
+		"testObjectIsOfCorrectClass" : "pre 2/1/2019 18:28",
+		"testStoreCanBeCalled" : "pre 2/1/2019 17:34",
+		"testUuidIsPreserved" : "pre 2/1/2019 17:34" } }

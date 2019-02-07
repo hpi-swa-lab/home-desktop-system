@@ -1,0 +1,4 @@
+*Home-Core
+isBoolean
+
+	^ true
