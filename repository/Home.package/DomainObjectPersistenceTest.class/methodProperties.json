@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 2/1/2019 17:33",
+		"setUp" : "pre 2/7/2019 14:59",
 		"testAdditionalStateIsPreserved" : "pre 2/1/2019 17:33",
 		"testAllFieldsArePreserved" : "pre 2/1/2019 17:41",
 		"testCreatedAtIsPreserved" : "pre 2/1/2019 17:34",
