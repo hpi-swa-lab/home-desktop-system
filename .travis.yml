@@ -4,7 +4,7 @@ smalltalk:
 - Squeak-trunk
 - Squeak-5.1
 
-after_success: bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
+after_success: travis_wait 20 bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
 deploy:
   provider: releases
   skip_cleanup: true
