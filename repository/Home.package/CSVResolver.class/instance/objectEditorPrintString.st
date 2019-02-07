@@ -1,4 +1,4 @@
-*Home-UI
+Home-UI
 objectEditorPrintString
 
 	^ 'A {1} mount {3} ({2} objects)' format: {

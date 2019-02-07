@@ -1,4 +1,4 @@
-as yet unclassified
+private
 setUuid: aUuid
 
 	uuidOfObject := aUuid

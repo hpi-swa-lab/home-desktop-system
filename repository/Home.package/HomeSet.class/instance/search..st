@@ -1,4 +1,4 @@
-*Home
+enumerating
 search: aString
 
 	| normalizedString terms |

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 updateFieldNamed: key with: value on: newObject
 	
 	| actualValue |

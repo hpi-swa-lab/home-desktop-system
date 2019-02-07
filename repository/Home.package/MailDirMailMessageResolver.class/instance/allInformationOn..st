@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 allInformationOn: anUri
 
 	| idToFind |

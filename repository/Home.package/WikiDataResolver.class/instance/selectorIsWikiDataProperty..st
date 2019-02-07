@@ -1,4 +1,4 @@
-as yet unclassified
+private
 selectorIsWikiDataProperty: aString
 
 	^ aString first = $P

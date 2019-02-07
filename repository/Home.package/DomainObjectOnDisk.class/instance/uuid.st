@@ -1,4 +1,4 @@
-as yet unclassified
+domain object interface
 uuid
 
 	^ uuidOfObject 

@@ -1,4 +1,4 @@
-*Home-UI
+Home-UI
 objectEditorPrintString
 
 	^ String streamContents: [:aStream |

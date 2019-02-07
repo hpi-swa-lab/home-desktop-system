@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 knowsSomethingAbout: anUri
 
 	^ anUri beginsWith: 'testxxxtest'

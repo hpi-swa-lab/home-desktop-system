@@ -1,4 +1,4 @@
-*Home
+testing
 isDiaryEntry
 
 	^ true

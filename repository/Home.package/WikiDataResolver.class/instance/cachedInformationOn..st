@@ -1,4 +1,4 @@
-as yet unclassified
+private
 cachedInformationOn: aUriString
 	
 	^ (self class Cache ifNil: [cache := Dictionary new])
