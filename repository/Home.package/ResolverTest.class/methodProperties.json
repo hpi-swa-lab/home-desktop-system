@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 4/13/2018 18:54",
-		"tearDown" : "pre 4/13/2018 19:07",
-		"testEquivalentSurrogatesProvideAllInformation" : "pre 4/13/2018 19:10",
-		"testSurrogateProvideInformation" : "pre 4/13/2018 18:57" } }
+		"setUp" : "pre 2/7/2019 12:45",
+		"tearDown" : "pre 2/7/2019 12:57",
+		"testEquivalentSurrogatesProvideAllInformation" : "pre 2/7/2019 14:46",
+		"testSurrogateProvideInformation" : "pre 2/7/2019 14:45" } }
