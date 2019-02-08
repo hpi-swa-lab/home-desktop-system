@@ -20,5 +20,5 @@ openOn: anObject
 		singleStep: 20;
 		outerBorderWidth: 0;
 		color: Color transparent.
-	area openInWindowLabeled: 'Object editor on ' , editor instance objectEditorPrintString.
+	^ area openInWindowLabeled: 'Object editor on ' , editor instance objectEditorPrintString.
 	
