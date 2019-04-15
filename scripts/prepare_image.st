@@ -4,6 +4,7 @@
 [MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
 
 Installer ensureRecentMetacello.
+Installer installGitInfrastructure.
 
 "If e.g. your tests change code in the image dynamically, the image will require you to set
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
