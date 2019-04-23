@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currency",
+		"amount" ],
+	"name" : "HMoney",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

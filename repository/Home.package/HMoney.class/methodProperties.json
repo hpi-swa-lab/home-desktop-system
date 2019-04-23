@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"euros:" : "cf 4/23/2019 09:46",
+		"forAmount:ofCurrency:" : "cf 4/23/2019 09:49" },
+	"instance" : {
+		"amount" : "cf 4/23/2019 09:45",
+		"amount:" : "cf 4/23/2019 09:45",
+		"currency" : "cf 4/23/2019 09:45",
+		"currency:" : "cf 4/23/2019 09:44",
+		"initialize" : "cf 4/23/2019 10:16",
+		"printOn:" : "cf 4/23/2019 09:48" } }
