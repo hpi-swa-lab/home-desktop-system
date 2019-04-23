@@ -1,0 +1,18 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"placeName",
+		"location",
+		"website",
+		"admissionFee",
+		"openingHours" ],
+	"name" : "HPlace",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }
