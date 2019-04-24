@@ -1,3 +1,5 @@
 initialize-release
 initialize
-	self amount: 0 asScaledDecimal
+	super initialize.
+	self amount: 0.
+	self currency: '?'
