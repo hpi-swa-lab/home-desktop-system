@@ -13,6 +13,11 @@ baseline: spec
 					spec
 						repository: 'github://hpi-swa/widgets:master/repository';
 						loads: #(full)];
+				project: 'OSProcess' with: [
+					spec
+						className: 'ConfigurationOfOSProcess';
+						repository: 'http://www.squeaksource.com/MetacelloRepository';
+						versionString: #'stable'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
