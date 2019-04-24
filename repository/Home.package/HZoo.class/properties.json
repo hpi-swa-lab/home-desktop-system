@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animalSpecies" ],
+	"name" : "HZoo",
+	"pools" : [
+		 ],
+	"super" : "HPlace",
+	"type" : "normal" }
