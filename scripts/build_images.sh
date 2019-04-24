@@ -38,7 +38,7 @@ if [[ "${TRAVIS}" ]]; then
     VM=$SMALLTALK_CI_VM
 else
     DEPLOY_PATH="build/deploy"
-    BUILD_DIR="."
+    BUILD_DIR=$PWD
     SMALLTALK_VERSION=$1
     VM=$2
 fi
@@ -54,18 +54,19 @@ if [[ "$(uname -s)" == "Linux" ]]; then
 fi
 # ==============================================================================
 
-mkdir "${DEPLOY_PATH}" && cd "${DEPLOY_PATH}"
+mkdir -p "${DEPLOY_PATH}" 
+cd "${DEPLOY_PATH}"
 
-if [[ "${SMALLTALK_VERSION}" == "Squeak-5.1" ]]; then
-    print_info "Downloading Squeak-5.1 image..."
-    wget http://files.squeak.org/5.1/Squeak5.1-16548-32bit/Squeak5.1-16548-32bit.zip
-    unzip Squeak5.1-16548-32bit.zip
+if [[ "${SMALLTALK_VERSION}" == "Squeak-5.2" ]]; then
+    print_info "Downloading Squeak-5.2 image..."
+    wget http://files.squeak.org/5.2/Squeak5.2-18231-64bit/Squeak5.2-18231-64bit.zip
+    unzip Squeak5.2-18231-64bit.zip
     wget http://files.squeak.org/sources_files/SqueakV50.sources.gz
     gunzip SqueakV50.sources.gz
 else
     print_info "Downloading Squeak-trunk image..."
-    wget http://files.squeak.org/6.0alpha/Squeak6.0alpha-17873-32bit/Squeak6.0alpha-17873-32bit.zip
-    unzip Squeak6.0alpha-17873-32bit.zip
+    wget http://files.squeak.org/5.3alpha/Squeak5.3alpha-18494-64bit/Squeak5.3alpha-18494-64bit.zip
+    unzip Squeak5.3alpha-18494-64bit.zip
     wget http://files.squeak.org/sources_files/SqueakV50.sources.gz
     gunzip SqueakV50.sources.gz
 fi
