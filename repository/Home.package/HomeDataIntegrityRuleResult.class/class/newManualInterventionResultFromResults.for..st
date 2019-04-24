@@ -1,5 +1,5 @@
 instance creation
-newManuelInterventionResultFromResults: aCollectionOfResults for: anObject
+newManualInterventionResultFromResults: aCollectionOfResults for: anObject
 
 	| newResult |
 	newResult := self new
