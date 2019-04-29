@@ -3,4 +3,4 @@ printOn: aStream
 
 	aStream << 'Invoice "' << self title << '" '.
 	self total printOn: aStream.
-	aStream << ' ' << '(' << (self paid ifTrue: ['paid'] ifFalse: ['unpaid']) << ')'
+	^ aStream << ' ' << '(' << (self paid ifTrue: ['paid'] ifFalse: ['unpaid']) << ')'
