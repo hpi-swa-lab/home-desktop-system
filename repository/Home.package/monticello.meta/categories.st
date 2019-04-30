@@ -7,6 +7,7 @@ SystemOrganization addCategory: #'Home-Garden'!
 SystemOrganization addCategory: #'Home-Importer'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
+SystemOrganization addCategory: #'Home-Markdown'!
 SystemOrganization addCategory: #'Home-UI'!
 SystemOrganization addCategory: #'Home-UI-Layouts'!
 SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
