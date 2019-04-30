@@ -2,6 +2,5 @@ as yet unclassified
 from: aStartTimeStamp to: anEndTimeStamp
 	| instance |
 	instance := self new.
-	instance start: aStartTimeStamp.
-	instance end: anEndTimeStamp.
+	instance timespan: (Timespan starting: aStartTimeStamp ending: anEndTimeStamp).
 	^instance.
