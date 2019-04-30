@@ -1,0 +1,4 @@
+accessing
+roomNumber
+
+	^ roomNumber
