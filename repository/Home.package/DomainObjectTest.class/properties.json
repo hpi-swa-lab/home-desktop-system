@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"aDefinedInstanceVariable" ],
-	"name" : "ObjectEditorWrapperTestDomainObject",
+		"object" ],
+	"name" : "DomainObjectTest",
 	"pools" : [
 		 ],
-	"super" : "DomainObject",
+	"super" : "TestCase",
 	"type" : "normal" }

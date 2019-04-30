@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pre 4/30/2019 14:17",
+		"testDomainObjectPreferMethodsToAdditionalState" : "pre 4/30/2019 14:18",
+		"testDomainObjectStoresAdditionalState" : "pre 4/30/2019 14:17" } }
