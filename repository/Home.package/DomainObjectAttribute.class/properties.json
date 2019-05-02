@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Behavior",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eb 4/27/2019 11:19",
+	"instvars" : [
+		"object",
+		"attributeName" ],
+	"name" : "DomainObjectAttribute",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

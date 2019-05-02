@@ -6,6 +6,7 @@ SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
 SystemOrganization addCategory: #'Home-Garden'!
 SystemOrganization addCategory: #'Home-Importer'!
+SystemOrganization addCategory: #'Home-Behavior'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-UI'!
