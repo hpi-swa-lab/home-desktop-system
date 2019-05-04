@@ -1,5 +1,5 @@
 operations
-interactiveSendMail: object
+interactiveSendMailDynamic: object
 
 	<rackOperationLabel: 'write email dynamic' inContextMenus: true>
 	
