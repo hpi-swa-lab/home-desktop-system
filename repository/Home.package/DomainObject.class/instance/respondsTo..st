@@ -1,4 +1,4 @@
 *Home-Behavior
 respondsTo: aSelector
 
-	^ (super respondsTo: aSelector) or: [self can: aSelector] or: [self has: aSelector].
+	^ (self basicRespondsTo: aSelector) or: [self can: aSelector]
