@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"fromCoordinate:" : "stlu 5/5/2019 22:06",
+		"street:housenumber:postcode:city:country:" : "stlu 5/5/2019 21:34" },
+	"instance" : {
+		"city" : "stlu 5/5/2019 21:29",
+		"city:" : "stlu 5/5/2019 21:29",
+		"country" : "stlu 5/5/2019 21:29",
+		"country:" : "stlu 5/5/2019 21:29",
+		"geolocation" : "stlu 5/5/2019 11:13",
+		"housenumber" : "stlu 5/5/2019 21:29",
+		"housenumber:" : "stlu 5/5/2019 21:29",
+		"postcode" : "stlu 5/5/2019 21:29",
+		"postcode:" : "stlu 5/5/2019 21:29",
+		"printOn:" : "stlu 5/5/2019 22:13",
+		"street" : "stlu 5/5/2019 21:29",
+		"street:" : "stlu 5/5/2019 21:29" } }
