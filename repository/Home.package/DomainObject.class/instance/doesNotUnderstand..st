@@ -1,4 +1,4 @@
-*Home-Behavior
+error handling
 doesNotUnderstand: aMessage
 	"delegate unknown messages to additional state or Behavior"
 	
