@@ -1,3 +1,3 @@
 as yet unclassified
 value
-	^ self object ? self attributeName
+	^ self object perform: self attributeName
