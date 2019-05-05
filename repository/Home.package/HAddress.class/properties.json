@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"address" ],
-	"name" : "HLocation",
+		"street",
+		"housenumber",
+		"postcode",
+		"city",
+		"country" ],
+	"name" : "HAddress",
 	"pools" : [
 		 ],
-	"super" : "DomainObject",
+	"super" : "Object",
 	"type" : "normal" }

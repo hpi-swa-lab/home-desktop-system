@@ -1,0 +1,4 @@
+accessing
+latitude
+
+	^ latitude
