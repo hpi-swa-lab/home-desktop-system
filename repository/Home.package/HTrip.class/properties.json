@@ -1,0 +1,21 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		"invoice" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"arrivalLocation",
+		"invoice",
+		"departureLocation",
+		"type",
+		"passengers",
+		"departureTime",
+		"arrivalTime",
+		"id" ],
+	"name" : "HTrip",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

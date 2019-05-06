@@ -1,0 +1,17 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"invoice",
+		"stayingInterval",
+		"reservation",
+		"place" ],
+	"name" : "HStay",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

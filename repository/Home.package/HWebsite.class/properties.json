@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url" ],
+	"name" : "HWebsite",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }
