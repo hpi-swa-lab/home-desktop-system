@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roomNumber" ],
+	"name" : "HHotelRoom",
+	"pools" : [
+		 ],
+	"super" : "HStay",
+	"type" : "normal" }

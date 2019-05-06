@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Core-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object" ],
+	"name" : "DynamicBehaviorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
