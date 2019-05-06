@@ -1,4 +1,4 @@
 class membership
 respondsTo: aSelector
 
-	^ (self basicRespondsTo: aSelector) or: [self can: aSelector]
+	^ (super respondsTo: aSelector) or: [self has: aSelector]

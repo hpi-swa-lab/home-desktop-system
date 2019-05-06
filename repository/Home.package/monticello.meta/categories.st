@@ -1,4 +1,3 @@
-SystemOrganization addCategory: #'Home-Travel'!
 SystemOrganization addCategory: #'Home-Bibliography'!
 SystemOrganization addCategory: #'Home-Core'!
 SystemOrganization addCategory: #'Home-DataIntegrity'!
@@ -6,7 +5,6 @@ SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
 SystemOrganization addCategory: #'Home-Garden'!
 SystemOrganization addCategory: #'Home-Importer'!
-SystemOrganization addCategory: #'Home-Behavior'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-Markdown'!

@@ -1,1 +1,0 @@
-I encapsulate finding and accessing an attribute of a DomainObject.

@@ -1,4 +1,0 @@
-*Home-Travel
-isPlace
-
-	^ false
