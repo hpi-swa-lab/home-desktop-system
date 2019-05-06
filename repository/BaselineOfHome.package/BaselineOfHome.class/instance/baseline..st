@@ -22,6 +22,8 @@ baseline: spec
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
 					[ spec repository: 'github://codezeilen/SMailDir:master/repository' ];
+				package: 'TiledMaps' with: 
+					[ spec repository: 'http://www.squeaksource.com/TiledMaps' ];
 				package: 'Home' with: [spec requires: #('libraries' 'tools')];
 				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
