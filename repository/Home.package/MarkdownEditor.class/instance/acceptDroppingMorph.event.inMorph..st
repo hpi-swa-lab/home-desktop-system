@@ -10,7 +10,7 @@ acceptDroppingMorph: dropee event: evt inMorph: targetMorph
 			externalName := dropee externalName].
 	
 	(reference isKindOf: CreativeWork) 
-		ifTrue: [targetMorph correctSelectionWithString: '@' , reference referencekey.
+		ifTrue: [targetMorph correctSelectionWithString: '@' , reference bibTexReferenceKey.
 				(dropee isKindOf: TransferMorph)
 					ifFalse: [dropee rejectDropMorphEvent: evt].
 				^ true].

@@ -28,6 +28,6 @@ privateStyle: aText
 		attribute := attributes at: r second.
 		aText addAttribute: attribute from: r first first to: r first last].
 	
-	aText addAttribute: (TextFontReference toFont: (StrikeFont familyName: #BitstreamVeraSans pointSize: 14)) from: 1 to: aText size.
+	aText addAttribute: (TextFontReference toFont: (StrikeFont familyName: #BitstreamDejaVuSans pointSize: 9)) from: 1 to: aText size.
 	
 	^ aText
