@@ -1,0 +1,4 @@
+accessing
+postcode
+
+	^ postcode

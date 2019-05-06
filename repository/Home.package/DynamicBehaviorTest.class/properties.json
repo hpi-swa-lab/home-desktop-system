@@ -1,14 +1,14 @@
 {
-	"category" : "Home-Travel",
+	"category" : "Home-Core-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"address" ],
-	"name" : "HLocation",
+		"object" ],
+	"name" : "DynamicBehaviorTest",
 	"pools" : [
 		 ],
-	"super" : "DomainObject",
+	"super" : "TestCase",
 	"type" : "normal" }
