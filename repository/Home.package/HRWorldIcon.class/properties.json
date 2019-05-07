@@ -1,0 +1,14 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isInRepresentationMode" ],
+	"name" : "HRWorldIcon",
+	"pools" : [
+		 ],
+	"super" : "RWorldIcon",
+	"type" : "normal" }
