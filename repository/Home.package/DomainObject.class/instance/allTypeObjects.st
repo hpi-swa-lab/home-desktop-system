@@ -1,3 +1,4 @@
 dynamic behavior
 allTypeObjects
-	^ DomainObjectType allTypeObjectsOf: self
+	"Hotfix: disable everything"
+	^ #() "DomainObjectType allTypeObjectsOf: self"
