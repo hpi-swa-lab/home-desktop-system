@@ -21,7 +21,7 @@ baseline: spec
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
-					[ spec repository: 'github://codezeilen/SMailDir:master/repository' ];
+					[ spec repository: 'github://codezeilen/SMailDir/repository' ];
 				package: 'TiledMaps' with: 
 					[ spec repository: 'http://www.squeaksource.com/TiledMaps' ];
 				package: 'Home' with: [spec requires: #('libraries' 'tools')];
@@ -29,7 +29,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
