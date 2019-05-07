@@ -1,3 +1,4 @@
+SystemOrganization addCategory: #'Home-SWDEva'!
 SystemOrganization addCategory: #'Home-Travel'!
 SystemOrganization addCategory: #'Home-Bibliography'!
 SystemOrganization addCategory: #'Home-Core'!

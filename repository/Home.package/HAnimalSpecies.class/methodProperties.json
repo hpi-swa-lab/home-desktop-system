@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"coolAnimal" : "ek 5/6/2019 17:58",
 		"initialize" : "ek 4/23/2019 14:30",
 		"printOn:" : "ek 4/23/2019 14:27",
 		"speciesName" : "ek 4/23/2019 14:01",
