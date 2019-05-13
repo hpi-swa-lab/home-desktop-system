@@ -1,4 +1,6 @@
 accessing
 name
 
-	^ self contents asString lines first
+	^ self contents asString
+		ifEmpty: [super name]
+		ifNotEmpty: [:contents | contents lines first]
