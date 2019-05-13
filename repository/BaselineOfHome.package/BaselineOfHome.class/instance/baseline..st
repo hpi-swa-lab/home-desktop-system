@@ -13,16 +13,23 @@ baseline: spec
 					spec
 						repository: 'github://hpi-swa/widgets:master/repository';
 						loads: #(full)];
+				project: 'OSProcess' with: [
+					spec
+						className: 'ConfigurationOfOSProcess';
+						repository: 'http://www.squeaksource.com/MetacelloRepository';
+						versionString: #'stable'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
-					[ spec repository: 'github://codezeilen/SMailDir:master/repository' ];
+					[ spec repository: 'github://codezeilen/SMailDir/repository' ];
+				package: 'TiledMaps' with: 
+					[ spec repository: 'http://www.squeaksource.com/TiledMaps' ];
 				package: 'Home' with: [spec requires: #('libraries' 'tools')];
 				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
