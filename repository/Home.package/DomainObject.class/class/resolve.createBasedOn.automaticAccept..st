@@ -1,4 +1,4 @@
-instance creation
+instance resolution
 resolve: searchString createBasedOn: aString automaticAccept: shouldAutomaticallyCreate
 
 	| candidates candidate |
