@@ -1,0 +1,18 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"street",
+		"housenumber",
+		"postcode",
+		"city",
+		"country" ],
+	"name" : "HAddress",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

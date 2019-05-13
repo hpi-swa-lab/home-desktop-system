@@ -1,0 +1,14 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"recipientObject" ],
+	"name" : "HMDMailComposition",
+	"pools" : [
+		 ],
+	"super" : "MDMailComposition",
+	"type" : "normal" }

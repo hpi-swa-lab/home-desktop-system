@@ -1,3 +1,4 @@
+SystemOrganization addCategory: #'Home-SWDEva'!
 SystemOrganization addCategory: #'Home-Travel'!
 SystemOrganization addCategory: #'Home-Bibliography'!
 SystemOrganization addCategory: #'Home-Core'!
@@ -6,6 +7,7 @@ SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
 SystemOrganization addCategory: #'Home-Garden'!
 SystemOrganization addCategory: #'Home-Importer'!
+SystemOrganization addCategory: #'Home-Behavior'!
 SystemOrganization addCategory: #'Home-Teaching'!
 SystemOrganization addCategory: #'Home-ToDo'!
 SystemOrganization addCategory: #'Home-UI'!
@@ -16,3 +18,5 @@ SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
 SystemOrganization addCategory: #'Home-Surrogates'!
 SystemOrganization addCategory: #'Home-Surrogates-Tests'!
+SystemOrganization addCategory: #'Home-Markdown'!
+SystemOrganization addCategory: #'Home-Tests'!

@@ -1,4 +1,0 @@
-accessing
-friend
-
-	^ self ? #friend
