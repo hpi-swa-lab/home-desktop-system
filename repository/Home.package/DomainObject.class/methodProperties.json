@@ -54,6 +54,8 @@
 		"remove:from:" : "pre 4/23/2018 10:14",
 		"removeAdditionalStateAt:" : "pre 1/8/2018 15:41",
 		"respondsTo:" : "pre 5/15/2017 18:54",
+		"serializeToClipboard" : "AR 5/6/2019 08:45",
+		"serializeToFile" : "AR 5/6/2019 09:14",
 		"setAdditionalStateAt:put:" : "pre 2/1/2019 17:26",
 		"setAdditionalStateSilentlyAt:put:" : "pre 2/1/2019 17:26",
 		"setInstVarAndSendUpdateFor:theValue:" : "pre 2/1/2019 17:11",
