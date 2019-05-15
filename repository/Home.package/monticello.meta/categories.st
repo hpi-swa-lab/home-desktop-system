@@ -20,3 +20,5 @@ SystemOrganization addCategory: #'Home-UI-Layouts'!
 SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
 SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
+SystemOrganization addCategory: #'Home-Searching-Tests'!
+SystemOrganization addCategory: #'Home-Searching'!
