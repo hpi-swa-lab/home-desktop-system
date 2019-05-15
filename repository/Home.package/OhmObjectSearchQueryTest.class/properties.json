@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Searching-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OhmObjectSearchQueryTest",
+	"pools" : [
+		 ],
+	"super" : "OhmSyntaxTestCase",
+	"type" : "normal" }
