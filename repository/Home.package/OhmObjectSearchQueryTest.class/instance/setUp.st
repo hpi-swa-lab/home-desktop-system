@@ -1,4 +1,4 @@
 running
 setUp
 
-	grammar := HomeObjectSearchQuery
+	grammar := HomeSearchLanguage

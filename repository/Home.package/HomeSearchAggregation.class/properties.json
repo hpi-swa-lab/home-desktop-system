@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HomeObjectSearchQuery",
+		"conditions" ],
+	"name" : "HomeSearchAggregation",
 	"pools" : [
 		 ],
-	"super" : "OhmGrammarSmalltalkProxy",
+	"super" : "HomeSearchCondition",
 	"type" : "normal" }

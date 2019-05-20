@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"factory" ],
-	"name" : "HomeConstructSearchQuery",
+		"actual",
+		"comparator",
+		"expected" ],
+	"name" : "HomeSearchComparison",
 	"pools" : [
 		 ],
-	"super" : "OhmSemanticAction",
+	"super" : "HomeSearchCondition",
 	"type" : "normal" }

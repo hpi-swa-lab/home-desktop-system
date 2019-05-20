@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"factory" ],
-	"name" : "HomeConstructSearchQuery",
+		 ],
+	"name" : "HomeSearchLanguage",
 	"pools" : [
 		 ],
-	"super" : "OhmSemanticAction",
+	"super" : "OhmGrammarSmalltalkProxy",
 	"type" : "normal" }

@@ -49,9 +49,10 @@ serializedGrammar
 		"-" | "not" | "NOT"
 	  
 	AttributeCondition =
-		Attribute ":" AttributeValue -- similar
-		| Attribute "==" AttributeValue -- identical
-		| Attribute "=" AttributeValue -- equal
+		Attribute comparator AttributeValue
+		
+	comparator =
+		":" | "==" | "="
 	
 	CustomCondition =
 		CodeBlock
@@ -63,6 +64,13 @@ serializedGrammar
 		UnaryMessageSelector
 	    
 	AttributeValue =
-		Literal
+		constantReference
+		| scaledDecimalLiteral
+		| floatingPointLiteral
+		| integerLiteral
+		| characterLiteral
+		| stringLiteral
+		| symbolLiteral
+		| ArrayLiteral
 		| CodeBlock
 }'

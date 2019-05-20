@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"factory" ],
-	"name" : "HomeConstructSearchQuery",
+		 ],
+	"name" : "HomeSearchConjunction",
 	"pools" : [
 		 ],
-	"super" : "OhmSemanticAction",
+	"super" : "HomeSearchAggregation",
 	"type" : "normal" }

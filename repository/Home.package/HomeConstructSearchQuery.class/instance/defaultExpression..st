@@ -1,5 +1,4 @@
-actions
-defaultExpression: aNode
+actions - default
+defaultExpression: thisNode
 
-	Transcript showln: aNode ruleName.
-	aNode children do: [:each | self value: each]
+	^ self value: thisNode children first
