@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Behavior",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExternalFileHaving",
+	"pools" : [
+		 ],
+	"super" : "DomainObjectType",
+	"type" : "normal" }
