@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "eb 4/27/2019 11:19",
+	"commentStamp" : "eb 5/24/2019 09:55",
 	"instvars" : [
 		"object",
-		"attributeName" ],
+		"attributeNames",
+		"combinedName" ],
 	"name" : "DomainObjectAttribute",
 	"pools" : [
 		 ],

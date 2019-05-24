@@ -1,5 +1,3 @@
 testing
 fits: testDomainObject
-	|email|
-	email := self emailAttribute: testDomainObject.
-	^ email notNil and: [email value notNil] and: [email value isString]
+	^ (self emailAttribute: testDomainObject) notNil

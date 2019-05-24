@@ -1,6 +1,4 @@
 instance creation
-in: obj names: names
-	"search for an attribute with any of the given names, tested from left to right"
-	names do: [:name |
-		(obj basicRespondsTo: name) ifTrue: [^ self in: obj name: name]].
-	 ^ nil
+in: obj names: allNames
+	"search for an attribute with any of the given names. Asks the user lazily when multiple are found"
+	^ self newOn: obj names: (allNames select: [:name | obj basicRespondsTo: name])

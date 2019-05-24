@@ -1,8 +1,6 @@
 accessing
 interactiveSendMail
 
-	<rackOperationLabel: 'write email' inContextMenus: true>
+	<rackOperationLabel: 'write email to all' inContextMenus: true>
 	
-	MailSender sendMessage: (MailMessage new
-		to: (((self members collect: [:p | p ? #email]) reject: #isNil) asArray joinSeparatedBy: ',');
-		yourself)
+	self members performCollectionOperation: #interactiveSendMailToAll: ofType: EmailHaving instance.
