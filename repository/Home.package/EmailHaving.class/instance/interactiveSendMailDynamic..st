@@ -1,8 +1,8 @@
 operations
 interactiveSendMailDynamic: object
 
-	<rackOperationLabel: 'write email dynamic' inContextMenus: true>
+	<rackOperationLabel: 'write email' inContextMenus: true>
 	
-	MailSender sendMessage: (MailMessage new
-		to: (self emailAttribute: object) value;
-		yourself)
+	(self emailAttribute: object) value ifNotNil: [:mail | 
+		MailSender sendMessage: (MailMessage new to: mail; yourself)].
+	

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Searching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeSearchValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Home-Searching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actual",
+		"comparator",
+		"expected" ],
+	"name" : "HomeSearchComparison",
+	"pools" : [
+		 ],
+	"super" : "HomeSearchCondition",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+testing
+isValue
+
+	^ false

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Searching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "HomeSearchImmediateValue",
+	"pools" : [
+		 ],
+	"super" : "HomeSearchValue",
+	"type" : "normal" }
