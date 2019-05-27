@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ek 5/26/2019 22:40",
+	"commentStamp" : "",
 	"instvars" : [
-		"recipientObject" ],
-	"name" : "HMDMailComposition",
+		"addButton" ],
+	"name" : "HObjectField",
 	"pools" : [
 		 ],
-	"super" : "MDMailComposition",
+	"super" : "Morph",
 	"type" : "normal" }

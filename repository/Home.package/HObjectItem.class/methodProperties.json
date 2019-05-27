@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"for:" : "ek 5/27/2019 21:38" },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "ek 5/26/2019 23:24",
+		"changeDisplayedKey:" : "ek 5/26/2019 23:36",
+		"displayedKey" : "ek 5/26/2019 23:11",
+		"displayedKey:" : "ek 5/26/2019 23:11",
+		"initialize" : "ek 5/27/2019 21:42",
+		"initializeIconAndText" : "ek 5/27/2019 21:42",
+		"interactiveChangeDisplayedKey" : "ek 5/26/2019 23:38",
+		"objectField" : "ek 5/27/2019 21:08",
+		"objectField:" : "ek 5/27/2019 21:08",
+		"removeMe" : "ek 5/27/2019 21:08",
+		"standardColor" : "ek 5/26/2019 23:01",
+		"textField" : "ek 5/26/2019 22:45",
+		"textField:" : "ek 5/26/2019 22:45",
+		"textToDisplay" : "ek 5/27/2019 21:24",
+		"updateDisplayedString" : "ek 5/27/2019 21:24",
+		"wantsDroppedMorph:event:" : "ek 5/26/2019 22:46" } }
