@@ -5,9 +5,9 @@ serializedGrammar
 	RootObjectFilter =
 		ConditionAggregation
 		| ObjectFilter
-		| Words
+		| UnstructuredQuery
 	
-	Words =
+	UnstructuredQuery =
 		any*
 	
 	ObjectFilter =

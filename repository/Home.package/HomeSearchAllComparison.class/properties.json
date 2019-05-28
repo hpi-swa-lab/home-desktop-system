@@ -1,5 +1,5 @@
 {
-	"category" : "Home-Markdown",
+	"category" : "Home-Searching",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownEditor",
+	"name" : "HomeSearchAllComparison",
 	"pools" : [
 		 ],
-	"super" : "Workspace",
+	"super" : "HomeSearchComparison",
 	"type" : "normal" }
