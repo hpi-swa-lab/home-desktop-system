@@ -19,10 +19,6 @@ initializeIconAndText
 		cellInset: spacing;
 		layoutInset: spacing;
 		addMorph: self textField;
-		addMorphBack: (SimpleButtonMorph new
-			target: self;
-			color: self standardColor darker;
-			borderColor: self standardColor muchDarker;
-			borderWidth: 1;
-			label: 'X' font: Preferences standardButtonFont;
-			actionSelector: #removeMe)
+		addMorphBack: self closeButton.
+		
+	self hideOrShowCloseButton

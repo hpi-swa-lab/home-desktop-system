@@ -1,4 +1,8 @@
 as yet unclassified
 addNewObjectItem
 
-	self addMorph: (HObjectItem for: self) inFrontOf: addButton
+	| newItem |
+	newItem := (HObjectItem for: self).
+	self addMorph: newItem inFrontOf: addButton.
+	self items add: newItem.
+	self hideOrShowAddButtonIfNecessary
