@@ -1,4 +1,4 @@
 actions
-AttributeValue: thisNode with: aNode
+SmalltalkLiteral: thisNode with: aNode
 
 	^ self factory immediateValue: (self value: aNode)
