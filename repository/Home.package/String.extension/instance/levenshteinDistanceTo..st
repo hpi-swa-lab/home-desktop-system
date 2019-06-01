@@ -4,8 +4,8 @@ levenshteinDistanceTo: aString
 	| previousRow currentRow rowSize |
 	(self isEmpty or: [aString isEmpty]) ifTrue: [
 		^ self = aString
-			ifTrue: [1]
-			ifFalse: [0]].
+			ifTrue: [0]
+			ifFalse: [self size max: aString size]].
 	
 	rowSize := self size + 1.
 	currentRow := Array new: rowSize.
