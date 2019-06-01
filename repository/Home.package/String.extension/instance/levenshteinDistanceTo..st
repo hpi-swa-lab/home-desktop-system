@@ -1,4 +1,4 @@
-*Home-Core
+*Home-Searching
 levenshteinDistanceTo: aString 
 
 	| previousRow currentRow rowSize |

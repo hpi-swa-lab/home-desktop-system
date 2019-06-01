@@ -1,4 +1,4 @@
-*Home-Core
+*Home-Searching
 damerauLevenshteinDistanceTo: aString 
 
 	| rowSize currentRow previousRow secondLastRow tmp previousOtherChar |
