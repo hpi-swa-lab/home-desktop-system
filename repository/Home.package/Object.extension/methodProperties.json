@@ -1,7 +1,9 @@
 {
 	"class" : {
-		 },
+		"instantiateFromJsonDocument:" : "AR 5/30/2019 21:04" },
 	"instance" : {
+		"allInstVars" : "stlu 5/21/2019 09:54",
+		"asJsonDocument" : "AR 5/30/2019 20:43",
 		"asSurrogate" : "pre 7/12/2018 15:28",
 		"basicRespondsTo:" : "eb 5/22/2019 20:06",
 		"cleanse" : "pre 4/24/2019 15:33",
@@ -16,7 +18,7 @@
 		"isExtended" : "pre 8/4/2017 10:54",
 		"isPerson" : "pre 4/24/2017 10:10",
 		"isPlace" : "ek 4/23/2019 14:10",
-		"isSimilarTo:" : "stlu 5/16/2019 13:16",
+		"isSimilarTo:" : "stlu 5/21/2019 10:30",
 		"isToDo" : "pre 6/20/2017 20:33",
 		"objectEditorAdd:" : "pre 12/5/2018 15:48",
 		"objectEditorBeforeChangeConversion" : "pre 6/29/2018 14:58",

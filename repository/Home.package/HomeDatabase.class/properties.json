@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Database",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"adaptor",
+		"dbName" ],
+	"name" : "HomeDatabase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

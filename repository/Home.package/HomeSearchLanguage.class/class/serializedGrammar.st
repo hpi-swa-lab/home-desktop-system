@@ -5,9 +5,9 @@ serializedGrammar
 	RootObjectFilter =
 		ConditionAggregation
 		| ObjectFilter
-		| Words
+		| UnstructuredQuery
 	
-	Words =
+	UnstructuredQuery =
 		any*
 	
 	ObjectFilter =
@@ -63,8 +63,12 @@ serializedGrammar
 	Attribute =
 		UnaryMessageSelector
 	    
-	AttributeValue =
-		constantReference
+	AttributeValue
+		= SmalltalkLiteral
+		| CodeBlock
+		
+	SmalltalkLiteral
+		= constantReference
 		| scaledDecimalLiteral
 		| floatingPointLiteral
 		| integerLiteral
@@ -72,5 +76,4 @@ serializedGrammar
 		| stringLiteral
 		| symbolLiteral
 		| ArrayLiteral
-		| CodeBlock
 }'

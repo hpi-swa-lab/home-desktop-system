@@ -1,0 +1,17 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addButton",
+		"maxNumberOfItems",
+		"wantedObjectAttribute",
+		"items" ],
+	"name" : "HObjectField",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

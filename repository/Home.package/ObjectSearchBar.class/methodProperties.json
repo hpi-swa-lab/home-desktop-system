@@ -1,9 +1,14 @@
 {
 	"class" : {
-		"build" : "pre 8/30/2017 09:20" },
+		"build" : "pre 8/30/2017 09:20",
+		"useAdvancedObjectSearch" : "stlu 5/31/2019 15:25",
+		"useAdvancedObjectSearch:" : "stlu 5/28/2019 07:41" },
 	"instance" : {
 		"activate:in:" : "pre 8/30/2017 09:35",
-		"buildWith:" : "pre 8/30/2017 09:35",
+		"advancedHelpText" : "stlu 5/28/2019 07:46",
+		"advancedSearch:" : "stlu 5/28/2019 08:08",
+		"buildWith:" : "stlu 5/28/2019 07:34",
+		"helpText" : "stlu 5/28/2019 07:42",
 		"menu:shifted:" : "pre 8/30/2017 09:18",
 		"removeResultsWidget" : "pre 8/30/2017 09:18",
 		"searchTerm" : "pre 8/30/2017 09:18",
@@ -11,4 +16,4 @@
 		"searchTermSilently:" : "pre 8/30/2017 09:18",
 		"selection" : "pre 8/30/2017 09:18",
 		"selection:" : "pre 8/30/2017 09:18",
-		"smartSearch:in:" : "pre 10/12/2017 20:13" } }
+		"smartSearch:in:" : "stlu 5/28/2019 08:04" } }

@@ -1,14 +1,12 @@
 *Home-SWDEva
 saveAsClassNamed: aClassNameString inCategory: aCategoryNameString
-	| classDefinition newClass |
+	| newClass |
 	
-	classDefinition := MCClassDefinition
-		name: ('HCustom', aClassNameString)
-		superclassName: self className
-		category: aCategoryNameString
-		instVarNames: self additionalStateKeys
-		comment: ''.
-	newClass := classDefinition createClass.
+	newClass := self class subclass: ('HCustom', aClassNameString capitalized) asSymbol
+		instanceVariableNames: self additionalStateKeys
+		classVariableNames: ''
+		poolDictionaries: ''
+		category: aCategoryNameString.
 	
 	self additionalStateKeys do: [:instVar |
 		(RBCreateAccessorsForVariableRefactoring

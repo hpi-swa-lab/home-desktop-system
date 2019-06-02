@@ -9,7 +9,7 @@ buildWith: builder
 		menu: #menu:shifted:;
 		selection: #selection;
 		indicateUnacceptedChanges: false;
-		help: 'Search for object' translated))
+		help: #helpText))
 			name: #objectSearchBar;
 			wantsFrameAdornments: false;
 			yourself
