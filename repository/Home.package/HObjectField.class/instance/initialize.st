@@ -10,7 +10,7 @@ initialize
 	self
 		color: Color white;
 		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
+		hResizing: #spaceFill;
 		changeTableLayout;
 		changeListDirection: #leftToRight;
 		cellInset: spacing;

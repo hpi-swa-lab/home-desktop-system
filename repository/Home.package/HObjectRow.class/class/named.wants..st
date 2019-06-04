@@ -1,5 +1,5 @@
 as yet unclassified
-named: aString wanting: aWantedAttributeSymbol
+named: aString wants: aWantedAttributeSymbol
 
 	^ self new
 		labelName: aString;

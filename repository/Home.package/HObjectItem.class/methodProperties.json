@@ -2,12 +2,13 @@
 	"class" : {
 		"for:" : "ek 5/29/2019 13:18" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "ek 5/29/2019 13:36",
+		"acceptDroppingMorph:event:" : "ek 6/4/2019 16:11",
 		"changeDisplayedKey:" : "ek 5/26/2019 23:36",
 		"closeButton" : "ek 5/29/2019 12:58",
 		"closeButton:" : "ek 5/29/2019 12:58",
-		"displayedKey" : "ek 5/26/2019 23:11",
-		"displayedKey:" : "ek 5/26/2019 23:11",
+		"display:" : "ek 6/4/2019 16:07",
+		"displayedKey" : "ek 6/4/2019 15:54",
+		"displayedKey:" : "ek 6/4/2019 15:54",
 		"getWantedAttribute" : "ek 6/3/2019 22:14",
 		"hideOrShowCloseButton" : "ek 5/29/2019 13:09",
 		"initialize" : "ek 5/29/2019 13:07",

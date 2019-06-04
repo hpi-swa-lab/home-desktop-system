@@ -7,7 +7,7 @@ initialize
 	"spacing := (TextStyle defaultFont height / 3) rounded."
 	
 	self label: StringMorph new.
-	self field: (HObjectField new hResizing: #spaceFill).
+	self field: HObjectField new.
 	
 	self
 		color: Color transparent;

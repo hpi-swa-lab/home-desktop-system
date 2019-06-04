@@ -1,3 +1,4 @@
 accessing
-displayedKey: anObject
-	displayedKey := anObject
+displayedKey: aSelectorSymbol
+
+	displayedKey := aSelectorSymbol

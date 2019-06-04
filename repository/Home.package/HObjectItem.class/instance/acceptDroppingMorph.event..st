@@ -1,4 +1,4 @@
-layout
+as yet unclassified
 acceptDroppingMorph: aMorph event: evt
 
 	| potentiallyWantedObject |
@@ -8,5 +8,4 @@ acceptDroppingMorph: aMorph event: evt
 		ifTrue: [UIManager default inform: 'Does not have required attribute: ', self wantedObjectAttribute asString.
 			^ self].
 
-	self object: potentiallyWantedObject.
-	self updateDisplayedString
+	self display: potentiallyWantedObject
