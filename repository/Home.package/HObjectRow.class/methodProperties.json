@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"named:wanting:" : "ek 6/3/2019 22:32",
+		"wanting:" : "ek 6/3/2019 22:21" },
+	"instance" : {
+		"field" : "ek 6/3/2019 22:19",
+		"field:" : "ek 6/3/2019 22:19",
+		"getWantedAttributes" : "ek 6/3/2019 22:31",
+		"initialize" : "ek 6/3/2019 22:37",
+		"label" : "ek 6/3/2019 22:19",
+		"label:" : "ek 6/3/2019 22:19",
+		"labelName" : "ek 6/3/2019 22:20",
+		"labelName:" : "ek 6/3/2019 22:28",
+		"privateLabelName:" : "ek 6/3/2019 22:28",
+		"privateWantedObjectAttribute:" : "ek 6/3/2019 22:33",
+		"wantedObjectAttribute" : "ek 6/3/2019 22:32",
+		"wantedObjectAttribute:" : "ek 6/3/2019 22:32" } }

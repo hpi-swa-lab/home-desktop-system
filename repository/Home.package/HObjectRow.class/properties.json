@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HMDMailComposition2",
+		"label",
+		"labelName",
+		"field",
+		"wantedObjectAttribute" ],
+	"name" : "HObjectRow",
 	"pools" : [
 		 ],
-	"super" : "MDMailComposition",
+	"super" : "Morph",
 	"type" : "normal" }
