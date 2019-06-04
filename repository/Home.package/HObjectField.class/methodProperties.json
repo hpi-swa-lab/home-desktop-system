@@ -5,6 +5,7 @@
 		"wants:maximal:" : "ek 5/29/2019 13:32" },
 	"instance" : {
 		"addNewObjectItem" : "ek 5/29/2019 13:15",
+		"getWantedAttributes" : "ek 6/3/2019 22:16",
 		"hideOrShowAddButtonIfNecessary" : "ek 5/29/2019 12:48",
 		"initialize" : "ek 5/29/2019 13:15",
 		"items" : "ek 5/29/2019 13:15",
