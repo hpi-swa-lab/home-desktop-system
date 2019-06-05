@@ -20,12 +20,7 @@ buildWorldMenu
 		}.
 		
 	domainObjectMenu := self menu: 'Create new object'.
-	self 
-		fillIn: domainObjectMenu
-		from: ((DomainObject allSubclasses sorted: [:a :b | a name < b name])
-				collect: [:class | | formattedClassName |
-					formattedClassName := class printString.
-					{formattedClassName . {class . #openNewInObjectEditor} . 'Create a new ' , formattedClassName}]).
+	self fillIn: domainObjectMenu from: self dataForNewObjectMenu.
 	menu add: 'Create new object' subMenu: domainObjectMenu.
 		
 	"self addProjectEntries: menu."

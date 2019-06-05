@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"allTemplates" : "eb 6/5/2019 20:49",
 		"allTypeObjectsOf:" : "eb 4/26/2019 13:28",
 		"instance" : "eb 4/26/2019 13:11",
 		"is:ofType:" : "eb 4/26/2019 13:13" },
 	"instance" : {
-		"fits:" : "eb 5/5/2019 18:59" } }
+		"fits:" : "eb 6/4/2019 13:04",
+		"templates" : "eb 6/5/2019 21:55" } }
