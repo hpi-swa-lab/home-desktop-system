@@ -1,4 +1,4 @@
-*Home-Searching
+*Home-Search
 isSimilarTo: anObject
 
 	anObject isString ifTrue: [
