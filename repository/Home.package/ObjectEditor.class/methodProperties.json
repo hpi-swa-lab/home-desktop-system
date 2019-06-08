@@ -5,13 +5,14 @@
 		"openOn:" : "pre 2/8/2019 08:34",
 		"splitIdentifier:" : "pre 7/11/2018 20:06" },
 	"instance" : {
+		"acceptDroppingMorph:event:" : "JK 6/8/2019 17:07",
 		"addBadge" : "ek 5/8/2019 09:27",
 		"addNewField" : "eb 5/27/2019 22:32",
 		"badge" : "pre 6/8/2018 16:41",
 		"badge:" : "pre 6/8/2018 16:40",
 		"badgeWasClicked" : "pre 7/3/2018 09:15",
 		"initialize" : "pre 9/21/2018 09:45",
-		"initializeEventsFrom:with:" : "pre 7/12/2018 13:26",
+		"initializeEventsFrom:with:" : "JK 6/8/2019 17:08",
 		"inputToSelector:" : "eb 5/27/2019 22:53",
 		"instance" : "pre 6/8/2018 16:16",
 		"instance:" : "pre 7/12/2018 13:31",
@@ -22,4 +23,5 @@
 		"turnIntoClass" : "ek 5/26/2019 22:35",
 		"updateEditingWidgetFor:" : "pre 7/3/2018 09:05",
 		"updateEditingWidgetIn:for:" : "pre 7/9/2018 10:41",
-		"updateLabelIn:for:" : "pre 9/21/2018 09:47" } }
+		"updateLabelIn:for:" : "pre 9/21/2018 09:47",
+		"wantsDroppedMorph:event:" : "JK 6/2/2019 14:47" } }
