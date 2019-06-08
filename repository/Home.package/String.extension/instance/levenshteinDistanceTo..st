@@ -1,24 +1,38 @@
-*Home-Core
+*Home-Searching
 levenshteinDistanceTo: aString 
+
+	| previousRow currentRow rowSize |
+	(self isEmpty or: [aString isEmpty]) ifTrue: [
+		^ self = aString
+			ifTrue: [0]
+			ifFalse: [self size max: aString size]].
 	
-	| sourceString targetString costs |
+	rowSize := self size + 1.
+	currentRow := Array new: rowSize.
+	previousRow := Array new: rowSize.
 	
-	sourceString := self asLowercase.
-	targetString := aString asLowercase.
+	1 to: rowSize do: [:i |
+		previousRow at: i put: i - 1].
 	
-	costs := Matrix rows: sourceString size + 1 columns: targetString size + 1 element: 0.
-	
-	costs atColumn: 1 put: (0 to: sourceString size).
-	costs atRow: 1 put: (0 to: targetString size).
-	
-	targetString withIndexDo: [:targetCharacter :targetIndex |
-		sourceString withIndexDo: [:sourceCharacter :sourceIndex | | cost |
-			cost := targetCharacter = sourceCharacter ifTrue: [0] ifFalse: [1].
-			
-			costs at: sourceIndex + 1 at: targetIndex + 1 put: ({
-				(costs at: sourceIndex + 1 at: targetIndex) + 1 . "deletion" 
-				(costs at: sourceIndex at: targetIndex + 1) + 1 . "insertion"
-				(costs at: sourceIndex at: targetIndex) + cost . "potential substitution"
-			} min) ]].
-	
-	^ costs at: costs rowCount at: costs columnCount 
+	1 to: aString size do: [:j | 	
+		| otherChar tmp |
+		otherChar := aString at: j.
+		currentRow at: 1 put: j.
+		
+		1 to: self size do: [:i |
+			| cost |
+			cost := (self at: i) = otherChar
+						ifTrue: [0]
+						ifFalse: [1].
+			currentRow
+				at: i + 1
+				put: (
+					((currentRow at: i) + 1 "left (deletion)"
+						min: (previousRow at: i + 1) + 1) "upper left (substitution)"
+						min: (previousRow at: i) + cost)]. "up (insertion)"
+		
+		tmp := previousRow.
+		previousRow := currentRow.
+		currentRow := tmp].
+
+	^ previousRow at: rowSize

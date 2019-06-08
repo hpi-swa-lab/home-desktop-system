@@ -2,4 +2,4 @@ as yet unclassified
 textToDisplay
 
 	self object ifNil: [^ ''].
-	^  (self object perform: self displayedKey) asString
+	^  (self object answer: self displayedKey or: 'this object does not understand ', self displayedKey asString) asString

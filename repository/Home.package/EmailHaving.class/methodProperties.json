@@ -4,5 +4,6 @@
 	"instance" : {
 		"emailAttribute:" : "eb 5/24/2019 10:26",
 		"fits:" : "eb 5/24/2019 10:28",
-		"interactiveSendMailDynamic:" : "eb 5/24/2019 10:40",
-		"interactiveSendMailToAll:" : "eb 5/17/2019 17:54" } }
+		"interactiveSendMail:" : "eb 6/4/2019 12:52",
+		"interactiveSendMailToAll:" : "eb 5/28/2019 09:32",
+		"templates" : "eb 6/5/2019 21:16" } }

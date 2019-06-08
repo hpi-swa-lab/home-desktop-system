@@ -1,0 +1,17 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"labelName",
+		"field",
+		"wantedObjectAttribute" ],
+	"name" : "HObjectRow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

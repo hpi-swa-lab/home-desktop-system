@@ -22,3 +22,4 @@ SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
 SystemOrganization addCategory: #'Home-Searching-Tests'!
 SystemOrganization addCategory: #'Home-Searching'!
+SystemOrganization addCategory: #'Home-Database'!

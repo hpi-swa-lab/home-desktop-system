@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"instantiateFromJsonDocument:" : "AR 5/30/2019 21:04" },
 	"instance" : {
 		"allInstVars" : "stlu 5/21/2019 09:54",
+		"asJsonDocument" : "AR 5/30/2019 20:43",
 		"asSurrogate" : "pre 7/12/2018 15:28",
 		"basicRespondsTo:" : "eb 5/22/2019 20:06",
 		"cleanse" : "pre 4/24/2019 15:33",

@@ -1,4 +1,6 @@
 as yet unclassified
 for: anObjectField
 
-	^ self new objectField: anObjectField
+	^ self new
+		objectField: anObjectField;
+		wantedObjectAttribute: anObjectField wantedObjectAttribute

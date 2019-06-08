@@ -1,0 +1,3 @@
+accessing
+maxNumberOfItems
+	^ maxNumberOfItems

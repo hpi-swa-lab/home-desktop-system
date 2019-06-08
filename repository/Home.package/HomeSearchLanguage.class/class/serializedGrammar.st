@@ -63,8 +63,12 @@ serializedGrammar
 	Attribute =
 		UnaryMessageSelector
 	    
-	AttributeValue =
-		constantReference
+	AttributeValue
+		= SmalltalkLiteral
+		| CodeBlock
+		
+	SmalltalkLiteral
+		= constantReference
 		| scaledDecimalLiteral
 		| floatingPointLiteral
 		| integerLiteral
@@ -72,5 +76,4 @@ serializedGrammar
 		| stringLiteral
 		| symbolLiteral
 		| ArrayLiteral
-		| CodeBlock
 }'

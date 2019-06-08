@@ -8,7 +8,10 @@
 	"instvars" : [
 		"textField",
 		"displayedKey",
-		"objectField" ],
+		"objectField",
+		"closeButton",
+		"isClosable",
+		"wantedObjectAttribute" ],
 	"name" : "HObjectItem",
 	"pools" : [
 		 ],
