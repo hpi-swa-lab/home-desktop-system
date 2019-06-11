@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uuidOfObject" ],
-	"name" : "DomainObjectOnDisk",
+		 ],
+	"name" : "CurrentlySerializedDomainObject",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DynamicVariable",
 	"type" : "normal" }

@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uuidOfObject" ],
-	"name" : "DomainObjectOnDisk",
+		"uuid",
+		"label" ],
+	"name" : "DomainObjectLink",
 	"pools" : [
 		 ],
 	"super" : "Object",
