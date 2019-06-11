@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "pre 7/10/2018 14:50",
 		"addNewFieldRequested" : "pre 8/18/2018 10:39",
 		"createIconMorph" : "pre 6/29/2018 15:38",
 		"createTextMorph" : "pre 6/29/2018 15:37",
@@ -18,5 +17,4 @@
 		"startDragging:" : "pre 7/7/2018 10:54",
 		"turnIntoClassRequested" : "ek 5/8/2019 09:27",
 		"update:" : "pre 6/29/2018 15:04",
-		"updateSubmorphs" : "pre 7/3/2018 14:55",
-		"wantsDroppedMorph:event:" : "pre 7/10/2018 13:40" } }
+		"updateSubmorphs" : "pre 7/3/2018 14:55" } }
