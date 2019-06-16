@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"edit" : "eb 6/16/2019 11:26",
-		"fillInitialPriorities" : "eb 6/16/2019 11:35",
+		"fillInitialPriorities" : "eb 6/16/2019 12:07",
 		"indexOf:" : "eb 6/16/2019 11:20",
 		"initialize" : "eb 6/16/2019 11:23",
-		"prioritiesChanged" : "eb 6/16/2019 11:26",
+		"inspectTypes" : "eb 6/16/2019 12:04",
+		"prioritiesChanged" : "eb 6/16/2019 12:05",
 		"reset" : "eb 6/16/2019 11:26",
 		"sort:" : "eb 6/12/2019 16:53" },
 	"instance" : {

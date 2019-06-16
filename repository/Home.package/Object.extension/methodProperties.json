@@ -14,6 +14,7 @@
 		"isAnyOf:" : "pre 6/30/2017 15:51",
 		"isBoolean" : "pre 6/6/2019 17:27",
 		"isDiaryEntry" : "pre 3/7/2017 20:52",
+		"isDomainObject" : "eb 6/16/2019 11:58",
 		"isEvent" : "pre 3/15/2017 17:35",
 		"isExtended" : "pre 8/4/2017 10:54",
 		"isPerson" : "pre 4/24/2017 10:10",
