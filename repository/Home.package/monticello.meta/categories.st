@@ -1,7 +1,6 @@
 SystemOrganization addCategory: #'Home-Behavior'!
 SystemOrganization addCategory: #'Home-Bibliography'!
 SystemOrganization addCategory: #'Home-Core'!
-SystemOrganization addCategory: #'Home-Core-Tests'!
 SystemOrganization addCategory: #'Home-DataIntegrity'!
 SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
@@ -22,3 +21,4 @@ SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
 SystemOrganization addCategory: #'Home-Searching-Tests'!
 SystemOrganization addCategory: #'Home-Searching'!
+SystemOrganization addCategory: #'Home-Database'!

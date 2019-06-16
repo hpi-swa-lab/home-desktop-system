@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"named:wants:" : "ek 6/4/2019 15:16",
+		"wants:" : "ek 6/4/2019 15:16",
+		"wants:labelMinWidth:" : "ek 6/4/2019 15:38" },
+	"instance" : {
+		"display:" : "ek 6/4/2019 16:06",
+		"field" : "ek 6/3/2019 22:19",
+		"field:" : "ek 6/3/2019 22:19",
+		"getWantedAttributes" : "ek 6/3/2019 22:31",
+		"initialize" : "ek 6/4/2019 15:18",
+		"label" : "ek 6/3/2019 22:19",
+		"label:" : "ek 6/3/2019 22:19",
+		"labelName" : "ek 6/3/2019 22:20",
+		"labelName:" : "ek 6/3/2019 22:28",
+		"privateLabelName:" : "ek 6/3/2019 22:28",
+		"privateWantedObjectAttribute:" : "ek 6/3/2019 22:33",
+		"wantedObjectAttribute" : "ek 6/3/2019 22:32",
+		"wantedObjectAttribute:" : "ek 6/4/2019 15:46" } }

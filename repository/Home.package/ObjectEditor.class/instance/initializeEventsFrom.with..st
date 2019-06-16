@@ -10,3 +10,4 @@ initializeEventsFrom: aRow with: aWrapper
 		aWrapper initializeField].
 	aRow when: #objectEditorAdd evaluate: [
 		self renewFields].
+	aRow when: #addCollection evaluate: [:obj | aWrapper setValueTo: obj].

@@ -1,6 +1,7 @@
 conditions
 immediate: aValue
 
-	^ HomeSearchImmediate new
-		value: aValue;
-		yourself
+	^ self
+		compare: (self immediateValue: true)
+		with: aValue
+		using: #=

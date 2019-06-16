@@ -1,3 +1,5 @@
 dynamic behavior
 performType: typeObject Operation: operation
-	^ typeObject perform: operation withArguments: {self}.
+	^ (operation numArgs > 1)
+		ifFalse: [typeObject perform: operation withArguments: {self}]
+		ifTrue: [self performType: typeObject operationWithArgs: operation].

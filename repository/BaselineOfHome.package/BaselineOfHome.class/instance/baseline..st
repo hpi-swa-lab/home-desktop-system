@@ -24,12 +24,14 @@ baseline: spec
 					[ spec repository: 'github://codezeilen/SMailDir/repository' ];
 				package: 'TiledMaps' with: 
 					[ spec repository: 'http://www.squeaksource.com/TiledMaps' ];
+				baseline: 'Scheduler' with: 
+					[ spec repository: 'github://codezeilen/scheduler/packages' ];
 				package: 'Home' with: [spec requires: #('libraries' 'tools')];
 				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself

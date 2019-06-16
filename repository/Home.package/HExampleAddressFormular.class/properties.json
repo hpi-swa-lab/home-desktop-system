@@ -1,0 +1,14 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"attributesNeeded" ],
+	"name" : "HExampleAddressFormular",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
