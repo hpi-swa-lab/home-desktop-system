@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptDroppingMorph:event:inMorph:" : "ek 5/6/2019 18:18",
-		"doSendMail" : "ek 5/6/2019 18:22",
-		"recipientObject" : "ek 5/6/2019 17:33",
-		"recipientObject:" : "ek 5/6/2019 17:33" } }
+		"buildWith:" : "ek 6/4/2019 15:16",
+		"doSendMail" : "ek 6/3/2019 22:45",
+		"mailRecipientField" : "ek 6/3/2019 22:07",
+		"mailRecipientField:" : "ek 6/3/2019 22:07" } }

@@ -1,0 +1,4 @@
+initialization
+defaultRowLabelWidth
+
+	^ 80

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "ek 5/26/2019 22:40",
 	"instvars" : [
-		"recipientObject" ],
+		"mailRecipientField" ],
 	"name" : "HMDMailComposition",
 	"pools" : [
 		 ],

@@ -2,5 +2,5 @@
 isSimilarTo: anObject
 
 	anObject isString ifTrue: [
-		^ (self asLowercase levenshteinDistanceTo: anObject asLowercase) < 5].
+		^ (self levenshteinDistanceTo: anObject) < 5].
 	^ super isSimilarTo: anObject
