@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Database",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"syncGateway",
+		"collection" ],
+	"name" : "HomeDBSyncCollection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

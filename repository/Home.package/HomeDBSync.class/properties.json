@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Database",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"database",
+		"websocket" ],
+	"name" : "HomeDBSync",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
