@@ -1,0 +1,3 @@
+Rack
+baseMenuOperationsName
+	^ 'DomainObject'
