@@ -1,5 +1,5 @@
 as yet unclassified
 fits: testDomainObject
-	| doneAttribute |
-	doneAttribute := (ToDoLike instance doneAttribute: testDomainObject).
-	^  doneAttribute notNil and: [doneAttribute value not].
+	| attribute |
+	attribute := (ToDoLike instance doneAttribute: testDomainObject).
+	^ attribute notNil and: [attribute value isBoolean] and: [attribute value not].

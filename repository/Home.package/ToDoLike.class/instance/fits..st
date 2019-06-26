@@ -1,3 +1,5 @@
 as yet unclassified
 fits: testDomainObject
-	^ (self doneAttribute: testDomainObject) notNil
+	| attribute |
+	attribute := (self doneAttribute: testDomainObject).
+	^ attribute notNil and: [attribute value isBoolean].
