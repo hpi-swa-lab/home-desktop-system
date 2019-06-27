@@ -11,8 +11,7 @@
 		"departureLocation",
 		"type",
 		"passengers",
-		"departureTime",
-		"arrivalTime",
+		"timeInterval",
 		"id" ],
 	"name" : "HTrip",
 	"pools" : [

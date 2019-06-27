@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newFrom:withSync:" : "AR 6/16/2019 16:31" },
+	"instance" : {
+		"add:" : "AR 6/20/2019 13:13",
+		"collection" : "AR 6/16/2019 12:52",
+		"collection:" : "AR 6/16/2019 12:52",
+		"doesNotUnderstand:" : "AR 6/16/2019 13:40",
+		"remove:" : "AR 6/20/2019 13:14",
+		"syncGateway" : "AR 6/16/2019 16:26",
+		"syncGateway:" : "AR 6/16/2019 16:26" } }

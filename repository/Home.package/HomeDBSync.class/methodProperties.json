@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newFromDb:" : "AR 5/31/2019 16:52",
+		"websocketUrlScheme" : "AR 5/31/2019 16:48" },
+	"instance" : {
+		"connectWebsocket" : "AR 6/16/2019 11:34",
+		"database" : "AR 5/31/2019 16:46",
+		"database:" : "AR 5/31/2019 16:46",
+		"loadRevision:forId:" : "AR 6/16/2019 16:29",
+		"loadTransactions:" : "AR 6/16/2019 11:29",
+		"onChange:" : "AR 5/31/2019 16:53",
+		"storeObject:" : "AR 6/16/2019 17:44",
+		"update:with:" : "AR 6/23/2019 14:40",
+		"websocket" : "AR 5/31/2019 16:46",
+		"websocket:" : "AR 5/31/2019 16:46" } }
