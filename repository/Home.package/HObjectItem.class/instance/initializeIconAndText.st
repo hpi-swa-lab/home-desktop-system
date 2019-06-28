@@ -5,8 +5,8 @@ initializeIconAndText
 	
 	| spacing icon |
 	spacing := (TextStyle defaultFont height / 5) rounded.
-	self textField: (TextMorph new
-		contents: self textToDisplay;
+	self privateTextField: (TextMorph new
+		contents: self getWantedObjectAttributeAsString;
 		lock;
 		yourself).
 	
@@ -24,8 +24,5 @@ initializeIconAndText
 		cellInset: spacing;
 		layoutInset: spacing;
 		addMorphFront: icon;
-		addMorphBack: self textField;
-		addMorphBack: self searchButton;
-		addMorphBack: self closeButton.
-		
-	self hideOrShowCloseButton
+		addMorphBack: self privateTextField;
+		addMorphBack: self privateSearchButton

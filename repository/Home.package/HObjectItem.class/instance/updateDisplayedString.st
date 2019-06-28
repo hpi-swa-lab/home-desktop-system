@@ -3,7 +3,7 @@ updateDisplayedString
 
 	| objectToDisplay |
 	(objectToDisplay := self objectToDisplay) isString
-			ifTrue: [self textField removeAllMorphs.
-				self textField contents: objectToDisplay]
-			ifFalse: [self textField contents: ''.
-				self textField addMorph: objectToDisplay asMorph]
+			ifTrue: [self privateTextField removeAllMorphs.
+				self privateTextField contents: objectToDisplay]
+			ifFalse: [self privateTextField contents: ''.
+				self privateTextField addMorph: objectToDisplay asMorph]

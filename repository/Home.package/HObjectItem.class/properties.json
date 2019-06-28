@@ -8,11 +8,9 @@
 	"instvars" : [
 		"parentWidget",
 		"textField",
-		"displayedKey",
 		"searchButton",
-		"closeButton",
-		"isClosable",
-		"wantedObjectAttribute" ],
+		"displayedKey",
+		"wantedObjectAttributeKey" ],
 	"name" : "HObjectItem",
 	"pools" : [
 		 ],

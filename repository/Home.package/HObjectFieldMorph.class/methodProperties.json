@@ -3,5 +3,13 @@
 		 },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "ek 6/28/2019 21:19",
-		"addDomainObjectBack:" : "ek 6/28/2019 21:23",
-		"createInTextItemFor:" : "ek 6/28/2019 21:25" } }
+		"addDomainObjectBack:" : "ek 6/28/2019 22:33",
+		"createInTextItemFor:" : "ek 6/28/2019 22:34",
+		"initialize" : "ek 6/28/2019 22:35",
+		"privateTextMorph" : "ek 6/28/2019 22:26",
+		"privateTextMorph:" : "ek 6/28/2019 22:26",
+		"testGetTextFromInnerMorphs" : "ek 6/28/2019 22:51",
+		"text" : "ek 6/28/2019 22:28",
+		"text:" : "ek 6/28/2019 22:30",
+		"wantedObjectAttributeKey" : "ek 6/28/2019 22:33",
+		"wantedObjectAttributeKey:" : "ek 6/28/2019 22:33" } }

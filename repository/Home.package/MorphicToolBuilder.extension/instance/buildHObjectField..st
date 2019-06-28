@@ -1,4 +1,4 @@
 *Home-SWDEva
 buildHObjectField: aSpec
 
-	^ HOldObjectField new
+	^ HObjectFieldMorph new
