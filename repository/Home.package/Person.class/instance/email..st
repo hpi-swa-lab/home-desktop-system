@@ -1,4 +1,4 @@
 accessing
 email: anObject
 
-	email := anObject
+	email := anObject.

@@ -3,4 +3,5 @@ removeAdditionalStateAt: selector
 
 	additionalState removeKey: selector asSymbol.
 	self changed.
+	self triggerEvent: #objectEditorStructureChanged.
 	^ self

@@ -1,4 +1,4 @@
 as yet unclassified
 arrivalTime: aDateAndTime
 
-	arrivalTime := aDateAndTime
+	timeInterval start: aDateAndTime

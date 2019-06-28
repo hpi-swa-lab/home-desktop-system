@@ -1,4 +1,4 @@
 as yet unclassified
 arrivalTime
 
-	^ arrivalTime
+	^ timeInterval start
