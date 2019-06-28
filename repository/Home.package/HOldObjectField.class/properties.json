@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"label",
-		"labelName",
-		"field",
-		"wantedObjectAttribute" ],
-	"name" : "HObjectRow",
+		"addButton",
+		"maxNumberOfItems",
+		"wantedObjectAttribute",
+		"items" ],
+	"name" : "HOldObjectField",
 	"pools" : [
 		 ],
 	"super" : "Morph",

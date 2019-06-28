@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parentWidget",
 		"textField",
 		"displayedKey",
-		"objectField",
+		"searchButton",
 		"closeButton",
 		"isClosable",
 		"wantedObjectAttribute" ],

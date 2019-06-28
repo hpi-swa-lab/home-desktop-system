@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HObjectField",
+		"label",
+		"labelName",
+		"field",
+		"wantedObjectAttribute" ],
+	"name" : "HOldObjectRow",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Morph",
 	"type" : "normal" }

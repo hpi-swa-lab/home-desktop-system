@@ -14,8 +14,8 @@ initialize
 		changeListDirection: #topToBottom;
 		cellInset: self defaultSpacing;
 		layoutInset: self defaultSpacing;
-		addMorph: (HObjectRow wants: #name labelMinWidth: self defaultRowLabelWidth);
-		addMorph: (HObjectRow wants: #street labelMinWidth: self defaultRowLabelWidth);
-		addMorph: (HObjectRow wants: #city labelMinWidth: self defaultRowLabelWidth);
-		addMorph: (HObjectRow wants: #postcode labelMinWidth: self defaultRowLabelWidth);
-		addMorph: (HObjectRow wants: #email labelMinWidth: self defaultRowLabelWidth)
+		addMorph: (HOldObjectRow wants: #name labelMinWidth: self defaultRowLabelWidth);
+		addMorph: (HOldObjectRow wants: #street labelMinWidth: self defaultRowLabelWidth);
+		addMorph: (HOldObjectRow wants: #city labelMinWidth: self defaultRowLabelWidth);
+		addMorph: (HOldObjectRow wants: #postcode labelMinWidth: self defaultRowLabelWidth);
+		addMorph: (HOldObjectRow wants: #email labelMinWidth: self defaultRowLabelWidth)
