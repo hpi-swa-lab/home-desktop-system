@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"syncGateway" ],
-	"name" : "HomeDBSyncCollection",
+		"targetUuid",
+		"targetLabel" ],
+	"name" : "HomeDBEntityConnection",
 	"pools" : [
 		 ],
-	"super" : "IdentitySet",
+	"super" : "Object",
 	"type" : "normal" }
