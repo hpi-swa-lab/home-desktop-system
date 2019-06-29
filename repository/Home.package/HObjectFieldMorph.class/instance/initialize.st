@@ -5,6 +5,9 @@ initialize
 	
 	self privateTextMorph: (PluggableTextMorphPlus new
 		extent: 500@10;
+		setText: '';
+		model: self;
+		editTextSelector: #textChanged:;
 		changeTableLayout;
 		hResizing: #shrinkWrap;
 		vResizing: #spaceFill).
