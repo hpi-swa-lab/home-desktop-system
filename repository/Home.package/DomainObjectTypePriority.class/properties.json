@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Types" ],
+	"commentStamp" : "eb 6/12/2019 16:18",
+	"instvars" : [
+		 ],
+	"name" : "DomainObjectTypePriority",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

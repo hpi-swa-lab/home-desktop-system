@@ -1,4 +1,4 @@
 accessing
-displayedKey: aSelectorSymbol
+displayedKey: aSymbol
 
-	displayedKey := aSelectorSymbol
+	displayedKey := aSymbol

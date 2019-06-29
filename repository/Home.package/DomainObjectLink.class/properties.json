@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uuid",
+		"label" ],
+	"name" : "DomainObjectLink",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

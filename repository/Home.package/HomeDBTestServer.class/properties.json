@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Database-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"port" ],
+	"name" : "HomeDBTestServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

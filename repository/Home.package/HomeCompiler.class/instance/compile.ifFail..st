@@ -1,14 +1,8 @@
 public access
 compile: aCue ifFail: failBlock 
 
-	| newCode rewriter |
-	rewriter := (OhmSmalltalk synthesizedAttribute: HomeInstanceVariableAccess new)
-		variablesToBeReplaced: ((aCue getClass instVarNames) collect: [:s | s asSymbol]);
-		yourself.
-	
-	newCode := rewriter value: (OhmSmalltalk 
-					match: aCue sourceStream contents asString 
-					startingFrom: #MethodDeclaration).
+	| newCode |
+	newCode := self transformCode: aCue sourceStream contents asString class: aCue getClass.
 	
 	^ super compile: (CompilationCue
 						source: newCode

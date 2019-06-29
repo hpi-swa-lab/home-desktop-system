@@ -1,0 +1,3 @@
+testing
+isDomainObject
+	^ true

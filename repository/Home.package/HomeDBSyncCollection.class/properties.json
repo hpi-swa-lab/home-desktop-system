@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Database",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"syncGateway" ],
+	"name" : "HomeDBSyncCollection",
+	"pools" : [
+		 ],
+	"super" : "IdentitySet",
+	"type" : "normal" }

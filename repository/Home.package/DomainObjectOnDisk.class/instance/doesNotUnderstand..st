@@ -2,6 +2,6 @@ system primitives
 doesNotUnderstand: aMessage
 
 	| newInstance |
-	newInstance := self readObject.
+	newInstance := self readFullObject.
 	self becomeForward: newInstance.
 	^ aMessage sendTo: newInstance

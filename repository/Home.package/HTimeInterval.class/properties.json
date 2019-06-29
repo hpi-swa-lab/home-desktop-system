@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timespan" ],
+	"name" : "HTimeInterval",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

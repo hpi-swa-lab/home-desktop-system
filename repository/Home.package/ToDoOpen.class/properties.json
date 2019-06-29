@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Behavior",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ToDoOpen",
+	"pools" : [
+		 ],
+	"super" : "DomainObjectType",
+	"type" : "normal" }

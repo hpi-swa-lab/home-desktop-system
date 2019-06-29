@@ -1,6 +1,8 @@
 as yet unclassified
-for: anObjectField
+for: aParentWidget
+
+	self flag: #todo. "how is the initial displayedKey set? Does Erik's stuff make this obsolete?"
 
 	^ self new
-		objectField: anObjectField;
-		wantedObjectAttribute: anObjectField wantedObjectAttribute
+		privateParentWidget: aParentWidget;
+		displayedKey: #email

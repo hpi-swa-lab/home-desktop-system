@@ -1,15 +1,18 @@
 {
 	"class" : {
-		"newFromName:adaptor:" : "AR 5/29/2019 15:34" },
+		"newFromName:adaptor:" : "AR 5/29/2019 15:34",
+		"newFromName:host:port:" : "AR 5/31/2019 16:41" },
 	"instance" : {
 		"adaptor" : "AR 5/26/2019 15:39",
 		"adaptor:" : "AR 5/26/2019 15:39",
 		"at:" : "AR 5/29/2019 15:38",
-		"at:put:" : "AR 5/29/2019 11:57",
+		"at:put:" : "AR 6/28/2019 17:36",
 		"dbName" : "AR 5/26/2019 15:45",
 		"dbName:" : "AR 5/26/2019 15:45",
 		"documentToObject:" : "AR 5/30/2019 21:05",
 		"handleDuplicate:forDocument:" : "AR 5/27/2019 21:29",
 		"handleResponse:forDocument:" : "AR 5/27/2019 21:09",
-		"jsonAt:" : "AR 5/27/2019 21:21",
-		"jsonAt:put:" : "AR 5/27/2019 21:34" } }
+		"host" : "AR 5/31/2019 16:48",
+		"jsonAt:" : "AR 6/23/2019 14:53",
+		"jsonAt:put:" : "AR 5/27/2019 21:34",
+		"port" : "AR 5/31/2019 16:49" } }

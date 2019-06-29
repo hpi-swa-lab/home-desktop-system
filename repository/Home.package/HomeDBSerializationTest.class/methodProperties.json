@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"database" : "AR 6/28/2019 22:45",
+		"database:" : "AR 6/28/2019 22:45",
+		"serializeDictionary" : "AR 6/28/2019 22:44",
+		"server" : "AR 6/29/2019 16:51",
+		"server:" : "AR 6/29/2019 16:51",
+		"setUp" : "AR 6/29/2019 16:51",
+		"testDictionarySerialization" : "AR 6/29/2019 18:00",
+		"testDomainObjectSerialization" : "AR 6/29/2019 18:00",
+		"testDomainObjectSerializationWithExternObject" : "AR 6/29/2019 18:00" } }
