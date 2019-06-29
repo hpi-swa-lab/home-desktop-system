@@ -1,4 +1,4 @@
 as yet unclassified
 departureTime
 
-	^ departureTime
+	^ timeInterval end

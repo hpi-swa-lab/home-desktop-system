@@ -1,0 +1,14 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HObjectField",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

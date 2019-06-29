@@ -1,4 +1,4 @@
 as yet unclassified
 duration
 
-	^ arrivalTime - departureTime
+	^ timeInterval duration
