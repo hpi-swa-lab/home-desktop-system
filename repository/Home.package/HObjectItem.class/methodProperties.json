@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"for:" : "ek 6/28/2019 22:23",
+		"for:" : "cmfcmf 6/29/2019 16:48",
 		"for:with:" : "ek 6/28/2019 22:22" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "ek 6/28/2019 21:55",
@@ -12,6 +12,7 @@
 		"getWantedObjectAttributeAsString" : "ek 6/28/2019 22:43",
 		"initialize" : "ek 6/28/2019 22:15",
 		"initializeIconAndText" : "ek 6/28/2019 22:43",
+		"object:" : "cmfcmf 6/29/2019 18:14",
 		"objectToDisplay" : "ek 6/18/2019 06:44",
 		"potentiallyDisplay:" : "ek 6/28/2019 22:18",
 		"privateDisplayedKey" : "ek 6/28/2019 21:59",

@@ -1,8 +1,8 @@
 as yet unclassified
-newFrom: aCollection withSync: aSyncGateway
+withSync: aSyncGateway named: aName
 	
 	| instance |
 	instance := self new.
+	instance identifier: aName.
 	instance syncGateway: aSyncGateway.
-	instance collection do: [:each | self add: each].
 	^ instance
