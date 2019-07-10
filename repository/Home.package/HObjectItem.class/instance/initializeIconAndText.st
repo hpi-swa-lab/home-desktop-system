@@ -25,4 +25,5 @@ initializeIconAndText
 		layoutInset: spacing;
 		addMorphFront: icon;
 		addMorphBack: self privateTextField;
-		addMorphBack: self privateSearchButton
+		addMorphBack: self privateSearchButton;
+		addMorphBack: self privateChooseDisplayedButton

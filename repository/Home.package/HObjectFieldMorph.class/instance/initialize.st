@@ -18,4 +18,5 @@ initialize
 		vResizing: #shrinkWrap;
 		dropEnabled: true;
 		color: Color white;
-		addMorph: self privateTextMorph
+		addMorph: self privateTextMorph;
+		wantedObjectAttributeKey: #nil
