@@ -1,15 +1,14 @@
 {
-	"category" : "Home-Database",
+	"category" : "Home-Database-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"syncGateway",
-		"identifier" ],
-	"name" : "HomeDBSyncCollection",
+		"syncGateway" ],
+	"name" : "HomeDBSyncTest",
 	"pools" : [
 		 ],
-	"super" : "IdentitySet",
+	"super" : "TestCase",
 	"type" : "normal" }

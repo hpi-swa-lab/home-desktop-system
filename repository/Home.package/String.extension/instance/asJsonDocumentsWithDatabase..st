@@ -1,4 +1,6 @@
 *Home-Database
 asJsonDocumentsWithDatabase: aDatabase
+
+	^ self
+
 	
-	^ self asJsonDocumentsWithDatabaseIntern: aDatabase
