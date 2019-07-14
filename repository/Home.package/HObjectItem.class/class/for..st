@@ -5,4 +5,4 @@ for: aParentWidget
 
 	^ self new
 		privateParentWidget: aParentWidget;
-		displayedKey: #email
+		displayedKey: aParentWidget wantedObjectAttributeKey

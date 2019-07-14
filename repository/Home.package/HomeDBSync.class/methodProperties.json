@@ -3,13 +3,17 @@
 		"newFromDb:" : "AR 5/31/2019 16:52",
 		"websocketUrlScheme" : "AR 5/31/2019 16:48" },
 	"instance" : {
+		"channels" : "AR 6/30/2019 12:20",
+		"channels:" : "AR 6/30/2019 12:20",
+		"channelsParameter" : "AR 6/30/2019 12:50",
 		"connectWebsocket" : "AR 6/27/2019 14:08",
 		"database" : "AR 5/31/2019 16:46",
 		"database:" : "AR 5/31/2019 16:46",
-		"loadRevision:forId:" : "AR 6/16/2019 16:29",
+		"loadRevision:forId:" : "AR 7/7/2019 20:51",
 		"loadTransactions:" : "AR 6/16/2019 11:29",
 		"onChange:" : "AR 5/31/2019 16:53",
 		"storeObject:" : "AR 6/16/2019 17:44",
 		"update:with:" : "AR 6/23/2019 14:40",
 		"websocket" : "AR 5/31/2019 16:46",
-		"websocket:" : "AR 5/31/2019 16:46" } }
+		"websocket:" : "AR 5/31/2019 16:46",
+		"websocketUrl" : "AR 6/30/2019 12:31" } }

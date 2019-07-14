@@ -1,0 +1,4 @@
+*Home-Database
+toObject
+
+	^ self

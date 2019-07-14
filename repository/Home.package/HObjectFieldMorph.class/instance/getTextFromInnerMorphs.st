@@ -1,5 +1,5 @@
 as yet unclassified
-testGetTextFromInnerMorphs
+getTextFromInnerMorphs
 
 	| offset text |
 	text := self text asString.
@@ -9,8 +9,8 @@ testGetTextFromInnerMorphs
 	self text runs withStartStopAndValueDo: [:start :stop :attributes | attributes
 		select: [:each | each isKindOf: TextAnchor] 
 		thenDo: [:each | | replacementText |
-			replacementText := '; ', each anchoredMorph getWantedAttributeFromObject asString.
+			replacementText := ' ', each anchoredMorph getWantedObjectAttributeAsString, ' '.
 			text := text copyReplaceFrom: start + offset to: stop + offset with: replacementText.
-			offset := offset + replacementText size]].
+			offset := offset + replacementText size - 1]].
 	
 	^ text

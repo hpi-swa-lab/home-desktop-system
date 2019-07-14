@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"syncGateway" ],
+		"syncGateway",
+		"identifier" ],
 	"name" : "HomeDBSyncCollection",
 	"pools" : [
 		 ],
