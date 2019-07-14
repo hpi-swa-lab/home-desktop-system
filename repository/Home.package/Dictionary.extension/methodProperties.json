@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"instantiateFromJsonDocument:" : "AR 7/7/2019 15:04" },
 	"instance" : {
 		"asJsonDocumentsWithDatabase:" : "AR 6/29/2019 17:44",
 		"asJsonDocumentsWithDatabaseIntern:" : "AR 7/7/2019 15:04",
