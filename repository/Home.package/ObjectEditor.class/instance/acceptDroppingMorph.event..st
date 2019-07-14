@@ -1,7 +1,9 @@
 drag and drop
 acceptDroppingMorph: aMorph event: evt
 
-	(self instance isKindOf: Collection) ifTrue: [self instance objectEditorAdd: aMorph passenger]
+	(self instance isKindOf: Collection) ifTrue: [
+		 	self commandHistory rememberCommand: (self addElementToCollectionUndoCommand: aMorph passenger).
+			self instance objectEditorAdd: aMorph passenger]
 		ifFalse: [
 			| chosenOperation |
 			chosenOperation := UIManager default

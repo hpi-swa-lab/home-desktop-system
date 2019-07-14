@@ -3,7 +3,7 @@
 		"labelFrom:" : "pre 7/4/2018 09:38",
 		"splitIdentifier:" : "pre 7/4/2018 09:38" },
 	"instance" : {
-		"changeValueTo:" : "pre 11/30/2018 15:34",
+		"changeValueTo:" : "JK 7/14/2019 22:38",
 		"getterSelector" : "pre 6/28/2018 15:59",
 		"getterSelector:" : "pre 6/28/2018 16:09",
 		"initialize" : "pre 7/4/2018 14:57",
@@ -12,7 +12,9 @@
 		"matchesVariableName:" : "pre 6/29/2018 10:17",
 		"refresh" : "pre 6/29/2018 14:59",
 		"removeField" : "pre 12/5/2018 14:43",
-		"setValueTo:" : "JK 6/29/2019 10:51",
+		"removeFieldUndoCommand" : "JK 7/14/2019 20:33",
+		"setValueTo:" : "JK 7/14/2019 22:55",
+		"setValueUndoCommand:" : "JK 7/14/2019 21:33",
 		"setterSelector" : "pre 6/28/2018 15:59",
 		"setterSelector:" : "pre 6/28/2018 16:09",
-		"update:with:" : "pre 7/10/2018 15:49" } }
+		"update:with:" : "JK 7/9/2019 08:25" } }

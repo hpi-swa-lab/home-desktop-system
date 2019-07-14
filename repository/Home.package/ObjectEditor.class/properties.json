@@ -8,7 +8,8 @@
 	"instvars" : [
 		"instance",
 		"badge",
-		"wrappersToRows" ],
+		"wrappersToRows",
+		"commandHistory" ],
 	"name" : "ObjectEditor",
 	"pools" : [
 		 ],
