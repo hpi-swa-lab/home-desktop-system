@@ -11,6 +11,6 @@ asJsonDocumentsWithDatabase: aDatabase
 		instVar := instVar asJsonDocumentsWithDatabaseIntern: aDatabase.
 		json at: instVarName put: instVar].
 	self class isVariable ifTrue: [ 
-		json at: 'sq_values' put: 
+		json at: 'json_values' put: 
 			(( 1 to: self size ) collect: [:i | self at: i ])].
 	^ json

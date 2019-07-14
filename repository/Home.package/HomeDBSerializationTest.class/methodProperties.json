@@ -8,7 +8,7 @@
 		"server" : "AR 6/29/2019 16:51",
 		"server:" : "AR 6/29/2019 16:51",
 		"setUp" : "AR 6/29/2019 16:51",
-		"testDictionarySerialization" : "AR 7/1/2019 16:53",
-		"testDomainObjectSerialization" : "AR 7/6/2019 12:48",
-		"testDomainObjectSerializationWithExternObject" : "AR 7/6/2019 12:49",
+		"testDictionarySerialization" : "AR 7/14/2019 15:21",
+		"testDomainObjectSerialization" : "AR 7/7/2019 13:49",
+		"testDomainObjectSerializationWithExternObject" : "AR 7/14/2019 15:20",
 		"testUuidSerialization" : "AR 7/5/2019 17:22" } }

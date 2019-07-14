@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"instantiateFromJsonDocument:" : "AR 5/30/2019 21:04" },
+		"instantiateFromJsonDocument:" : "AR 7/7/2019 14:02" },
 	"instance" : {
 		"?" : "eb 6/19/2019 09:18",
 		"??" : "eb 6/19/2019 09:18",
 		"asJsonDocument" : "AR 6/29/2019 14:11",
-		"asJsonDocumentsWithDatabase:" : "AR 6/29/2019 17:44",
+		"asJsonDocumentsWithDatabase:" : "AR 7/6/2019 17:49",
 		"asJsonDocumentsWithDatabaseIntern:" : "AR 6/29/2019 17:37",
 		"asSurrogate" : "pre 7/12/2018 15:28",
 		"basicRespondsTo:" : "eb 5/22/2019 20:06",
@@ -27,4 +27,5 @@
 		"objectEditorAdd:" : "pre 12/5/2018 15:48",
 		"objectEditorBeforeChangeConversion" : "pre 6/29/2018 14:58",
 		"objectEditorPrintString" : "pre 5/4/2018 19:51",
-		"objectEditorWidgetFor:" : "pre 7/11/2018 20:10" } }
+		"objectEditorWidgetFor:" : "pre 7/11/2018 20:10",
+		"toObject" : "AR 7/7/2019 16:16" } }
