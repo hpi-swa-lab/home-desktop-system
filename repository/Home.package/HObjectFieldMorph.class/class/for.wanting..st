@@ -1,7 +1,6 @@
 as yet unclassified
 for: aDomainObject wanting: aSymbol
 
-	^ self new
-		wantedObjectAttributeKey: aSymbol;
+	^ (self wanting: aSymbol)
 		addDomainObjectBack: aDomainObject;
 		yourself

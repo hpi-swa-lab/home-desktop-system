@@ -6,5 +6,5 @@ doSendMail
 		password: self smtpPassword;
 		login;
 		mailFrom: mailMessage from
-		to: self mailRecipientField getWantedAttributes
+		to: ((self mailRecipientField getTextFromInnerMorphs splitBy: ' ') asSet remove: ''; yourself)
 		text: mailMessage asSendableText
