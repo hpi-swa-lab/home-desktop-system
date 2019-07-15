@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "AR 6/30/2019 12:47",
+		"syncGateway" : "AR 6/30/2019 12:41",
+		"syncGateway:" : "AR 6/30/2019 12:41",
+		"testChannelParameterConstruction" : "AR 6/30/2019 12:45",
+		"testEmptyChannelParameterConstruction" : "AR 6/30/2019 12:46",
+		"testMultipleChannelParameterConstruction" : "AR 6/30/2019 12:50",
+		"testOneChannelParameterConstruction" : "AR 6/30/2019 12:49" } }

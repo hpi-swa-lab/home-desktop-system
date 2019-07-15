@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uuidOfObject",
-		"poolOfObjects" ],
+		"uuidOfObject" ],
 	"name" : "DomainObjectOnDisk",
 	"pools" : [
 		 ],

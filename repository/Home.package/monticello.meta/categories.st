@@ -28,3 +28,4 @@ SystemOrganization addCategory: #'Home-Search-Language'!
 SystemOrganization addCategory: #'Home-Search-Scoring'!
 SystemOrganization addCategory: #'Home-Search'!
 SystemOrganization addCategory: #'Home-Database'!
+SystemOrganization addCategory: #'Home-Database-Tests'!

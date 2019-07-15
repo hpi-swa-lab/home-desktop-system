@@ -1,13 +1,11 @@
 {
 	"class" : {
 		"for:" : "pre 2/1/2019 16:48",
-		"for:withPool:" : "pre 2/1/2019 17:02" },
+		"loadFromObjectStore" : "pre 6/6/2019 17:37" },
 	"instance" : {
-		"doesNotUnderstand:" : "pre 1/29/2019 17:42",
+		"doesNotUnderstand:" : "pre 6/6/2019 09:49",
 		"isExtended" : "pre 2/1/2019 18:27",
-		"readObject" : "pre 2/1/2019 18:39",
-		"setPool:" : "pre 2/1/2019 17:03",
+		"readFullObject" : "pre 6/6/2019 15:44",
 		"setUuid:" : "pre 1/29/2019 17:40",
 		"store" : "pre 2/1/2019 18:29",
-		"updateFieldNamed:with:on:" : "pre 2/1/2019 17:40",
 		"uuid" : "pre 2/1/2019 18:27" } }

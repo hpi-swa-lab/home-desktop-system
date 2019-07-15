@@ -1,0 +1,17 @@
+{
+	"category" : "Home-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stays",
+		"visits",
+		"trip",
+		"scheduleName" ],
+	"name" : "HSchedule",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*Home-Core
+isDomainObject
+	^ false

@@ -1,4 +1,0 @@
-initialization
-defaultRowLabelWidth
-
-	^ 80

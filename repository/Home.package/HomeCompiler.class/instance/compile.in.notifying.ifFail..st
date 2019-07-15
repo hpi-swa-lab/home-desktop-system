@@ -1,11 +1,7 @@
 public access
-compile: code in: class notifying: requestor ifFail: failBlock
+compile: textOrStream in: aClass notifying: requestor ifFail: failBlock
 		
-	| newCode rewriter |
-	rewriter := (OhmSmalltalk synthesizedAttribute: HomeInstanceVariableAccess new)
-		variablesToBeReplaced: ((class instVarNames) collect: [:s | s asSymbol]);
-		yourself.
+	| newCode |
+	newCode := self transformCode: textOrStream asString class: aClass.
 	
-	newCode := rewriter value: (OhmSmalltalk match: code asString startingFrom: #MethodDeclaration).
-	
-	^ super compile: newCode in: class notifying: requestor ifFail: failBlock
+	^ super compile: newCode in: aClass notifying: requestor ifFail: failBlock

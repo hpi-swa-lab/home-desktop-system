@@ -1,10 +1,14 @@
 {
 	"class" : {
-		"instantiateFromJsonDocument:" : "AR 5/30/2019 21:04" },
+		"instantiateFromJsonDocument:" : "AR 7/7/2019 14:02" },
 	"instance" : {
+		"?" : "eb 6/19/2019 09:18",
+		"??" : "eb 6/19/2019 09:18",
 		"allInstVars" : "stlu 5/21/2019 09:54",
 		"allInstVarsWithNames" : "stlu 7/13/2019 19:05",
-		"asJsonDocument" : "AR 5/30/2019 20:43",
+		"asJsonDocument" : "AR 6/29/2019 14:11",
+		"asJsonDocumentsWithDatabase:" : "AR 7/6/2019 17:49",
+		"asJsonDocumentsWithDatabaseIntern:" : "AR 6/29/2019 17:37",
 		"asSurrogate" : "pre 7/12/2018 15:28",
 		"basicRespondsTo:" : "eb 5/22/2019 20:06",
 		"cleanse" : "pre 4/24/2019 15:33",
@@ -26,8 +30,9 @@
 		"instVarNamed:ifAbsent:" : "stlu 7/12/2019 21:13",
 		"interactiveEdit" : "pre 7/11/2018 20:10",
 		"isAnyOf:" : "pre 6/30/2017 15:51",
-		"isBoolean" : "pre 2/1/2019 17:45",
+		"isBoolean" : "pre 6/6/2019 17:27",
 		"isDiaryEntry" : "pre 3/7/2017 20:52",
+		"isDomainObject" : "eb 6/16/2019 11:58",
 		"isEvent" : "pre 3/15/2017 17:35",
 		"isExtended" : "pre 8/4/2017 10:54",
 		"isPerson" : "pre 4/24/2017 10:10",
@@ -38,4 +43,5 @@
 		"objectEditorBeforeChangeConversion" : "pre 6/29/2018 14:58",
 		"objectEditorPrintString" : "pre 5/4/2018 19:51",
 		"objectEditorWidgetFor:" : "pre 7/11/2018 20:10",
-		"searchTerms" : "stlu 7/2/2019 00:06" } }
+		"searchTerms" : "stlu 7/2/2019 00:06",
+		"toObject" : "AR 7/7/2019 16:16" } }

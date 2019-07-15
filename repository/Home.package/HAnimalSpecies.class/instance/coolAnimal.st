@@ -1,4 +1,4 @@
-as yet unclassified
+rack operations
 coolAnimal
 	
 	<rackOperationLabel: 'name a cool animal' inContextMenus: true>

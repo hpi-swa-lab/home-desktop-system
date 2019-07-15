@@ -1,4 +1,9 @@
 as yet unclassified
 updateDisplayedString
 
-	self textField contents: self textToDisplay
+	| objectToDisplay |
+	(objectToDisplay := self objectToDisplay) isString
+			ifTrue: [self privateTextField removeAllMorphs.
+				self privateTextField contents: objectToDisplay]
+			ifFalse: [self privateTextField contents: ''.
+				self privateTextField addMorph: objectToDisplay asMorph]

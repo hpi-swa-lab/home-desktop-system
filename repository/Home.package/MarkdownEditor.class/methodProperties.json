@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"fixTrueTypeFontState" : "lpf 6/13/2019 12:23",
+		"initialize" : "lpf 6/13/2019 12:23",
+		"open" : "kgr 4/29/2019 13:18" },
+	"instance" : {
+		"acceptDroppingMorph:event:inMorph:" : "pre 5/3/2019 10:10",
+		"buildCodePaneWith:" : "pre 9/1/2017 12:00",
+		"buildEditorTextMorphWith:" : "jko 6/25/2019 20:37",
+		"buildWith:" : "lpf 6/13/2019 15:28",
+		"markdownText" : "lpf 6/13/2019 15:26",
+		"markdownText:" : "lpf 6/13/2019 15:27",
+		"name" : "stlu 5/13/2019 13:12",
+		"toggleStylingLabel" : "pre 9/1/2017 11:59",
+		"worldIconText" : "pre 5/6/2019 13:25" } }

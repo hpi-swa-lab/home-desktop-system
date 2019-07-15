@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"addButton",
-		"maxNumberOfItems",
-		"wantedObjectAttribute",
-		"items" ],
+		 ],
 	"name" : "HObjectField",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }

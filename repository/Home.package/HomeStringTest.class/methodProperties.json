@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsTitleCase" : "pre 6/11/2019 07:25",
+		"testAsTitleCasePreservesWhitespace" : "pre 6/11/2019 07:25",
+		"testAsTitleCaseWithArticles" : "pre 6/11/2019 07:25" } }

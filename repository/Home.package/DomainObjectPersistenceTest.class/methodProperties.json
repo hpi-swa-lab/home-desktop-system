@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "pre 2/7/2019 14:59",
-		"testAdditionalStateIsPreserved" : "pre 2/1/2019 17:33",
-		"testAllFieldsArePreserved" : "pre 2/1/2019 17:41",
-		"testCreatedAtIsPreserved" : "pre 2/1/2019 17:34",
-		"testObjectIsOfCorrectClass" : "pre 2/1/2019 18:28",
-		"testStoreCanBeCalled" : "pre 2/1/2019 17:34",
-		"testUuidIsPreserved" : "pre 2/1/2019 17:34" } }
+		"testAdditionalStateIsPreserved" : "pre 6/11/2019 13:10",
+		"testAllFieldsArePreserved" : "pre 6/11/2019 13:10",
+		"testCreatedAtIsPreserved" : "pre 6/11/2019 13:10",
+		"testObjectIsOfCorrectClass" : "pre 6/11/2019 13:09",
+		"testStoreCanBeCalled" : "pre 6/11/2019 13:09",
+		"testUuidIsPreserved" : "pre 6/11/2019 13:09" } }

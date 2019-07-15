@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parentWidget",
 		"textField",
+		"searchButton",
 		"displayedKey",
-		"objectField",
-		"closeButton",
-		"isClosable",
-		"wantedObjectAttribute" ],
+		"wantedObjectAttributeKey" ],
 	"name" : "HObjectItem",
 	"pools" : [
 		 ],
