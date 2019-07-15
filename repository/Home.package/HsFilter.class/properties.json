@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsFilter",
+	"pools" : [
+		 ],
+	"super" : "HsBooleanClause",
+	"type" : "normal" }

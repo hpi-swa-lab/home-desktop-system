@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:withScore:" : "stlu 7/15/2019 16:11",
+		"capacity" : "stlu 7/15/2019 15:43",
+		"capacity:" : "stlu 7/15/2019 15:43",
+		"defaultCapacity" : "stlu 7/15/2019 16:01",
+		"initialize" : "stlu 7/15/2019 16:01",
+		"list" : "stlu 7/15/2019 16:08",
+		"scoreBoard" : "stlu 7/15/2019 15:43",
+		"scoreBoard:" : "stlu 7/15/2019 15:43",
+		"sortBlock" : "stlu 7/15/2019 16:04" } }

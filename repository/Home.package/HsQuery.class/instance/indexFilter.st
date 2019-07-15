@@ -1,0 +1,4 @@
+public
+indexFilter
+
+	self subclassResponsibility

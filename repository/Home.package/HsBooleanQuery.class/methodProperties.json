@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"clauses:" : "stlu 7/12/2019 22:39" },
+	"instance" : {
+		"addClause:" : "stlu 7/12/2019 22:38",
+		"addClauses:" : "stlu 7/12/2019 22:40",
+		"addFilterClause:" : "stlu 7/12/2019 22:47",
+		"addMustClause:" : "stlu 7/12/2019 22:47",
+		"addMustNotClause:" : "stlu 7/12/2019 22:47",
+		"addShouldClause:" : "stlu 7/12/2019 22:48",
+		"filterClauses" : "stlu 7/12/2019 22:45",
+		"initialize" : "stlu 7/12/2019 22:44",
+		"mustClauses" : "stlu 7/12/2019 22:45",
+		"mustNotClauses" : "stlu 7/12/2019 22:45",
+		"scorer" : "stlu 7/13/2019 14:39",
+		"shouldClauses" : "stlu 7/12/2019 22:45" } }

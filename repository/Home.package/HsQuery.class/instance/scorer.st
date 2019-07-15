@@ -1,0 +1,4 @@
+public
+scorer
+
+	self subclassResponsibility

@@ -21,5 +21,10 @@ SystemOrganization addCategory: #'Home-UI-ObjectEditor'!
 SystemOrganization addCategory: #'Home-UI-Tests'!
 SystemOrganization addCategory: #'Home-World'!
 SystemOrganization addCategory: #'Home-Search-Tests'!
+SystemOrganization addCategory: #'Home-Search-Queries'!
+SystemOrganization addCategory: #'Home-Search-Index'!
+SystemOrganization addCategory: #'Home-Search-Core'!
+SystemOrganization addCategory: #'Home-Search-Language'!
+SystemOrganization addCategory: #'Home-Search-Scoring'!
 SystemOrganization addCategory: #'Home-Search'!
 SystemOrganization addCategory: #'Home-Database'!

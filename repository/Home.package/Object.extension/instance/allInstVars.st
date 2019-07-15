@@ -1,4 +1,4 @@
-*Home-Searching
+*Home-Search
 allInstVars
 
 	| values numInstVars |
