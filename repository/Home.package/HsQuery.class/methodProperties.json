@@ -1,8 +1,6 @@
 {
 	"class" : {
-		 },
+		"fromString:" : "stlu 7/15/2019 16:40" },
 	"instance" : {
-		"collectionFilter" : "stlu 7/12/2019 19:54",
-		"indexFilter" : "stlu 7/12/2019 19:54",
 		"scorer" : "stlu 6/24/2019 11:45",
-		"searchIndex:" : "stlu 7/11/2019 21:07" } }
+		"search:" : "stlu 7/15/2019 16:47" } }

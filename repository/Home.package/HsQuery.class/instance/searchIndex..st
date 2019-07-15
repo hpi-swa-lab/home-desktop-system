@@ -1,2 +1,0 @@
-public
-searchIndex: anIndex 

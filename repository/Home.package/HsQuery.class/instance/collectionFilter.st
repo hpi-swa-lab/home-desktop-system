@@ -1,4 +1,0 @@
-public
-collectionFilter
-
-	self subclassResponsibility

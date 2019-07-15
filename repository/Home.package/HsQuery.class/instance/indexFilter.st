@@ -1,4 +1,0 @@
-public
-indexFilter
-
-	self subclassResponsibility

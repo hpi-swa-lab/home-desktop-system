@@ -1,9 +1,11 @@
 {
 	"class" : {
 		"build" : "pre 8/30/2017 09:20",
-		"useAdvancedObjectSearch" : "stlu 5/31/2019 15:25" },
+		"useAdvancedObjectSearch" : "stlu 7/15/2019 16:34",
+		"useAdvancedObjectSearch:" : "stlu 7/15/2019 16:52" },
 	"instance" : {
 		"activate:in:" : "pre 8/30/2017 09:35",
+		"advancedSearch:" : "stlu 7/15/2019 16:55",
 		"buildWith:" : "pre 8/30/2017 09:35",
 		"menu:shifted:" : "pre 8/30/2017 09:18",
 		"removeResultsWidget" : "pre 8/30/2017 09:18",
@@ -12,4 +14,4 @@
 		"searchTermSilently:" : "pre 8/30/2017 09:18",
 		"selection" : "pre 8/30/2017 09:18",
 		"selection:" : "pre 8/30/2017 09:18",
-		"smartSearch:in:" : "pre 10/12/2017 20:13" } }
+		"smartSearch:in:" : "stlu 7/15/2019 16:35" } }

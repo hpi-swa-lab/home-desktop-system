@@ -1,4 +1,4 @@
-public
+materialization
 scorer
 
 	self subclassResponsibility
