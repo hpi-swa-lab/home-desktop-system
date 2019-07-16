@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addNestedYellowButtonItemsTo:event:" : "ek 7/16/2019 14:01",
 		"buildWith:" : "ek 7/1/2019 20:13",
 		"doSendMail" : "ek 7/1/2019 20:38",
 		"mailRecipientField" : "ek 7/1/2019 20:07",

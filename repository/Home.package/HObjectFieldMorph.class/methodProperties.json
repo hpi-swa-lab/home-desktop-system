@@ -5,8 +5,11 @@
 	"instance" : {
 		"acceptDroppingMorph:event:" : "ek 6/28/2019 21:19",
 		"addDomainObjectBack:" : "cmfcmf 6/29/2019 18:01",
+		"addNestedYellowButtonItemsTo:event:" : "ek 7/16/2019 13:56",
 		"addObjectPerSearch" : "ek 7/15/2019 23:42",
 		"createInTextItemFor:" : "ek 6/28/2019 22:34",
+		"getInnerMorphs" : "ek 7/16/2019 13:45",
+		"getInnerObjects" : "ek 7/16/2019 13:46",
 		"getTextFromInnerMorphs" : "ek 7/15/2019 21:36",
 		"initialize" : "ek 7/15/2019 23:15",
 		"keyStroke:" : "ek 7/15/2019 23:43",
