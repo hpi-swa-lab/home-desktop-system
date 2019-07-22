@@ -2,7 +2,7 @@
 asJsonDocumentsWithDatabaseIntern: aDatabase
 	
 	(self respondsTo: #jsonWriteOn:) ifTrue: [^ self].
-	(self respondsTo: #uuid) ifTrue: [
+	(self isKindOf: DomainObject) ifTrue: [
 		aDatabase at: (self uuid) put: self.
-		^ (HomeDBEntityConnection for: self) asJsonDocumentsWithDatabaseIntern: aDatabase].
+		^ (DomainObjectLink for: self) asJsonDocumentsWithDatabaseIntern: aDatabase].
 	^ self asJsonDocumentsWithDatabase: aDatabase
