@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Language",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsBuildQuery",
+	"pools" : [
+		 ],
+	"super" : "OhmSemanticAction",
+	"type" : "normal" }

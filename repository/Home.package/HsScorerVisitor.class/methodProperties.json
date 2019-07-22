@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"visitBooleanScorer:" : "stlu 7/14/2019 21:30",
+		"visitFieldScorer:" : "stlu 7/14/2019 21:31",
+		"visitObjectScorer:" : "stlu 7/14/2019 21:31",
+		"visitPhraseScorer:" : "stlu 7/14/2019 21:31",
+		"visitWordScorer:" : "stlu 7/14/2019 21:32" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Index",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsDirectoryIndex",
+	"pools" : [
+		 ],
+	"super" : "HsIndex",
+	"type" : "normal" }

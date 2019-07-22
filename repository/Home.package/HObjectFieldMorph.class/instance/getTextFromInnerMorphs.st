@@ -9,7 +9,7 @@ getTextFromInnerMorphs
 	self text runs withStartStopAndValueDo: [:start :stop :attributes | attributes
 		select: [:each | each isKindOf: TextAnchor] 
 		thenDo: [:each | | replacementText |
-			replacementText := ' ', each anchoredMorph getWantedObjectAttributeAsString, ' '.
+			replacementText := ' ', each anchoredMorph getWantedObjectAttribute asString, ' '.
 			text := text copyReplaceFrom: start + offset to: stop + offset with: replacementText.
 			offset := offset + replacementText size - 1]].
 	

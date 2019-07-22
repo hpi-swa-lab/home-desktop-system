@@ -10,7 +10,11 @@ initialize
 		editTextSelector: #textChanged:;
 		changeTableLayout;
 		hResizing: #shrinkWrap;
-		vResizing: #spaceFill).
+		vResizing: #spaceFill;
+		wantsFrameAdornments: false).
+		
+	self flag: #todo. "better key handling"
+	self privateTextMorph textMorph on: #keyStroke send: #keyStroke: to: self.
 	
 	self
 		changeTableLayout;
@@ -18,4 +22,6 @@ initialize
 		vResizing: #shrinkWrap;
 		dropEnabled: true;
 		color: Color white;
-		addMorph: self privateTextMorph
+		addMorph: self privateTextMorph;
+		"ToDo change when fixed"
+		wantedObjectAttributeKey: "#''" #nil

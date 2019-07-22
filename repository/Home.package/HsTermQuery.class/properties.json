@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"fuzziness" ],
+	"name" : "HsTermQuery",
+	"pools" : [
+		 ],
+	"super" : "HsQuery",
+	"type" : "normal" }

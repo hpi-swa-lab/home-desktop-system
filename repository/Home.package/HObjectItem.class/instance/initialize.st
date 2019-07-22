@@ -3,8 +3,7 @@ initialize
 
 	self
 		dropEnabled: true;
-		displayedKey: #email;
-		privateSearchButton: self createSearchButton.
+		privateDisplayedKey: self initialDisplayedKey.
 
 	super initialize
 	

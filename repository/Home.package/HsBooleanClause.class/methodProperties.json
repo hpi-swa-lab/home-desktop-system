@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"query:" : "stlu 7/11/2019 15:02" },
+	"instance" : {
+		"addTo:" : "stlu 7/12/2019 22:37",
+		"isProhibited" : "stlu 7/2/2019 02:10",
+		"isRequired" : "stlu 7/2/2019 01:32",
+		"isScored" : "stlu 7/12/2019 23:00",
+		"query" : "stlu 7/2/2019 02:23",
+		"query:" : "stlu 7/2/2019 02:23",
+		"scorer" : "stlu 7/13/2019 13:37" } }
