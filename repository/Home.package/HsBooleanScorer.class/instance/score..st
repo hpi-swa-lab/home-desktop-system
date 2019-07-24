@@ -5,4 +5,4 @@ score: anObject
 	scores := OrderedCollection new.
 	self scoringDo: [:scorer |
 		scores add: (scorer score: anObject)].
-	^ scores sum
+	^ scores ifEmpty: [0] ifNotEmpty: [scores sum]

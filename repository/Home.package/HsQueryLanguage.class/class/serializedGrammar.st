@@ -4,14 +4,14 @@ serializedGrammar
 Query
 	= BooleanQuery
 
-BlockQuery
-	= CodeBlock
-
 BracedQuery
 	= "(" Query ")"
 
 BooleanQuery
 	= BooleanClause (conjunction BooleanClause)*
+
+SelectionQuery
+	= "[[" ExecutableCode "]]"
 
 BooleanClause
 	= Field "(" (occurrence TermQuery)+ ")" -- fieldedGroup
@@ -20,7 +20,7 @@ BooleanClause
 
 ImmediateQuery
 	= BracedQuery
-	| BlockQuery
+	| SelectionQuery
 	| TermQuery
 
 occurrence
@@ -42,9 +42,9 @@ fuzziness
 	| "~" -- default
 
 Term
-	= BlockTerm
-  | PhraseTerm
-  | WordTerm
+	= ObjectTerm
+	| PhraseTerm
+	| WordTerm
 
 Field
 	= fieldName ":"
@@ -52,11 +52,8 @@ Field
 fieldName
 	= letter alnum*
 
-BlockTerm
-	= CodeBlock
-
-CodeBlock
-  = "[" ExecutableCode "]"
+ObjectTerm
+	= "[" ExecutableCode "]"
 
 WordTerm
 	= word

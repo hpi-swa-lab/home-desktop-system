@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"value:" : "stlu 7/11/2019 15:18" },
+		"value:" : "stlu 7/11/2019 15:18",
+		"value:fuzziness:" : "stlu 7/15/2019 22:58" },
 	"instance" : {
 		"defaultFuzziness" : "stlu 7/15/2019 14:28",
 		"fuzziness" : "stlu 7/15/2019 14:29",

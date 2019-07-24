@@ -3,4 +3,4 @@ matchesTerm: anObject
 
 	^ fuzziness = 0
 		ifTrue: [	value = anObject]
-		ifFalse: [(value damerauLevenshteinDistanceTo: anObject) <= fuzziness]
+		ifFalse: [(anObject asString editDistanceTo: value) <= fuzziness]
