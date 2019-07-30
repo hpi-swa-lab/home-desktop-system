@@ -1,4 +1,6 @@
 matching
 matchesField: anObject
 
-	^ value = anObject
+	^ anObject isCollection
+		ifTrue: [anObject includes: value]
+		ifFalse: [value = anObject]

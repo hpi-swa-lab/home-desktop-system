@@ -5,7 +5,7 @@ searchTerms
 	result := OrderedCollection new.
 	lastStart := nil.
 	1 to: self size do: [:i |
-		(self at: i) isAlphaNumeric
+		((self at: i) isAscii and: [(self at: i) isAlphaNumeric])
 			ifTrue: [	lastStart ifNil: [lastStart := i]]
 			ifFalse: [
 				lastStart ifNotNil: [
