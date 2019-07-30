@@ -19,6 +19,7 @@
 		"rootAdditionalStateName" : "pre 12/8/2016 11:16",
 		"rootName" : "pre 12/8/2016 10:04" },
 	"instance" : {
+		"=" : "AR 7/30/2019 21:51",
 		"add:to:" : "pre 4/23/2018 10:14",
 		"additionalStateKeys" : "pre 5/3/2018 17:43",
 		"additionalStateSelectors" : "pre 1/8/2018 15:42",
@@ -54,6 +55,7 @@
 		"getHiddenFieldNames" : "stlu 7/13/2019 18:36",
 		"has:" : "pre 4/24/2017 14:16",
 		"hasAdditionalState:" : "pre 1/8/2018 15:42",
+		"hash" : "AR 7/30/2019 21:44",
 		"initialize" : "pre 1/8/2018 15:39",
 		"initializeForInteractiveCreate:" : "pre 9/18/2017 16:31",
 		"interactiveCleanse" : "pre 9/6/2017 11:39",
