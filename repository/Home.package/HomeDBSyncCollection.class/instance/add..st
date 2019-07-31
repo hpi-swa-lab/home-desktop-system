@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 add: newObject
 	
 	newObject addDependent: self syncGateway.

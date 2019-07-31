@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 
 	self server: (WebServer new listenOn: self port).

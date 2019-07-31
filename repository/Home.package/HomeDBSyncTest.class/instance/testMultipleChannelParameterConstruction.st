@@ -1,4 +1,4 @@
-accessing
+tests
 testMultipleChannelParameterConstruction
 
 	self syncGateway channels: #('test1' 'test2' 'test3').

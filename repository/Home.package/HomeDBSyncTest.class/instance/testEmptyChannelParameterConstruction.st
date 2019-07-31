@@ -1,4 +1,4 @@
-accessing
+tests
 testEmptyChannelParameterConstruction
 
 	self syncGateway channels: nil.

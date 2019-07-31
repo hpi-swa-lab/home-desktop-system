@@ -1,4 +1,4 @@
-accessing
+error-handling
 handleDuplicate: aResponse forDocument: aDocument
 
 	| oldDocument |

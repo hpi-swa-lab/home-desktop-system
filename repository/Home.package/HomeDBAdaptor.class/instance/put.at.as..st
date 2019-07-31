@@ -1,4 +1,4 @@
-accessing
+api-interface
 put: aDocument at: aDatabase as: aKey
 
 	| url |
