@@ -1,6 +1,5 @@
 instance creation
 openOn: anObject
-
 	| editor area |
 	editor := self expandedFor: anObject.
 	editor 
@@ -11,6 +10,7 @@ openOn: anObject
 		width: editor width;
 		height: editor height;
 		color: editor color;
+		dropEnabled: true;
 		horizontalScrollBarPolicy: #alwaysOff;
 		widgetResizable: true;
 		hResizing: #spaceFill;

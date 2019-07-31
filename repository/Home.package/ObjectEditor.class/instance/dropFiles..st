@@ -1,5 +1,6 @@
-*Home-DnD
-handleDropFiles: anEvent
+drag and drop
+dropFiles: anEvent
+	"lent from PasteUpMorph"
 	| numFiles |
 	numFiles := anEvent contents.
 	1 to: numFiles do: [ :i |
