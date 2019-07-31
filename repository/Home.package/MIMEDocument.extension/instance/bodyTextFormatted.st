@@ -1,4 +1,4 @@
-*Home-UI
+*Home-DnD
 bodyTextFormatted
 	"Answer a version of the text in my body suitable for display.  This will parse multipart forms, decode HTML, and other such things"
 	self isMultipart ifTrue: [

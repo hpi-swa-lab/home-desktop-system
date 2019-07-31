@@ -1,4 +1,4 @@
-*Home-UI
+*Home-DnD
 view
 	
 	self containsViewableImage
