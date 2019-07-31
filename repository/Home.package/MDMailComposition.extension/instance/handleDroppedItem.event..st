@@ -1,10 +1,9 @@
-*Home-UI
+*Home-DnD
 handleDroppedItem: anItem event: anEvent
 	| file |
 	self saveFields.
 	file := anItem value.
-	(MIMEDocument guessTypeFromName: anItem name) = 'text/plain' 
-		ifFalse: [ file binary ]. 
+	file makeBinaryIfNotPlainText.
 	mailMessage addAttachmentFrom: file withName: anItem name.
 	self changed: #messageText. 
 	
