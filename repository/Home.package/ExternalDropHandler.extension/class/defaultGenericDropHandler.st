@@ -1,8 +1,8 @@
 *Home-DnD
-defaultPdfHandler
+defaultGenericDropHandler
 	^ExternalDropHandler
-		type: 'application/pdf'
-		extension: 'pdf'
+		type: nil
+		extension: nil
 		action: [:stream :pasteUp :event |
 			| transferMorph |
 			transferMorph := RTransferMorph withPassenger: stream from: pasteUp.
