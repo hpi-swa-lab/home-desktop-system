@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"syncGateway",
-		"collection" ],
+		"identifier" ],
 	"name" : "HomeDBSyncCollection",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "IdentitySet",
 	"type" : "normal" }

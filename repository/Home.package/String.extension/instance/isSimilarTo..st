@@ -1,6 +1,6 @@
-*Home-Searching
+*Home-Search
 isSimilarTo: anObject
 
 	anObject isString ifTrue: [
-		^ (self levenshteinDistanceTo: anObject) < 5].
+		^ (self asLowercase levenshteinDistanceTo: anObject asLowercase) < 5].
 	^ super isSimilarTo: anObject

@@ -1,0 +1,17 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filterClauses",
+		"mustClauses",
+		"mustNotClauses",
+		"shouldClauses" ],
+	"name" : "HsBooleanQuery",
+	"pools" : [
+		 ],
+	"super" : "HsQuery",
+	"type" : "normal" }

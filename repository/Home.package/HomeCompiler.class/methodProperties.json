@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compile:ifFail:" : "pre 9/25/2018 13:28",
-		"compile:in:environment:notifying:ifFail:" : "pre 9/25/2018 13:25",
-		"compile:in:notifying:ifFail:" : "pre 9/25/2018 13:24" } }
+		"compile:ifFail:" : "cmfcmf 6/27/2019 16:54",
+		"compile:in:environment:notifying:ifFail:" : "cmfcmf 6/27/2019 16:54",
+		"compile:in:notifying:ifFail:" : "cmfcmf 6/27/2019 16:54",
+		"transformCode:class:" : "cmfcmf 6/27/2019 17:00" } }

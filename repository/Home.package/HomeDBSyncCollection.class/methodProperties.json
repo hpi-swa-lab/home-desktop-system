@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"newFrom:withSync:" : "AR 6/16/2019 16:31" },
+		"channelAttribute" : "AR 6/30/2019 13:44",
+		"newFrom:withSync:named:" : "AR 6/30/2019 12:54",
+		"withSync:named:" : "AR 6/30/2019 12:53" },
 	"instance" : {
-		"add:" : "AR 6/20/2019 13:13",
-		"collection" : "AR 6/16/2019 12:52",
-		"collection:" : "AR 6/16/2019 12:52",
-		"doesNotUnderstand:" : "AR 6/16/2019 13:40",
-		"remove:" : "AR 6/20/2019 13:14",
+		"add:" : "AR 7/27/2019 10:43",
+		"identifier" : "AR 6/30/2019 12:52",
+		"identifier:" : "AR 6/30/2019 12:52",
+		"remove:" : "AR 6/25/2019 08:51",
 		"syncGateway" : "AR 6/16/2019 16:26",
 		"syncGateway:" : "AR 6/16/2019 16:26" } }

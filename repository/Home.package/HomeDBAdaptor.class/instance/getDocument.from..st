@@ -1,4 +1,4 @@
-accessing
+api-interface
 getDocument: aDocument from: aDatabase
 
 	| url |

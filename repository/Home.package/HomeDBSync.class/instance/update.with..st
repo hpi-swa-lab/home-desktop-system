@@ -1,4 +1,4 @@
-as yet unclassified
+sync
 update: anAspect with: anObject
 
 	| changedObject |

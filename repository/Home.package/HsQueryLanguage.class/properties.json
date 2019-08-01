@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Language",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsQueryLanguage",
+	"pools" : [
+		 ],
+	"super" : "OhmGrammarSmalltalkProxy",
+	"type" : "normal" }
