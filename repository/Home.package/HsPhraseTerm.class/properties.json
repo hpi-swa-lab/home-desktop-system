@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsPhraseTerm",
+	"pools" : [
+		 ],
+	"super" : "HsTermQuery",
+	"type" : "normal" }

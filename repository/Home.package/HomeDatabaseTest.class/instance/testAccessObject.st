@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testAccessObject
 
 	| object |
 	object := database at: self server existingPersonDocumentId.
-	self assert: (object class = Person).
+	self assert: Person equals: object class.

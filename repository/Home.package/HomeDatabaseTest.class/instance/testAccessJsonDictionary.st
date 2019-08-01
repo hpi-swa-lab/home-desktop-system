@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testAccessJsonDictionary
 
 	| object |
 	object := database jsonAt: self server existingPersonDocumentId.
-	self assert: (object class = Dictionary).
-	self assert: (object = (STON fromString: self server validJsonPersonResponse))
+	self assert: Dictionary equals: object class.
+	self assert: (STON fromString: self server validJsonPersonResponse) equals: object

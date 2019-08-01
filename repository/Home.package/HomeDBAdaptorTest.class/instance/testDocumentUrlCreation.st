@@ -6,5 +6,5 @@ testDocumentUrlCreation
 	document := self server existingPersonDocumentId.
 	expected := 'http://', self server host, ':', self server port, '/', database, '/', document.
 	result := self adaptor documentUrl: document database: database.
-	self assert: (expected = result).
+	self assert: expected equals: result.
 	

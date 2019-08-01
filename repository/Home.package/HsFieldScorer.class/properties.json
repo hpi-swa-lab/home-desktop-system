@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Search-Scoring",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"term",
+		"fieldName" ],
+	"name" : "HsFieldScorer",
+	"pools" : [
+		 ],
+	"super" : "HsScorer",
+	"type" : "normal" }

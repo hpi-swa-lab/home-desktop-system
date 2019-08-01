@@ -1,4 +1,4 @@
 accessing
 fullName: aName
 
-	fullName := aName
+	fullName := aName 

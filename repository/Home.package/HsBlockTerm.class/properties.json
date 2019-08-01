@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"isCached" ],
+	"name" : "HsBlockTerm",
+	"pools" : [
+		 ],
+	"super" : "HsObjectTerm",
+	"type" : "normal" }

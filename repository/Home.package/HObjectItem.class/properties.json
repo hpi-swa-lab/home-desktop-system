@@ -1,0 +1,17 @@
+{
+	"category" : "Home-SWDEva",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parentWidget",
+		"textField",
+		"displayedKey",
+		"wantedObjectAttributeKey" ],
+	"name" : "HObjectItem",
+	"pools" : [
+		 ],
+	"super" : "RWorldIcon",
+	"type" : "normal" }

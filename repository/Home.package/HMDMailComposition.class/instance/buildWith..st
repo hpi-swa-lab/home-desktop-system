@@ -12,7 +12,7 @@ buildWith: aBuilder
 	
 	recipientFieldOwner := recipientField owner.
 	
-	self mailRecipientField: (HObjectRow named: 'recipient' wants: #email).
+	self mailRecipientField: (HObjectFieldMorph wanting: #email).
 	
 	recipientFieldOwner replaceSubmorph: recipientField by: self mailRecipientField.
 	
