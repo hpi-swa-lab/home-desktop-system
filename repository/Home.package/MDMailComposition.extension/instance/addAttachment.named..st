@@ -1,8 +1,7 @@
 *Home-DnD
-addAttachment: stream named: attachmentName
+addAttachment: streamOrTransportRepresentation named: attachmentName
 	"Delete after 5.2 release"
-
-	(stream respondsTo: #makeBinaryIfNotPlainText) ifTrue:[stream makeBinaryIfNotPlainText] ifFalse: [stream binary].
+	streamOrTransportRepresentation makeBinaryIfNotPlainText.
 	mailMessage
-		addAttachmentFrom: stream
+		addAttachmentFrom: streamOrTransportRepresentation
 		withName: attachmentName
