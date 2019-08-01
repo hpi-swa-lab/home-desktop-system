@@ -1,4 +1,4 @@
 event handling
-textChanged: unused
+textChanged: aText
 
 	self textChanged
