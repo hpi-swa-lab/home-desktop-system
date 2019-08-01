@@ -1,4 +1,6 @@
-layout
+dropping
 acceptDroppingMorph: aMorph event: evt
 
-	self potentiallyDisplay: aMorph passenger
+	| droppedObject |
+	droppedObject := aMorph passenger.
+	droppedObject isDomainObject ifTrue: [self display: droppedObject]

@@ -1,4 +1,4 @@
-as yet unclassified
+yellowButtonMenu-workaround
 addNestedYellowButtonItemsTo: aMenu event: evt
 
 	| underMouse |

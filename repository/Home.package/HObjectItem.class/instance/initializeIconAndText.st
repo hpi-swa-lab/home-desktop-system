@@ -1,24 +1,17 @@
 initialization
 initializeIconAndText
-
-	"super initialize."
 	
 	| spacing icon |
 	spacing := (TextStyle defaultFont height / 5) rounded.
-	self privateTextField: (StringMorph new
-		contents: self getWantedObjectAttributeWithDefaultString asString;
-		yourself).
+	icon := (self object worldIconMorph form scaledToSize: 10@10) asMorph.
 	
 	self
+		updateDisplayedString
+		setColorForObject
 		changeTableLayout;
 		changeListDirection: #leftToRight;
 		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap.
-	
-	icon := (self object worldIconMorph form scaledToSize: 10@10) asMorph.
-	
-	self setColorForObject.
-	self
+		vResizing: #shrinkWrap;
 		extent: 100@20;
 		cellInset: spacing;
 		layoutInset: spacing;

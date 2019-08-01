@@ -1,5 +1,7 @@
-as yet unclassified
+objectItem-getting
 getInnerMorphs
+	
+	"text>>embeddedMorphs leads to errors with later operations that call this method (i.e. getInnerObjects)"
 	
 	| itemMorphs |
 	itemMorphs := OrderedCollection new.

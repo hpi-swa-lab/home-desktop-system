@@ -3,18 +3,7 @@ initialize
 
 	super initialize.
 	
-	self privateTextMorph: (PluggableTextMorphPlus new
-		extent: 500@10;
-		setText: '';
-		model: self;
-		editTextSelector: #textChanged:;
-		changeTableLayout;
-		hResizing: #shrinkWrap;
-		vResizing: #spaceFill;
-		wantsFrameAdornments: false).
-		
-	self flag: #todo. "better key handling"
-	self privateTextMorph textMorph on: #keyStroke send: #keyStroke: to: self.
+	self initializeTextMorph.
 	
 	self
 		changeTableLayout;
@@ -23,5 +12,6 @@ initialize
 		dropEnabled: true;
 		color: Color white;
 		addMorph: self privateTextMorph;
-		"ToDo change when fixed"
-		wantedObjectAttributeKey: "#''" #nil
+		flag: #ToDo; "TODO change to empty Character once that bug is resolved"
+		wantedObjectAttributeKey: "#''" #nil;
+		separator: ' '

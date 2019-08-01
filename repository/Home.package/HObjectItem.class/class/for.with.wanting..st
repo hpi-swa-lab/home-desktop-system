@@ -1,7 +1,4 @@
-as yet unclassified
+instance creation
 for: aParentWidget with: anObject wanting: aSymbol
 
-	^ (self for: aParentWidget)
-		object: anObject;
-		displayedKey: aSymbol;
-		wantedObjectAttributeKey: aSymbol
+	^ (self for: aParentWidget with: anObject) wantedObjectAttributeKey: aSymbol

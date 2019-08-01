@@ -1,4 +1,4 @@
-rightClickInteractions
+yellowButtonMenuInteractions
 resetDisplayedAttributeKey
 
 	<rackOperationLabel: 'Reset what is displayed' inContextMenus: true>

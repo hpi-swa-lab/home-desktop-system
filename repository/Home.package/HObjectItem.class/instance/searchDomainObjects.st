@@ -1,4 +1,4 @@
-rightClickInteractions
+yellowButtonMenuInteractions
 searchDomainObjects
 
 	<rackOperationLabel: 'Search for a domain object' inContextMenus: true>
@@ -7,4 +7,4 @@ searchDomainObjects
 	chosenObject := self chooseObject.
 	chosenObject ifNil: [^ self].
 	
-	self potentiallyDisplay: chosenObject
+	self display: chosenObject

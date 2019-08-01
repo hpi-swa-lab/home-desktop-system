@@ -1,4 +1,4 @@
-as yet unclassified
+object-ui
 setColorForObject
 
 	| widgetColor |

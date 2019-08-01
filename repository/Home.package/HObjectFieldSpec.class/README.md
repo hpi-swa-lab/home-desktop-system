@@ -1,0 +1,1 @@
+An HObjectField is a widget that can take text input.

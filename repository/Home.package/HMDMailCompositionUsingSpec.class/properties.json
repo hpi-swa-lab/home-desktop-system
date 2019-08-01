@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ek 8/1/2019 17:28",
 	"instvars" : [
-		"textMorph",
-		"wantedObjectAttributeKey",
-		"separator" ],
-	"name" : "HObjectFieldMorph",
+		 ],
+	"name" : "HMDMailCompositionUsingSpec",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MDMailComposition",
 	"type" : "normal" }

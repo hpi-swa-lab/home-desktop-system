@@ -1,4 +1,6 @@
 layout
 acceptDroppingMorph: aMorph event: evt
 
-	self addDomainObjectBack: aMorph passenger
+	| droppedObject |
+	droppedObject := aMorph passenger.
+	droppedObject isDomainObject ifTrue: [self addDomainObjectBack: droppedObject]

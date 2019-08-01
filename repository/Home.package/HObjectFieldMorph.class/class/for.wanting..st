@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: aDomainObject wanting: aSymbol
 
 	^ (self wanting: aSymbol)

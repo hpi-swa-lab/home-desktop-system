@@ -1,6 +1,7 @@
-as yet unclassified
+event handling
 keyStroke: anEvent
 
-	self flag: #todo. "maybe better hack keystroke, maybe better key combo"
+	"Open the object search if command+e is pressed"
+	"(command+e because command command+s is already taken)"
 	(anEvent commandKeyPressed and: [anEvent keyValue = 101])
 		ifTrue: [self addObjectPerSearch]

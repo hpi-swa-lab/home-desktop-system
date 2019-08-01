@@ -1,4 +1,4 @@
-as yet unclassified
+objectItem-getting
 getInnerObjects
 	
 	^ self getInnerMorphs collect: [:itemMorph | itemMorph object]

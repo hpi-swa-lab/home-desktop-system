@@ -1,4 +1,4 @@
-rightClickInteractions
+yellowButtonMenuInteractions
 changeDisplayedAttributeKey
 
 	<rackOperationLabel: 'Change what is displayed' inContextMenus: true>
