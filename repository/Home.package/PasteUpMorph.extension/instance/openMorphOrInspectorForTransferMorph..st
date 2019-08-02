@@ -8,5 +8,5 @@ openMorphOrInspectorForTransferMorph: transferMorph
 			transferMorph source abandon.
 				transferMorph source]
 		"work on a copy of it"
-		ifFalse: [transferMorph passenger dropObject].
+		ifFalse: [transferMorph passenger dropObjectAndOpenMenu: transferMorph shouldMove not].
 	^ newMorph

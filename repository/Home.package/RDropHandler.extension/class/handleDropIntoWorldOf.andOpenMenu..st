@@ -1,7 +1,7 @@
 *Home-DnD
-handleDropIntoWorldOf: anObject
+handleDropIntoWorldOf: anObject andOpenMenu: shouldOpen
 	| manager choiceStrings values |
-	
+	(shouldOpen not) ifTrue: [^anObject worldIcon].
 	manager := UIManager default.
 	
 	"generate general menu entries"
