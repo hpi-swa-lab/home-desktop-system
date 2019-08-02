@@ -1,0 +1,4 @@
+accessing
+fieldIndices
+
+	^ fieldIndices

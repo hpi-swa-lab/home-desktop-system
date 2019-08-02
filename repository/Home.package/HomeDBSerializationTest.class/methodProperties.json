@@ -4,11 +4,10 @@
 	"instance" : {
 		"database" : "AR 6/28/2019 22:45",
 		"database:" : "AR 6/28/2019 22:45",
-		"serializeDictionary" : "AR 6/28/2019 22:44",
 		"server" : "AR 6/29/2019 16:51",
 		"server:" : "AR 6/29/2019 16:51",
 		"setUp" : "AR 6/29/2019 16:51",
 		"testDictionarySerialization" : "AR 7/14/2019 15:21",
-		"testDomainObjectSerialization" : "AR 7/7/2019 13:49",
-		"testDomainObjectSerializationWithExternObject" : "AR 7/14/2019 15:20",
+		"testDomainObjectSerialization" : "AR 7/30/2019 21:53",
+		"testDomainObjectSerializationWithExternObject" : "AR 7/30/2019 21:55",
 		"testUuidSerialization" : "AR 7/5/2019 17:22" } }

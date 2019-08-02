@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Queries",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method" ],
+	"name" : "HsSelectionQuery",
+	"pools" : [
+		 ],
+	"super" : "HsQuery",
+	"type" : "normal" }

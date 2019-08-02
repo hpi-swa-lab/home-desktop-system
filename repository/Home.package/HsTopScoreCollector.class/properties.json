@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Search-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scoreBoard",
+		"capacity" ],
+	"name" : "HsTopScoreCollector",
+	"pools" : [
+		 ],
+	"super" : "HsCollector",
+	"type" : "normal" }

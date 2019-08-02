@@ -1,4 +1,0 @@
-accessing
-targetLabel
-
-	^ targetLabel

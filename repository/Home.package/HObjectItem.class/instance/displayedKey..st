@@ -1,4 +1,5 @@
 accessing
 displayedKey: aSymbol
 
-	displayedKey := aSymbol
+	self privateDisplayedKey: aSymbol.
+	self refresh

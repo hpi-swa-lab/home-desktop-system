@@ -1,3 +1,4 @@
 accessing
-wantedObjectAttributeKey: anObject
-	wantedObjectAttributeKey := anObject
+wantedObjectAttributeKey: aSymbol
+
+	wantedObjectAttributeKey := aSymbol

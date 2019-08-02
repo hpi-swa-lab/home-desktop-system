@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 remove: oldObject
 
 	oldObject removeDependent: self syncGateway.

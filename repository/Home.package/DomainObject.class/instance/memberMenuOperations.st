@@ -1,3 +1,3 @@
 Rack
 memberMenuOperations
-	^ (self allMemberKeys collect: [:key | key -> (self perform: key) selfMenuOperations]) , {'extend to...' -> self extendMenuOperations}
+	^ (self allMemberKeys collect: [:key | key -> (self perform: key) selfMenuOperations]) asOrderedCollection , {'extend to...' -> self extendMenuOperations}

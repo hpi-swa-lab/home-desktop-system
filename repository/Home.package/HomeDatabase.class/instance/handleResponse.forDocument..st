@@ -1,4 +1,4 @@
-accessing
+error-handling
 handleResponse: aResponse forDocument: aDocument
 
 	| responseMapping |

@@ -1,4 +1,4 @@
-as yet unclassified
+channel
 channelsParameter
 
 	^ (self channels)

@@ -1,4 +1,4 @@
-as yet unclassified
+sync
 loadRevision: aRevision forId: aId
 
 	| newObject oldObjects |

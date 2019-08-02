@@ -1,9 +1,10 @@
-as yet unclassified
+rightClickInteractions
 searchDomainObjects
 
-	| chosenObject objects |
-	objects := Person allInstances.
-	chosenObject := UIManager default chooseFrom: objects values: objects.
+	<rackOperationLabel: 'Search for a domain object' inContextMenus: true>
+
+	| chosenObject |
+	chosenObject := self chooseObject.
 	chosenObject ifNil: [^ self].
 	
 	self potentiallyDisplay: chosenObject

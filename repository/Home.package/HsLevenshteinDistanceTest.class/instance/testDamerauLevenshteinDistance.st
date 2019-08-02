@@ -16,5 +16,5 @@ testDamerauLevenshteinDistance
 		stringA := sample first.
 		stringB := sample second.
 		distance := sample third.
-		self assert: distance equals: (stringA damerauLevenshteinDistanceTo: stringB).
-		self assert: distance equals: (stringB damerauLevenshteinDistanceTo: stringA)].
+		self assert: distance equals: (stringA editDistanceTo: stringB).
+		self assert: distance equals: (stringB editDistanceTo: stringA)].

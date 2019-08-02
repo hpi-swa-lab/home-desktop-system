@@ -1,0 +1,15 @@
+{
+	"category" : "Home-DnD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MdlH 7/31/2019 17:31",
+	"instvars" : [
+		"mimetype",
+		"contents" ],
+	"name" : "ExternalTransportRepresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,6 +1,10 @@
 {
 	"class" : {
-		"defaultPdfHandler" : "MdlH 6/26/2019 11:29",
-		"defaultStonHandler" : "AR 5/30/2019 20:21" },
+		"defaultGenericDropHandler" : "MdlH 7/14/2019 16:39",
+		"defaultHandler" : "MdlH 7/28/2019 17:46",
+		"defaultPdfHandler" : "MdlH 7/14/2019 16:39",
+		"defaultStonHandler" : "AR 5/30/2019 20:21",
+		"initialize" : "MdlH 7/28/2019 17:45",
+		"lookupServiceBasedHandler:" : "MdlH 7/6/2019 15:07" },
 	"instance" : {
 		 } }
