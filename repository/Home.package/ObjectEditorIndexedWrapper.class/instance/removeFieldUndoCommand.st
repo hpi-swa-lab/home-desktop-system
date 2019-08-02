@@ -3,8 +3,8 @@ removeFieldUndoCommand
 	
 	^(Command new cmdWording: 'delete element';
 		undoTarget: self instance 
-			selector: #add:
+			selector: #objectEditorAdd:
 			argument: (self refresh);
 		redoTarget: self instance 
-			selector: #remove:ifAbsent:
-			argument: #((self refresh) []))
+			selector: #objectEditorRemove:
+			argument: (self refresh))

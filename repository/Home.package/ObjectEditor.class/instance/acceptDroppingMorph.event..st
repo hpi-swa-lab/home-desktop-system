@@ -2,7 +2,7 @@ drag and drop
 acceptDroppingMorph: aMorph event: evt
 
 	(self instance isKindOf: Collection) ifTrue: [
-		 	self commandHistory rememberCommand: (self addElementToCollectionUndoCommand: aMorph passenger).
+		 	self commandHistory rememberCommand: (self addToCollectionUndoCommand: aMorph passenger).
 			self instance objectEditorAdd: aMorph passenger]
 		ifFalse: [
 			| chosenOperation |
