@@ -1,0 +1,1 @@
+A generic ServiceEntry used when dropping files into the Image. Provides an option to drop the dropee onto the world
