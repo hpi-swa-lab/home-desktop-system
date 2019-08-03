@@ -1,4 +1,4 @@
 actions
-PhraseTerm: thisNode with: bracedText
+PhraseTerm: thisNode with: quotedText
 
-	^ HsPhraseTerm value: (self value: bracedText)
+	^ HsPhraseTerm value: (self value: quotedText)

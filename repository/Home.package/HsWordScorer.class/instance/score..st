@@ -1,4 +1,7 @@
 querying
 score: anObject
 
-	^ anObject searchTerms count: [:each | self matchesTerm: each]
+	| searchTerms numMatches |
+	searchTerms := anObject searchTerms.
+	numMatches := searchTerms count: [:each | self matchesTerm: each].
+	^ numMatches / searchTerms size

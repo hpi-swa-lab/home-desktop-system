@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Search-Index",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"totalOccurrences",
+		"occurrenceDict" ],
+	"name" : "HsPostings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

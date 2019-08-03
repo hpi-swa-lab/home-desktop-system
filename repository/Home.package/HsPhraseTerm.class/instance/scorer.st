@@ -2,6 +2,6 @@ scorer
 scorer
 
 	^ HsPhraseScorer new
-		value: self value asString;
+		value: self value searchTerms;
 		fuzziness: self fuzziness;
 		yourself

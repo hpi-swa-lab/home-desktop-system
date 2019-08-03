@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Search-Scoring",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HsTextScorer",
+	"pools" : [
+		 ],
+	"super" : "HsTermScorer",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+totalOccurrences
+
+	^ totalOccurrences

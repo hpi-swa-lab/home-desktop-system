@@ -46,6 +46,7 @@ fuzziness
 
 Term
 	= ObjectTerm
+	| TextTerm
 	| PhraseTerm
 	| WordTerm
 
@@ -62,18 +63,29 @@ WordTerm
 	= word
 
 PhraseTerm
+	= phrase
+
+TextTerm
 	= text
 
 word
 	= alnum+
 
 textCharacter
-    = "\\\""
-    | "\\\\"
-    | ~"\\" ~"\"" any
+    = "\\\''" -- tick
+    | "\\\\" -- backslash
+    | ~"\\" ~"\''" any -- any
 
 text
-	= "\"" textCharacter+ "\""
+	= "\''" textCharacter+ "\''"
+
+phraseCharacter
+    = "\\\"" -- tick
+    | "\\\\" -- backslash
+    | ~"\\" ~"\"" any -- any
+
+phrase
+	= "\"" phraseCharacter+ "\""
 
 number
 	= scaledDecimalLiteral

@@ -1,4 +1,10 @@
 querying
 matches: anObject
 
-	^ (anObject printString countSubstringsWithEditDistance: self fuzziness to: value) > 0
+	| searchTerms idx dist |
+	value ifEmpty: [^ true].
+	searchTerms := anObject searchTerms.
+	idx := 1.
+	dist := 0.
+	searchTerms do: [:term |
+		(value at: idx) = term ifTrue: []]
