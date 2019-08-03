@@ -1,4 +1,4 @@
 visiting
 visitFieldScorer: aScorer
 
-	aScorer term accept: self
+	aScorer query accept: self

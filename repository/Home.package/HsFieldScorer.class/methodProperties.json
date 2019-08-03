@@ -3,10 +3,7 @@
 		 },
 	"instance" : {
 		"accept:" : "stlu 7/14/2019 21:32",
-		"fieldName" : "stlu 7/13/2019 13:53",
-		"fieldName:" : "stlu 7/13/2019 13:53",
-		"filter:" : "stlu 7/14/2019 22:03",
-		"matches:" : "stlu 7/14/2019 21:59",
-		"score:" : "stlu 7/14/2019 21:59",
-		"term" : "stlu 7/14/2019 18:37",
-		"term:" : "stlu 7/14/2019 18:37" } }
+		"isAny" : "stlu 8/3/2019 15:23",
+		"isSingle" : "stlu 8/3/2019 15:23",
+		"query" : "stlu 8/2/2019 23:40",
+		"query:" : "stlu 8/2/2019 23:42" } }

@@ -11,16 +11,19 @@ BooleanQuery
 	= BooleanClause (conjunction BooleanClause)*
 
 SelectionQuery
-	= "[[" ExecutableCode "]]"
+	= "[" ExecutableCode "]"
+
+FieldQuery
+	= Field "{" Query "}" -- single
+	| "{" Query "}" -- any
 
 BooleanClause
-	= Field "(" (occurrence TermQuery)+ ")" -- fieldedGroup
-  	| Field occurrence TermQuery -- fielded
-	| occurrence ImmediateQuery -- unfielded
+	= occurrence ImmediateQuery
 
 ImmediateQuery
 	= BracedQuery
 	| SelectionQuery
+	| FieldQuery
 	| TermQuery
 
 occurrence
@@ -53,7 +56,7 @@ fieldName
 	= letter alnum*
 
 ObjectTerm
-	= "[" ExecutableCode "]"
+	= "[[" ExecutableCode "]]"
 
 WordTerm
 	= word

@@ -1,4 +1,4 @@
 actions
 occurrenceShould: thisNode with: op
 
-	^ #should
+	^ HsShould

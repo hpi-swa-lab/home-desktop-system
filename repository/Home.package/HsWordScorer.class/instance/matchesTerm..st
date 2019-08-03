@@ -1,4 +1,4 @@
-matching
+querying
 matchesTerm: anObject
 
 	^ fuzziness = 0

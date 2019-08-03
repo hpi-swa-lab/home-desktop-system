@@ -1,4 +1,4 @@
-book keeping
+adding / removing
 addObject: anObject
 
-	self addObject: anObject withFields: anObject fieldNames
+	self subclassResponsibility

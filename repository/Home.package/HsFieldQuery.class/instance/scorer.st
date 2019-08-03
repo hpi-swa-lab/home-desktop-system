@@ -1,7 +1,13 @@
 querying
 scorer
 
-	^ HsFieldScorer new
-		term: self term scorer;
-		fieldName: self fieldName;
-		yourself
+	^ self isFielded
+		ifTrue: [
+			 HsSingleFieldScorer new
+				query: self query scorer;
+				fieldName: self fieldName;
+				yourself]
+		ifFalse: [
+			HsAnyFieldScorer new
+				query: self query scorer;
+				yourself]

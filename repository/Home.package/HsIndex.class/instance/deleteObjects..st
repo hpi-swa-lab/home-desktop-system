@@ -1,4 +1,5 @@
-book keeping
+adding / removing
 deleteObjects: aCollection
 
-	self subclassResponsibility
+	aCollection do: [:each |
+		self deleteObject: each]

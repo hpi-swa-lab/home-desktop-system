@@ -1,4 +1,4 @@
-book keeping
+adding / removing
 addObjects: aCollection
 
 	aCollection do: [:object |

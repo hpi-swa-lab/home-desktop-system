@@ -1,4 +1,4 @@
-matching
+querying
 matches: anObject
 
 	self subclassResponsibility

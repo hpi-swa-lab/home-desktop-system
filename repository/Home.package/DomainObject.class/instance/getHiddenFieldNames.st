@@ -1,4 +1,4 @@
 *Home-Search
 getHiddenFieldNames
 
-	^ #( additionalState )
+	^ self internalStateNames

@@ -1,4 +1,4 @@
-book keeping
+adding / removing
 updateObject: anObject
 
 	self subclassResponsibility

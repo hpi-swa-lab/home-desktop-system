@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"term",
-		"fieldName" ],
+		"query" ],
 	"name" : "HsFieldScorer",
 	"pools" : [
 		 ],

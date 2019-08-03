@@ -1,4 +1,5 @@
-filtering
+querying
 filter: aCollection
 
-	self subclassResponsibility
+	^ aCollection select: [:each |
+		self matches: each]

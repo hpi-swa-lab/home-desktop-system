@@ -1,4 +1,4 @@
-scoring
+querying
 score: anObject
 
 	self subclassResponsibility

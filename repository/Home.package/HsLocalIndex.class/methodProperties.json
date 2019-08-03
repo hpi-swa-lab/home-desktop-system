@@ -2,12 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addObject:withFields:" : "stlu 7/13/2019 17:50",
-		"ensureFieldIndexFor:" : "stlu 7/13/2019 17:18",
-		"ensurePostingsFor:inFieldIndex:" : "stlu 7/13/2019 20:12",
-		"fieldIndexFor:ifAbsent:" : "stlu 7/13/2019 17:19",
-		"fieldIndices" : "stlu 7/13/2019 16:51",
-		"initialize" : "stlu 7/13/2019 17:21",
-		"postingsFor:do:" : "stlu 7/13/2019 20:43",
-		"postingsFor:inField:ifAbsent:" : "stlu 7/13/2019 17:18",
-		"record:in:at:" : "stlu 7/13/2019 20:26" } }
+		"addObject:" : "stlu 8/3/2019 16:32",
+		"ensurePostingsFor:" : "stlu 8/3/2019 16:41",
+		"initialize" : "stlu 8/3/2019 16:37",
+		"post:at:" : "stlu 8/3/2019 16:42",
+		"postingsFor:do:" : "stlu 8/3/2019 16:51",
+		"postingsFor:ifAbsent:" : "stlu 8/3/2019 16:53" } }

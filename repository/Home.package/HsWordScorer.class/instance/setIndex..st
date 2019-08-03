@@ -1,4 +1,4 @@
-private
+index
 setIndex: anIndex
 
 	| newMe |

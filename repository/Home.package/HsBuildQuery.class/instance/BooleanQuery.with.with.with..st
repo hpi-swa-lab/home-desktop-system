@@ -3,7 +3,7 @@ BooleanQuery: thisNode with: firstClause with: conjunctions with: moreClauseNode
 
 	| clauses |
 	clauses := Array streamContents: [:stream |
-		stream nextPutAll: (self value: firstClause).
+		stream nextPut: (self value: firstClause).
 		moreClauseNodes children withIndexDo: [:clauseNode :i |
-			stream nextPutAll: (self value: clauseNode)]].
+			stream nextPut: (self value: clauseNode)]].
 	^ HsBooleanQuery clauses: clauses

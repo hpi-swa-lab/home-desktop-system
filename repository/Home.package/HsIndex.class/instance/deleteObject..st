@@ -1,4 +1,4 @@
-book keeping
+adding / removing
 deleteObject: anObject
 
 	self subclassResponsibility
