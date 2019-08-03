@@ -11,7 +11,8 @@ initialize
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		cellInset: 2;
-		layoutInset: 0.
+		layoutInset: 0;
+		dropEnabled: true.
 		
 	self color: (UserInterfaceTheme current userInterfaceTheme get: #color for: PluggableTextMorphPlus).
 		

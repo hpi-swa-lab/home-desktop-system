@@ -4,9 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ek 8/1/2019 22:56",
 	"instvars" : [
-		 ],
+		"wantedObjectAttributeKey",
+		"separator",
+		"setText" ],
 	"name" : "HObjectFieldSpec",
 	"pools" : [
 		 ],

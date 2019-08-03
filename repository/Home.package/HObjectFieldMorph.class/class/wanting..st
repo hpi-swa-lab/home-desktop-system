@@ -1,6 +1,4 @@
-as yet unclassified
+instance creation
 wanting: aSymbol
 
-	^ self new
-		wantedObjectAttributeKey: aSymbol;
-		yourself
+	^ self new wantedObjectAttributeKey: aSymbol

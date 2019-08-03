@@ -1,4 +1,4 @@
-initialization
-textChanged: unused
+event handling
+textChanged: aText
 
 	self textChanged

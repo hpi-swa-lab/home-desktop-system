@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-indirect
 textColor
 
 	^ textMorph userInterfaceTheme textColor

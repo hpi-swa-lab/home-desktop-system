@@ -1,4 +1,4 @@
 accessing
-mailRecipientField: anObject
+mailRecipientField: anHObjectFieldMorph
 
-	mailRecipientField := anObject
+	mailRecipientField := anHObjectFieldMorph

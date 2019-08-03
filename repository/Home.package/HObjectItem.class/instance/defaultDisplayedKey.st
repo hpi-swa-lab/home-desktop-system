@@ -1,6 +1,5 @@
-as yet unclassified
+defaults
 defaultDisplayedKey
 
-	^ self privateParentWidget
-		ifNotNil: [self privateParentWidget wantedObjectAttributeKey]
-		ifNil: [self initialDisplayedKey]
+	self flag: #ToDo. "TODO use #'' once that works bug free"
+	^ self wantedObjectAttributeKey ifNil: [#nil]

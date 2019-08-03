@@ -1,0 +1,1 @@
+A Container to pass objects around that will be transferred out of Squeak, e.g. via email. Objects of this class store a content stream and its MIMEType.

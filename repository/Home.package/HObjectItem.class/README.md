@@ -1,0 +1,1 @@
+I am a modified version of the RWorldIcon. I am used by the HObjectFieldMorph to represent graphically represent objects. Which attribute I display can be changed in my yellowButtonMenu.

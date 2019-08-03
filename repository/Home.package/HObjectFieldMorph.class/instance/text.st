@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-indirect
 text
 
 	^ self privateTextMorph text

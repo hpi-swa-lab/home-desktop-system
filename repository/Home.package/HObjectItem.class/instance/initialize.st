@@ -3,7 +3,8 @@ initialize
 
 	self
 		dropEnabled: true;
-		privateDisplayedKey: self initialDisplayedKey.
+		privateTextField: StringMorph new;
+		balloonText: 'right click me to change what I display'.
 
 	super initialize
 	

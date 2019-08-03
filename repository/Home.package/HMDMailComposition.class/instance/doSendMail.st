@@ -1,4 +1,4 @@
-toolbuilder
+mailSending-adjusted
 doSendMail
 
 	(SMTPClient openOnHostNamed: self smtpServer port: self smtpServerPort)
@@ -6,5 +6,5 @@ doSendMail
 		password: self smtpPassword;
 		login;
 		mailFrom: mailMessage from
-		to: ((self mailRecipientField getTextFromInnerMorphs splitBy: ' ') asSet remove: ''; yourself)
+		to: ((self mailRecipientField getTextFromInnerMorphs splitBy: self objectSeparator) asSet remove: ''; yourself)
 		text: mailMessage asSendableText

@@ -3,7 +3,8 @@ key
 	"can be nil if the user aborts making a choice"
 	| titlesAndValues |
 	
-	self flag: #todo. "copied from value. Either make this standard and value uses this, or remove this after talking to Patrick (is there maybe even a usecase for only key)"
+	self flag: #ToDo.
+	"Base copied from value. Either make a standard keyAndValueMethod and both key and value use that, or remove this (depending on what Patrick wants/needs)"
 	
 	self attributeNames ifEmpty: [^ nil].
 	(self attributeNames size = 1) ifTrue: [^ self attributeNames first].

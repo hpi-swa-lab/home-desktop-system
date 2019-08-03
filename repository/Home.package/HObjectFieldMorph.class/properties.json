@@ -4,10 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ek 8/1/2019 22:52",
 	"instvars" : [
 		"textMorph",
-		"wantedObjectAttributeKey" ],
+		"wantedObjectAttributeKey",
+		"separator",
+		"model",
+		"setTextSelector" ],
 	"name" : "HObjectFieldMorph",
 	"pools" : [
 		 ],

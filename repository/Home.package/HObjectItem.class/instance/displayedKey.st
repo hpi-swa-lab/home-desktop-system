@@ -1,4 +1,4 @@
 accessing
 displayedKey
 
-	^ displayedKey
+	^ self privateDisplayedKey ifNil: [self defaultDisplayedKey]

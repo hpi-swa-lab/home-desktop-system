@@ -1,4 +1,4 @@
-*Home-UI
+*Home-DnD
 handleDropFiles: anEvent
 	| numFiles |
 	numFiles := anEvent contents.

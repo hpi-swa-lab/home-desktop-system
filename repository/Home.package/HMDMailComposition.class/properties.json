@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ek 5/26/2019 22:40",
+	"commentStamp" : "ek 8/1/2019 16:03",
 	"instvars" : [
 		"mailRecipientField" ],
 	"name" : "HMDMailComposition",

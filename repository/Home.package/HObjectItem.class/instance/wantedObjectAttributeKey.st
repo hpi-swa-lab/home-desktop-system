@@ -1,5 +1,6 @@
 accessing
 wantedObjectAttributeKey
 
-	(self privateParentWidget isNil not and: [self privateWantedObjectAttributeKey isNil]) ifTrue: [self privateParentWidget wantedObjectAttributeKey].
-	^ self privateWantedObjectAttributeKey
+	^ (self privateParentWidget notNil and: [self privateWantedObjectAttributeKey isNil])
+		ifTrue: [self privateParentWidget wantedObjectAttributeKey]
+		ifFalse: [self privateWantedObjectAttributeKey]
