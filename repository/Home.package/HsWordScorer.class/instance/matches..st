@@ -1,4 +1,5 @@
 querying
 matches: anObject
 
-	^ anObject searchTerms anySatisfy: [:term | self matchesTerm: term]
+	^ (anObject searchTerms ifEmpty: [^ false])
+		anySatisfy: [:term | self matchesTerm: term]

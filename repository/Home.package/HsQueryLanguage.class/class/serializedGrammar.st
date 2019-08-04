@@ -22,9 +22,9 @@ BooleanClause
 
 ImmediateQuery
 	= BracedQuery
-	| SelectionQuery
 	| FieldQuery
 	| TermQuery
+	| SelectionQuery
 
 occurrence
   = "+" -- must

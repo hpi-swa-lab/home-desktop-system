@@ -1,6 +1,7 @@
 actions
 matches: anObject
 
-	^ method
+	[^ (method
 		valueWithReceiver: anObject
-		arguments: #()
+		arguments: #()) == true]
+		ifError: [^ false]

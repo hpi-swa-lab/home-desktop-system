@@ -1,7 +1,6 @@
 SystemOrganization addCategory: #'Home-Behavior'!
 SystemOrganization addCategory: #'Home-Bibliography'!
 SystemOrganization addCategory: #'Home-Core'!
-SystemOrganization addCategory: #'Home-Core-Tests'!
 SystemOrganization addCategory: #'Home-DataIntegrity'!
 SystemOrganization addCategory: #'Home-Diary'!
 SystemOrganization addCategory: #'Home-Experiment'!
@@ -26,7 +25,6 @@ SystemOrganization addCategory: #'Home-Search-Index'!
 SystemOrganization addCategory: #'Home-Search-Core'!
 SystemOrganization addCategory: #'Home-Search-Language'!
 SystemOrganization addCategory: #'Home-Search-Scoring'!
-SystemOrganization addCategory: #'Home-Search'!
 SystemOrganization addCategory: #'Home-Database'!
 SystemOrganization addCategory: #'Home-Database-Tests'!
 SystemOrganization addCategory: #'Home-DnD'!

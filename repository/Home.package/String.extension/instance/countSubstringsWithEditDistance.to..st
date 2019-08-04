@@ -3,10 +3,7 @@ countSubstringsWithEditDistance: maxDist to: aString
 	"Answers how many substrings in me have an edit distance (with transpositions) smaller than or equal to maxDist. Case-insensitive.
 	 This is a modified version of the Damerau-Levenshtein algorithm. The changes follow the idea outlined on http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-with-levenshtein-distance-in-python/"
 	| rowSize currentRow previousRow secondLastRow tmp previousOtherChar count matchTable matchTableSize |
-	(self isEmpty or: [aString isEmpty]) ifTrue: [
-		^ self = aString
-			ifTrue: [0]
-			ifFalse: [self size max: aString size]].
+	(self isEmpty or: [aString isEmpty]) ifTrue: [^ 0].
 	
 	rowSize := self size + 1.
 	currentRow := Array new: rowSize.

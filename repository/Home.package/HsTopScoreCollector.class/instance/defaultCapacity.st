@@ -1,4 +1,4 @@
 initialization
 defaultCapacity
 
-	^ 10
+	^ 25
