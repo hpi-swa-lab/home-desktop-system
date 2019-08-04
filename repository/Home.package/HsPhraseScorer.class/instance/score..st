@@ -1,4 +1,6 @@
 querying
 score: anObject
 
-	^ anObject printString countSubstringsWithEditDistance: self fuzziness to: value
+	^ (self matches: anObject)
+		ifTrue: [1]
+		ifFalse: [0]
