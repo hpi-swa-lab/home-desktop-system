@@ -7,62 +7,130 @@ The Home System offers its own search mechanisms to help users find the objects 
 ![Search Bar Image][search-bar]
 
 ### Examples
-`John Doe`
+```
+John Doe
+```
 
 ### The Search Query Language
 The grammar of the search query language can be found [here][grammar].
 
 #### Word Queries
-`John`
+```
+Frodo
+```
+The most common and powerful query type is the word query. In text, it is represented as a concatenation of alphanumeric characters. Word queries do not operate on the object itself. An object to be matched by a word query is first converted into its [search terms]. If the specified word can be found in these search terms, the query matches successfully.
 
 ---
-`John Doe`
+```
+Frodo Baggins
+```
+It is important to note, that a word query (as the name implies) only represents a single word. The query above actually consists of two different word queries. One for 'Frodo' and one for 'Baggins', causing it to match `Frodo Baggins` as wells as `Bilbo Baggins`.
 
 ---
-`John~2`
+```
+Fordo~1
+```
+Fuzzy word queries (as denoted by `'~'`) don't require the word to match exactly to a search term, but rather calculate the [edit distance] between the two, requiring it to be less or equal than the provided number to match.
 
 #### Phrase Queries
-`"John Doe"`
+```
+"Frodo Baggins"
+```
+Phrase queries consist of a sequence of words. They are denoted by enclosing double ticks`'"'`. Just like word queries, the matching operates on [search terms]. Different to word queries, though, a phrase query has to match all of its words in the correct order.
+
+The above query would therefore match `Frodo Baggins` but not `Bilbo Baggins` or `Frodo R. R. Baggins`.
 
 ---
-`"John Doe"~2`
+```
+"Frodo Baggins"~2
+```
+Fuzziness in phrase queries is derived from the positional distance between the phrase's words. The above query would therefore match `Frodo R. R. Baggins` but not `Frodo lives with his uncle Bilbo Baggins`, since in the latter the distance between the words 'Frodo' and 'Baggins' is higher than the specified leeway of 2.
 
 #### Text Queries
-`'John Doe'`
+```
+'Frodo Baggins'
+```
+Very similar to phrase queries, text queries are denoted by enclosing single ticks (`'`). Different to phrase queries, they do not represent a sequence of words, but a sequence of characters. They hence don't operate on [search terms], but the string representation (`Object>>asString`) directly, enabling searches for exact spellings and notations.
 
 ---
-`'John Doe'~2`
+```
+'Odo Bag'
+```
+The text query matches, if an object's string representation includes the searched text as a substring. The above query would hence successfully match `Frodo Baggins`.
 
-#### Selection Queries
-`[self isPerson]`
+---
+```
+'Frodo Baggins'~4
+```
+Fuzziness for text queries is, similarly to word queries, realized by calculating edit distances. Here, however, the [smallest edit distance from the query's text to any of the target object's string representation's substrings][substring edit distance] is relevant. This can obviously be extremely powerful, but keep in mind that this will also frequently match more than expected, especially for high fuzziness values.
+
+The above query will therefore match `F. Baggins`, `Frodo R. R. Baggins` and `Bilbo Baggins`, but not `Odo Bag` and `B. Baggins`.
 
 #### Field Queries
-`fullName: {John Doe}`
+```
+fullName: {Frodo Baggins}
+```
+Field queries apply queries enclosed by curly braces (`{}`) to the specified field of the object to match.
 
 ---
-`{John Doe}`
+```
+{Frodo Baggins}
+```
+A field query without a specified field will try to match with any of the object's fields.
+
+#### Selection Queries
+```
+[self height <= 110]
+```
+Selection queries are denoted by square brackets (`[ ]`) and contain arbitrary smalltalk code. When matching, the object to match is bound to the compiled code's `'self'` pseudo-variable and executed. If the execution's result equals `true`, the query matches successfully. Errors during execution are interpreted as failed matches.
 
 #### Object Queries
-`[[Smalltalk at: #me]]`
+```
+[[Smalltalk at: #Frodo]]
+```
+Object queries are denoted by double square brackets (`[[ ]]`) and also contain arbitrary smalltalk code. Different to selection queries, however, this code is executed only once (before the search even fully begins). The resulting object is compared to potential matches using the `=` operator. If it returns true, the query matches successfully.
 
 ---
-`deleted: {[[true]]}`
+```
+gender: {[[#female]]}
+```
+This type of query is only really useful in combination with field queries.
+
 
 #### Boolean Queries
-`John Doe`
+##### Should
+```
+Frodo Baggins
+```
+As explained previously, the above query actually consists of multiple word queries. The query enclosing both of them and handling the logical combination is the boolean query. 
+
+By default all queries are interpreted as `should` clauses. This means that they are not required for the entire query to be successful, but will be taken into account for the score of the match.
+
+##### Must
+```
+Frodo +Baggins
+```
+Must clauses have to be fulfilled in order for the entire query to match. They will additionally be taken into account for the score of the match.
+
+##### Filter
+```
+Frodo #Baggins
+```
+Filter clauses have to be fulfilled in order for the entire query to match. They will, however, not be taken into account for the score of the match.
+
+##### Must Not
+```
+-Frodo Baggins
+```
+Must not clauses (also denoted by `!` or `NOT`) must not be fulfilled in order for the entire query to match. They are hence also not scored.
 
 ---
-`John +Doe`
+```
++(Frodo Bilbo) Baggins
+```
+Round parenthesis can be used to open sub queries.
 
----
-`John #Doe`
-
----
-`John -Doe` `John NOT Doe` `John !Doe`
-
----
-`+(John Jane) Doe`
-
+The above query will match both `Frodo Baggins` and `Bilbo Baggins`.
 
 ## Building Queries
 Queries can also be constructed manually by directly connecting the provided query classes found within the `Home-Search-Queries` system category. These classes correspond almost exactly to the search query language features outlined above. Further information can be found in the query classes' respective class comments:
@@ -76,12 +144,10 @@ Queries can also be constructed manually by directly connecting the provided que
 
 
 ## Soup Index
-To improve response time for the most common search operations (unfuzzy word queries & phrase queries), domain objects residing inside the soup are indexed. This index is updated whenever a domain object's field changes.
+To improve response time for the most common search operations (unfuzzy word queries & phrase queries), domain objects residing inside the soup could be indexed. This index would be updated whenever a domain object's field changes. The current implementation of such an index is [currently incomplete][index].
 
 ### Inconsistent Index State
-The index might deviate from the correct state, since domain objects' search terms do not necessarily have to be dependent on value objects. Hence, when a field relevant to deriving the search terms changes, without that field's identity changing, no update to the index is triggered.
-
-To trigger a manual recalculation of the index, e.g. when inconsistent or unexpected search results are returned, execute `soup reindex`.
+Such an index might, however, deviate from the correct state, since domain objects' search terms do not necessarily have to be dependent on value objects. Hence, when a field relevant to deriving the search terms changes, without that field's identity changing, no update to the index would be triggered.
 
 ## Benchmarks
 
@@ -93,6 +159,10 @@ To trigger a manual recalculation of the index, e.g. when inconsistent or unexpe
 
 [grammar]: ../repository/Home.package/HsQueryLanguage.class/class/serializedGrammar.st
 
+[search terms]: ../repository/Home.package/Object.extension/instance/searchTerms.st
+[edit distance]: ../repository/Home.package/String.extension/instance/editDistanceTo..st
+[substring edit distance]: ../repository/Home.package/String.extension/instance/substringEditDistanceTo..st
+
 [Boolean Query]: ../repository/Home.package/HsBooleanQuery.class/README.md
 [Field Query]: ../repository/Home.package/HsFieldQuery.class/README.md
 [Selection Query]: ../repository/Home.package/HsSelectionQuery.class/README.md
@@ -101,8 +171,9 @@ To trigger a manual recalculation of the index, e.g. when inconsistent or unexpe
 [Phrase Query]: ../repository/Home.package/HsPhraseTerm.class/README.md
 [Word Query]: ../repository/Home.package/HsWordTerm.class/README.md
 
+[index]: ../repository/Home.package/HsIndex.class/README.md
 
 <!-- Todo -->
 [demo-url]: https://vimeo.com/
-[search-bar]: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsearch-bar-element-design-search-box-on-white-background-3d-render-picture-id1013557844%3Fk%3D6%26m%3D1013557844%26s%3D612x612%26w%3D0%26h%3DNHhull5GM3JHFJt9TxLPR3iui9fshugtOTX59etr69c%3D&f=1
+[search-bar]: /screenshot.png
 
