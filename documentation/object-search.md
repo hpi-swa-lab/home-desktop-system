@@ -6,13 +6,8 @@ The Home System offers its own search mechanisms to help users find the objects 
 ## Search Bar
 ![Search Bar Image][search-bar]
 
-### Examples
-```
-John Doe
-```
-
 ### The Search Query Language
-The grammar of the search query language can be found [here][grammar].
+The grammar of the search query language is fairly simple and can be found [here][grammar].
 
 #### Word Queries
 ```
@@ -140,25 +135,35 @@ Queries can also be constructed manually by directly connecting the provided que
   * [Term Queries]
     * [Object Query]
     * [Phrase Query]
+    * [Text Query]
     * [Word Query]
 
 
-## Soup Index
-To improve response time for the most common search operations (unfuzzy word queries & phrase queries), domain objects residing inside the soup could be indexed. This index would be updated whenever a domain object's field changes. The current implementation of such an index is [currently incomplete][index].
+## Soup Index?
+To improve response time for the most common search operations (unfuzzy word queries & phrase queries), domain objects residing inside the soup could be indexed. This index would be updated whenever a domain object's field changes. The current implementation of such an index is [currently incomplete][index] as it neither allows updating the index nor stores all required information.
 
 ### Inconsistent Index State
 Such an index might, however, deviate from the correct state, since domain objects' search terms do not necessarily have to be dependent on value objects. Hence, when a field relevant to deriving the search terms changes, without that field's identity changing, no update to the index would be triggered.
 
 ## Benchmarks
+> todo
 
-
-
+## Todos
+* Optimize phrase queries when searching using an index
+* Use advanced scoring techniques when searching using an index
+  * e.g. [tf-idf](http://www.ardendertat.com/2011/07/17/how-to-implement-a-search-engine-part-3-ranking-tf-idf/)
+* Dedicated search results widget
+  * show why / how / which parts of an object matched
+* Stemming of search terms
+* Prioritizing / ordering scorers to improve performance
+* Permanent index for soup
 
 <!-- References -->
 [demo-badge]: https://img.shields.io/badge/demo-vimeo-blue
 
-[grammar]: ../repository/Home.package/HsQueryLanguage.class/class/serializedGrammar.st
+[search-bar]: ./search-bar.gif
 
+[grammar]: ../repository/Home.package/HsQueryLanguage.class/class/serializedGrammar.st
 [search terms]: ../repository/Home.package/Object.extension/instance/searchTerms.st
 [edit distance]: ../repository/Home.package/String.extension/instance/editDistanceTo..st
 [substring edit distance]: ../repository/Home.package/String.extension/instance/substringEditDistanceTo..st
@@ -169,11 +174,12 @@ Such an index might, however, deviate from the correct state, since domain objec
 [Term Queries]: ../repository/Home.package/HsTermQuery.class/README.md
 [Object Query]: ../repository/Home.package/HsObjectTerm.class/README.md
 [Phrase Query]: ../repository/Home.package/HsPhraseTerm.class/README.md
+[Text Query]: ../repository/Home.package/HsTextTerm.class/README.md
 [Word Query]: ../repository/Home.package/HsWordTerm.class/README.md
 
 [index]: ../repository/Home.package/HsIndex.class/README.md
 
 <!-- Todo -->
 [demo-url]: https://vimeo.com/
-[search-bar]: /screenshot.png
+
 
