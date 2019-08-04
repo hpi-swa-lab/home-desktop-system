@@ -39,6 +39,8 @@ The Home desktop system provides a programming interface for domain objects as w
 ### Object Search
 The system provides a system-wide search for objects. You can start a search through the search field left of the code search in the top right corner. You can access that search through the keyboard shortcut Ctrl/Cmd + 9.
 
+[... Read More](./documentation/object-search.md)
+
 ### Invoking Methods through the Context Menus
 As all information is stored in objects you can always invoke methods on them. Some of these methods are exposed in context menus accessible in the object explorer or the Rack. 
 
