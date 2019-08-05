@@ -1,3 +1,0 @@
-*Home-DnD
-containsViewableImage
-	^false.
