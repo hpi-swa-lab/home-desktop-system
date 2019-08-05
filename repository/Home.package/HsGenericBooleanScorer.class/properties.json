@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HsBooleanScorer",
+		"filters",
+		"musts",
+		"mustNots",
+		"shoulds" ],
+	"name" : "HsGenericBooleanScorer",
 	"pools" : [
 		 ],
-	"super" : "HsScorer",
+	"super" : "HsBooleanScorer",
 	"type" : "normal" }

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HsBooleanScorer",
+		"scorers" ],
+	"name" : "HsSpecializedBooleanScorer",
 	"pools" : [
 		 ],
-	"super" : "HsScorer",
+	"super" : "HsBooleanScorer",
 	"type" : "normal" }

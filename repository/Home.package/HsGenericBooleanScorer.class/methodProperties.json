@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allDo:" : "stlu 7/14/2019 21:29",
+		"filter:" : "stlu 7/13/2019 14:42",
+		"filters" : "stlu 7/13/2019 14:38",
+		"filters:" : "stlu 7/13/2019 14:38",
+		"matches:" : "stlu 8/5/2019 16:40",
+		"mustNots" : "stlu 7/13/2019 14:38",
+		"mustNots:" : "stlu 7/13/2019 14:38",
+		"musts" : "stlu 7/13/2019 14:38",
+		"musts:" : "stlu 7/13/2019 14:38",
+		"prohibitedDo:" : "stlu 7/14/2019 21:29",
+		"requiredDo:" : "stlu 7/14/2019 21:29",
+		"score:" : "stlu 8/5/2019 16:16",
+		"scoringDo:" : "stlu 7/14/2019 21:29",
+		"shoulds" : "stlu 7/13/2019 14:38",
+		"shoulds:" : "stlu 7/13/2019 14:38" } }
