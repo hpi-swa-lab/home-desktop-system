@@ -160,6 +160,7 @@ Such an index might, however, deviate from the correct state, since domain objec
 
 <!-- References -->
 [demo-badge]: https://img.shields.io/badge/demo-vimeo-blue
+[demo-url]: https://vimeo.com/351956324
 
 [search-bar]: ./search-bar.gif
 
@@ -178,8 +179,3 @@ Such an index might, however, deviate from the correct state, since domain objec
 [Word Query]: ../repository/Home.package/HsWordTerm.class/README.md
 
 [index]: ../repository/Home.package/HsIndex.class/README.md
-
-<!-- Todo -->
-[demo-url]: https://vimeo.com/
-
-
