@@ -14,7 +14,7 @@ SelectionQuery
 	= "[" ExecutableCode "]"
 
 FieldQuery
-	= Field "{" Query "}" -- single
+	= field "{" Query "}" -- single
 	| "{" Query "}" -- any
 
 BooleanClause
@@ -50,11 +50,8 @@ Term
 	| PhraseQuery
 	| WordQuery
 
-Field
-	= fieldName ":"
-
-fieldName
-	= letter alnum*
+field
+	= bindableIdentifier ":"
 
 ObjectQuery
 	= "[[" ExecutableCode "]]"

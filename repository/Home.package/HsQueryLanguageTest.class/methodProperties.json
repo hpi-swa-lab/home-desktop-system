@@ -5,6 +5,10 @@
 		"expectedFailures" : "stlu 8/5/2019 14:11",
 		"setUp" : "stlu 6/24/2019 13:53",
 		"testGrammarExists" : "stlu 6/24/2019 13:54",
+		"testGrammarParsesBooleanQueries" : "stlu 8/5/2019 15:09",
+		"testGrammarParsesFieldQueries" : "stlu 8/5/2019 14:47",
+		"testGrammarParsesObjectQueries" : "stlu 8/5/2019 14:35",
 		"testGrammarParsesPhraseQueries" : "stlu 8/5/2019 14:09",
 		"testGrammarParsesSelectionQueries" : "stlu 8/5/2019 14:01",
+		"testGrammarParsesTextQueries" : "stlu 8/5/2019 14:30",
 		"testGrammarParsesWordQueries" : "stlu 8/5/2019 14:07" } }

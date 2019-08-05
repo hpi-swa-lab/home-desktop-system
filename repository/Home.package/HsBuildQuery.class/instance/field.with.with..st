@@ -1,4 +1,4 @@
 actions - pass through
-Field: thisNode with: fieldName with: colon
+field: thisNode with: fieldName with: colon
 
 	^ fieldName interval contents
