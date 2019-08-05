@@ -31,7 +31,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
