@@ -1,11 +1,12 @@
 searching
 search: aCollection
 
-	| scorer collector |
+	| scorer result |
 	scorer := self scorer.
-	collector := HsTopScoreCollector new.
-	(scorer filter: aCollection) do: [:each |
-		collector
-			add: each
-			withScore: (scorer score: each)].
-	^ collector list
+	result := Array streamContents: [:stream |
+				aCollection do: [:each |
+					| score |
+					(score := (scorer score: each)) > 0 ifTrue: [
+						stream nextPut: (each -> score)]]].
+	result sort: [:lhs :rhs | lhs value >= rhs value].
+	^ (result first: (result size min: 25)) collect: [:each | each key]

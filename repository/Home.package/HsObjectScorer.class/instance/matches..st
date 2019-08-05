@@ -1,4 +1,4 @@
 querying
 matches: anObject
 
-	^ anObject = value
+	^ anObject = target

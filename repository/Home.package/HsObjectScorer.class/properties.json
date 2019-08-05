@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"target" ],
 	"name" : "HsObjectScorer",
 	"pools" : [
 		 ],
-	"super" : "HsTermScorer",
+	"super" : "HsScorer",
 	"type" : "normal" }

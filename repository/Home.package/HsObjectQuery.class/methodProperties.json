@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"fromMethod:" : "stlu 7/15/2019 21:59",
-		"fromMethodSource:" : "stlu 7/15/2019 21:41" },
+		"target:" : "stlu 8/5/2019 23:52" },
 	"instance" : {
-		"scorer" : "stlu 7/15/2019 10:49" } }
+		"scorer" : "stlu 8/5/2019 23:54",
+		"target" : "stlu 8/5/2019 23:53",
+		"target:" : "stlu 8/5/2019 23:53" } }

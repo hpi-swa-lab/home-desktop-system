@@ -1,14 +1,16 @@
 {
-	"category" : "Home-Search-Queries",
+	"category" : "Home-Search-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"target" ],
-	"name" : "HsObjectQuery",
+		"object",
+		"asString",
+		"searchTerms" ],
+	"name" : "HsMatching",
 	"pools" : [
 		 ],
-	"super" : "HsQuery",
+	"super" : "Object",
 	"type" : "normal" }

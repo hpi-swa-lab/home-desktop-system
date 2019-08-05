@@ -1,4 +1,6 @@
 querying
 score: anObject
 
-	^ 0
+	scorers do: [:scorer |
+		(scorer matches: anObject) ifTrue: [^ 0]].
+	^ 1

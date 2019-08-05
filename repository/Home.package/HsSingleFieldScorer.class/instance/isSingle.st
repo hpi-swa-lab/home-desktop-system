@@ -1,4 +1,0 @@
-testing
-isSingle
-
-	^ true

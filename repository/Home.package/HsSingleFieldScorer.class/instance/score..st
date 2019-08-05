@@ -1,7 +1,7 @@
 querying
 score: anObject
 
-	^ anObject
+	anObject
 		fieldNamed: fieldName
-		ifPresent: [:field | query score: field]
-		ifAbsent: [0]
+		ifPresent: [:field | ^ query score: field]
+		ifAbsent: [^ 0]

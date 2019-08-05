@@ -1,14 +1,13 @@
 querying
 matches: anObject
 
-	| shouldIsRequired |
-	shouldIsRequired := true.
-	self requiredDo: [:each |
-		shouldIsRequired := false.
-		(each matches: anObject) ifFalse: [^ false]].
-	self prohibitedDo: [:each |
-		(each matches: anObject) ifTrue: [^ false]].
-	shouldIsRequired ifTrue: [
-		^ shoulds anySatisfy: [:scorer |
-			scorer matches: anObject]].
+	filters do: [:scorer |
+		(scorer matches: anObject) ifFalse: [^ false]].
+	mustNots do: [:scorer |
+		(scorer matches: anObject) ifTrue: [^ false]].
+	musts do: [:scorer |
+		(scorer matches: anObject) ifFalse: [^ false]].
+	musts size = 0 ifTrue: [
+		shoulds do: [:scorer |
+			(scorer matches: anObject) ifTrue: [^ true]]].
 	^ true

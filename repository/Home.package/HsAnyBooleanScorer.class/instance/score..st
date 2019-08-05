@@ -1,8 +1,8 @@
 querying
 score: anObject
 
-	| score |
-	score := 0.
+	| totalScore |
+	totalScore := 0.
 	scorers do: [:scorer |
-		score := score + (scorer score: anObject)].
-	^ score / scorers size
+		totalScore := totalScore + (scorer score: anObject)].
+	^ totalScore / scorers size
