@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"method",
-		"isCached" ],
-	"name" : "HsBlockTerm",
+		 ],
+	"name" : "HsWordQuery",
 	"pools" : [
 		 ],
-	"super" : "HsObjectTerm",
+	"super" : "HsTermQuery",
 	"type" : "normal" }

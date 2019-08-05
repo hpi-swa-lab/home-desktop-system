@@ -23,8 +23,9 @@ BooleanClause
 ImmediateQuery
 	= BracedQuery
 	| FieldQuery
-	| TermQuery
+	| ObjectQuery
 	| SelectionQuery
+	| TermQuery
 
 occurrence
   = "+" -- must
@@ -45,10 +46,9 @@ fuzziness
 	| "~" -- default
 
 Term
-	= ObjectTerm
-	| TextTerm
-	| PhraseTerm
-	| WordTerm
+	= TextQuery
+	| PhraseQuery
+	| WordQuery
 
 Field
 	= fieldName ":"
@@ -56,16 +56,16 @@ Field
 fieldName
 	= letter alnum*
 
-ObjectTerm
+ObjectQuery
 	= "[[" ExecutableCode "]]"
 
-WordTerm
+WordQuery
 	= word
 
-PhraseTerm
+PhraseQuery
 	= phrase
 
-TextTerm
+TextQuery
 	= text
 
 word
