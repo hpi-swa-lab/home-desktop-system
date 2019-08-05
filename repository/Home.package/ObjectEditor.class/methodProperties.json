@@ -6,7 +6,7 @@
 		"openOn:" : "MdlH 7/5/2019 11:52",
 		"splitIdentifier:" : "pre 7/11/2018 20:06" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "JK 8/2/2019 11:04",
+		"acceptDroppingMorph:event:" : "MdlH 8/5/2019 11:12",
 		"addBadge" : "pre 8/18/2018 10:39",
 		"addNewField" : "pre 8/18/2018 10:49",
 		"addToCollectionUndoCommand:" : "JK 8/2/2019 11:04",
@@ -31,6 +31,6 @@
 		"updateEditingWidgetIn:for:" : "JK 7/2/2019 08:44",
 		"updateLabelIn:for:" : "pre 9/21/2018 09:47",
 		"wantsDropFiles:" : "MdlH 7/6/2019 11:28",
-		"wantsDroppedMorph:event:" : "MdlH 7/5/2019 14:19",
+		"wantsDroppedMorph:event:" : "eb 8/5/2019 11:10",
 		"wrappersToRows" : "JK 6/29/2019 19:26",
 		"wrappersToRows:" : "JK 6/29/2019 19:26" } }
