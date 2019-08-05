@@ -7,7 +7,7 @@ acceptDroppingMorph: aMorph event: evt
 		ifFalse: [
 			| chosenOperation |
 			chosenOperation := UIManager default
-				chooseFrom: #('Make new collection' 'add Realtion')
+				chooseFrom: #('Make new collection' 'add Relation')
 				title: 'Choose Operation'.
 	
 			(chosenOperation == 1) ifTrue: [ | newCollection |
