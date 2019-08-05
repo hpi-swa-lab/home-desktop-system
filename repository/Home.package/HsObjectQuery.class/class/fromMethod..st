@@ -1,7 +1,7 @@
 instance creation
 fromMethod: aMethod
 
-	^ self value: ([aMethod
+	^ self target: ([aMethod
 					valueWithReceiver: nil
 					arguments: #()]
 						ifError: [nil])
