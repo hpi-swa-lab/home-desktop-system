@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "stlu 8/5/2019 14:11",
 		"setUp" : "stlu 6/24/2019 13:53",
 		"testGrammarExists" : "stlu 6/24/2019 13:54",
-		"testGrammarParsesBlockQueries" : "stlu 7/11/2019 16:43",
-		"testGrammarParsesPhraseTerms" : "stlu 7/11/2019 17:20",
-		"testGrammarParsesTermQueries" : "stlu 7/11/2019 17:49" } }
+		"testGrammarParsesPhraseQueries" : "stlu 8/5/2019 14:09",
+		"testGrammarParsesSelectionQueries" : "stlu 8/5/2019 14:01",
+		"testGrammarParsesWordQueries" : "stlu 8/5/2019 14:07" } }

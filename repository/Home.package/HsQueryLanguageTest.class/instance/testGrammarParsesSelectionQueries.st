@@ -1,7 +1,7 @@
 tests
-testGrammarParsesBlockQueries
+testGrammarParsesSelectionQueries
 
-	startRule := #BlockQuery.
+	startRule := #SelectionQuery.
 	self
 		shouldParseAll: #(
 			'[self canUnderstand: #name]'
@@ -10,6 +10,9 @@ testGrammarParsesBlockQueries
 			'[42]'
 			'[]'
 			'["]"]'
+			'[[]]'
+			'[tmp := 2]'
+			'[| tmp | tmp := 2. tmp notNil]'
 			);
 		shouldntParseAny: #(
 			'[self: self self]'
