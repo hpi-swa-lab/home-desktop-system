@@ -1,5 +1,5 @@
 adding / removing
 addObject: anObject
 
-	anObject searchTerms do: [:term |
+	anObject searchWords do: [:term |
 		self post: anObject at: term]

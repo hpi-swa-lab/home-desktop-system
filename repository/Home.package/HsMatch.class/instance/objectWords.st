@@ -1,4 +1,4 @@
 accessing
 objectWords
 
-	^ objectWords ifNil: [objectWords := self objectString searchTerms]
+	^ objectWords ifNil: [objectWords := self objectString searchWords]

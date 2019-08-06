@@ -2,6 +2,6 @@ scorer
 scorer
 
 	^ HsWordScorer new
-		value: self value searchTerms first;
+		value: self value searchWords first;
 		fuzziness: self fuzziness;
 		yourself
