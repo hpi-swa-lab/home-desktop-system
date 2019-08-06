@@ -25,13 +25,13 @@ It is important to note, that a word query (as the name implies) only represents
 ```
 Fordo~1
 ```
-Fuzzy word queries (as denoted by `'~'`) don't require the word to match exactly to a search term, but rather calculate the [edit distance] between the two, requiring it to be less or equal than the provided number to match.
+Fuzzy word queries (as denoted by `'~'`) don't require the word to match a search term exactly, but rather calculate the [edit distance] between the two, requiring it to be less or equal than the provided fuzziness value. The above query would therefore match `Frodo Baggins`, since 'Frodo' and 'Fordo' have an edit distance of 1 (when considering transpositions of neighboring characters as a single operation).
 
 #### Phrase Queries
 ```
 "Frodo Baggins"
 ```
-Phrase queries consist of a sequence of words. They are denoted by enclosing double ticks`'"'`. Just like word queries, the matching operates on [search terms]. Different to word queries, though, a phrase query has to match all of its words in the correct order.
+Phrase queries consist of a sequence of words. They are denoted by enclosing double ticks (`" "`). Just like word queries, the matching operates on [search terms]. Different to word queries, though, a phrase query has to match all of its words in the correct order.
 
 The above query would therefore match `Frodo Baggins` but not `Bilbo Baggins` or `Frodo R. R. Baggins`.
 
@@ -39,13 +39,13 @@ The above query would therefore match `Frodo Baggins` but not `Bilbo Baggins` or
 ```
 "Frodo Baggins"~2
 ```
-Fuzziness in phrase queries is derived from the positional distance between the phrase's words. The above query would therefore match `Frodo R. R. Baggins` but not `Frodo lives with his uncle Bilbo Baggins`, since in the latter the distance between the words 'Frodo' and 'Baggins' is higher than the specified leeway of 2.
+Fuzziness in phrase queries is derived from the positional distance between the phrase's words. The above query would therefore match `Frodo R. R. Baggins` but not `Frodo lives with his uncle Bilbo Baggins`, since in the latter the distance between the words 'Frodo' and 'Baggins' is higher than the specified slop of 2.
 
 #### Text Queries
 ```
 'Frodo Baggins'
 ```
-Very similar to phrase queries, text queries are denoted by enclosing single ticks (`'`). Different to phrase queries, they do not represent a sequence of words, but a sequence of characters. They hence don't operate on [search terms], but the string representation (`Object>>asString`) directly, enabling searches for exact spellings and notations.
+Very similar to phrase queries, text queries are denoted by enclosing single ticks (`' '`). Different to phrase queries, they do not represent a sequence of words, but a sequence of characters. They hence don't operate on [search terms], but the string representation (`Object>>asString`) directly, enabling searches for exact spellings and notations.
 
 ---
 ```
@@ -65,7 +65,7 @@ The above query will therefore match `F. Baggins`, `Frodo R. R. Baggins` and `Bi
 ```
 fullName: {Frodo Baggins}
 ```
-Field queries apply queries enclosed by curly braces (`{}`) to the specified field of the object to match.
+Field queries apply queries enclosed by curly braces (`{ }`) to the specified field of the object to match.
 
 ---
 ```
@@ -165,7 +165,7 @@ Such an index might, however, deviate from the correct state, since domain objec
 [search-bar]: ./search-bar.gif
 
 [grammar]: ../repository/Home.package/HsQueryLanguage.class/class/serializedGrammar.st
-[search terms]: ../repository/Home.package/Object.extension/instance/searchTerms.st
+[search terms]: ../repository/Home.package/String.extension/instance/searchWords.st
 [edit distance]: ../repository/Home.package/String.extension/instance/editDistanceTo..st
 [substring edit distance]: ../repository/Home.package/String.extension/instance/substringEditDistanceTo..st
 
@@ -173,9 +173,9 @@ Such an index might, however, deviate from the correct state, since domain objec
 [Field Query]: ../repository/Home.package/HsFieldQuery.class/README.md
 [Selection Query]: ../repository/Home.package/HsSelectionQuery.class/README.md
 [Term Queries]: ../repository/Home.package/HsTermQuery.class/README.md
-[Object Query]: ../repository/Home.package/HsObjectTerm.class/README.md
-[Phrase Query]: ../repository/Home.package/HsPhraseTerm.class/README.md
-[Text Query]: ../repository/Home.package/HsTextTerm.class/README.md
-[Word Query]: ../repository/Home.package/HsWordTerm.class/README.md
+[Object Query]: ../repository/Home.package/HsObjectQuery.class/README.md
+[Phrase Query]: ../repository/Home.package/HsPhraseQuery.class/README.md
+[Text Query]: ../repository/Home.package/HsTextQuery.class/README.md
+[Word Query]: ../repository/Home.package/HsWordQuery.class/README.md
 
 [index]: ../repository/Home.package/HsIndex.class/README.md
