@@ -1,13 +1,13 @@
 querying
-matches: anObject
+matches: aMatch
 
 	filters do: [:scorer |
-		(scorer matches: anObject) ifFalse: [^ false]].
+		(scorer matches: aMatch) ifFalse: [^ false]].
 	mustNots do: [:scorer |
-		(scorer matches: anObject) ifTrue: [^ false]].
+		(scorer matches: aMatch) ifTrue: [^ false]].
 	musts do: [:scorer |
-		(scorer matches: anObject) ifFalse: [^ false]].
+		(scorer matches: aMatch) ifFalse: [^ false]].
 	musts size = 0 ifTrue: [
 		shoulds do: [:scorer |
-			(scorer matches: anObject) ifTrue: [^ true]]].
+			(scorer matches: aMatch) ifTrue: [^ true]]].
 	^ true

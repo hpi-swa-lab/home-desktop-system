@@ -1,5 +1,5 @@
 querying
-matches: anObject
+matches: aMatch
 
-	^ (anObject searchTerms ifEmpty: [^ false])
-		anySatisfy: [:term | self matchesTerm: term]
+	^ (aMatch objectWords ifEmpty: [^ false])
+		anySatisfy: [:word | self matchesWord: word]

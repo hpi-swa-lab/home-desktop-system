@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"object",
-		"asString",
-		"searchTerms" ],
-	"name" : "HsMatching",
+		"objectString",
+		"objectWords",
+		"objectFieldDict" ],
+	"name" : "HsMatch",
 	"pools" : [
 		 ],
 	"super" : "Object",

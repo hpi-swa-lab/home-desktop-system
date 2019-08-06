@@ -1,6 +1,6 @@
 actions
-score: anObject
+score: aMatch
 
-	^ (self matches: anObject)
+	^ (self matches: aMatch)
 		ifTrue: [1]
 		ifFalse: [0]

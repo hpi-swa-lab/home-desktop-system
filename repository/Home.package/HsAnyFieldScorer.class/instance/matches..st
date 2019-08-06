@@ -1,5 +1,5 @@
 querying
-matches: anObject
+matches: aMatch
 
-	^ anObject fields anySatisfy: [:field |
-		query matches: field]
+	^ aMatch objectFields anySatisfy: [:fieldMatch |
+		query matches: fieldMatch]

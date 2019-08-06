@@ -1,4 +1,4 @@
 querying
-matches: anObject
+matches: aMatch
 
-	^ anObject = target
+	^ aMatch object = target

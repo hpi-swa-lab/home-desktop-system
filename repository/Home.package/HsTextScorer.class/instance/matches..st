@@ -1,6 +1,6 @@
 querying
-matches: anObject
+matches: aMatch
 
-	^ ((anObject asString ifEmpty: [^ false])
+	^ ((aMatch objectString ifEmpty: [^ false])
 		substringEditDistanceTo: value)
 			<= fuzziness

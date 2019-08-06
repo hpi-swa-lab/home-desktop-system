@@ -1,7 +1,7 @@
 actions
-matches: anObject
+matches: aMatch
 
 	[^ (method
-		valueWithReceiver: anObject
+		valueWithReceiver: aMatch object
 		arguments: #()) == true]
 		ifError: [^ false]

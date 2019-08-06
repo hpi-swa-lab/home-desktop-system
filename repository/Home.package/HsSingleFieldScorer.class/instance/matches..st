@@ -1,7 +1,7 @@
 querying
-matches: anObject
+matches: aMatch
 
-	anObject
-		fieldNamed: fieldName
-		ifPresent: [:field | ^ query matches: field]
+	aMatch
+		objectFieldNamed: fieldName
+		ifPresent: [:fieldMatch | ^ query matches: fieldMatch]
 		ifAbsent: [^ false]

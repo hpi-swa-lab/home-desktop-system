@@ -1,8 +1,8 @@
 querying
-score: anObject
+score: aMatch
 
 	| target dist distScore lenScore |
-	target := anObject asString.
+	target := aMatch objectString.
 	target size = 0 ifTrue: [^ 0].
 	dist := target substringEditDistanceTo: value.
 	dist > fuzziness ifTrue: [^ 0].

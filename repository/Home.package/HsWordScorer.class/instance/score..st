@@ -1,9 +1,9 @@
 querying
-score: anObject
+score: aMatch
 
-	^ anObject searchTerms
+	^ aMatch objectWords
 		ifEmpty: [0]
-		ifNotEmpty: [:searchTerms |
+		ifNotEmpty: [:words |
 			| numMatches |
-			numMatches := searchTerms count: [:each | self matchesTerm: each].
-			numMatches / searchTerms size]
+			numMatches := words count: [:word | self matchesWord: word].
+			numMatches / words size]

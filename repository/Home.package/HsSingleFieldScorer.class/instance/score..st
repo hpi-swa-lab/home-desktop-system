@@ -2,6 +2,6 @@ querying
 score: anObject
 
 	anObject
-		fieldNamed: fieldName
-		ifPresent: [:field | ^ query score: field]
+		objectFieldNamed: fieldName
+		ifPresent: [:fieldMatch | ^ query score: fieldMatch]
 		ifAbsent: [^ 0]

@@ -1,5 +1,5 @@
 querying
-matches: anObject
+matches: aMatch
 
 	^ scorers allSatisfy: [:scorer |
-		scorer matches: anObject]
+		scorer matches: aMatch]

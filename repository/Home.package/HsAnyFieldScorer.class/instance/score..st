@@ -1,10 +1,10 @@
 querying
-score: anObject
+score: aMatch
 
 	| bestScore |
 	bestScore := 0.
-	anObject fields do: [:each |
+	aMatch objectFields do: [:fieldMatch |
 		| score |
-		(score := query score: each) > bestScore ifTrue: [
+		(score := query score: fieldMatch) > bestScore ifTrue: [
 			bestScore := score]].
 	^ bestScore
