@@ -18,7 +18,7 @@
 		"dropFiles:" : "MdlH 7/4/2019 22:32",
 		"handleDroppedItem:event:" : "MdlH 7/5/2019 22:17",
 		"handleKeystroke:" : "JK 8/2/2019 11:00",
-		"initialize" : "MdlH 7/5/2019 20:44",
+		"initialize" : "pre 11/5/2019 09:52",
 		"initializeEventsFrom:with:" : "JK 8/2/2019 11:01",
 		"inputToSelector:" : "eb 6/12/2019 18:00",
 		"instance" : "pre 6/8/2018 16:16",
@@ -29,8 +29,7 @@
 		"renewFields" : "pre 7/7/2018 10:32",
 		"updateEditingWidgetFor:" : "JK 7/9/2019 08:43",
 		"updateEditingWidgetIn:for:" : "JK 7/2/2019 08:44",
-		"updateLabelIn:for:" : "pre 9/21/2018 09:47",
+		"updateLabelIn:for:" : "pre 11/4/2019 16:57",
 		"wantsDropFiles:" : "MdlH 7/6/2019 11:28",
-		"wantsDroppedMorph:event:" : "eb 8/5/2019 11:10",
 		"wrappersToRows" : "JK 6/29/2019 19:26",
 		"wrappersToRows:" : "JK 6/29/2019 19:26" } }

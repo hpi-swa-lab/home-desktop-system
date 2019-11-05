@@ -7,9 +7,8 @@ initializeButtons
 		borderWidth: 2;
 		changeTableLayout;
 		listDirection: #leftToRight;
-		layoutFrame: (LayoutFrame 
-							fractions:(1@0 corner: 1@1) 
-							offsets: (-80@0 corner: 0@0));
+		width: 80;
+		hResizing: #rigid;
 		yourself).
 		
 	deleteButton := IconicButton new

@@ -4,7 +4,7 @@ initialize
 	super initialize.
 
 	self
-		layoutPolicy: ObjectBadgeLayoutPolicy new;
+		changeTableLayout;
 		listDirection: #leftToRight;
 		cellInset: 10;
 		hResizing: #spaceFill;
