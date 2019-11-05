@@ -8,6 +8,7 @@ initialize
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		cellPositioning: #topLeft;
+		layoutInset: 0;
 		cellInset: 2.
 		
 	self initializeButtons.

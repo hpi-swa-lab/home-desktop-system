@@ -4,11 +4,12 @@ initializeButtons
 	| deleteButton initializeButton |
 	self buttons: (Morph new
 		color: Color transparent;
-		borderWidth: 2;
+		borderWidth: 0;
 		changeTableLayout;
 		listDirection: #leftToRight;
 		width: 80;
 		hResizing: #rigid;
+		vResizing: #shrinkWrap;
 		yourself).
 		
 	deleteButton := IconicButton new

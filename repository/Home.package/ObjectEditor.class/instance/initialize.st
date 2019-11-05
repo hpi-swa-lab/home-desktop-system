@@ -10,7 +10,7 @@ initialize
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		cellInset: 2;
+		cellInset: 1;
 		layoutInset: 0;
 		dropEnabled: true.
 		
