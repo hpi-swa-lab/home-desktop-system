@@ -1,4 +1,4 @@
 event handling
-handlesMouseMove: evt
+handlesMouseOver: evt
 
 	^ true "evt isDraggingEvent"
