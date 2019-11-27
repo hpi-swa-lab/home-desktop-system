@@ -1,7 +1,7 @@
 private
 createTextMorph
 
-	^ (instance objectEditorPrintString asHtmlText asMorph) 
+	^ (instance objectEditorPrintString asText asMorph) 
 		lock;
 		hResizing: #spaceFill;
 		yourself

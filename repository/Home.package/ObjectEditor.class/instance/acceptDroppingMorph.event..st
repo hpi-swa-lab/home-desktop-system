@@ -1,20 +1,16 @@
 drag and drop
 acceptDroppingMorph: aMorph event: evt
 
+	| droppedObject |
+	droppedObject := (aMorph respondsTo: #passenger)
+		ifTrue: [aMorph passenger]
+		ifFalse: [aMorph object].
+
 	(self instance isKindOf: Collection) ifTrue: [
-		 	self commandHistory rememberCommand: (self addToCollectionUndoCommand: aMorph passenger).
-			self instance objectEditorAdd: aMorph passenger]
+		 	self commandHistory rememberCommand: (self addToCollectionUndoCommand: droppedObject).
+			self instance objectEditorAdd: droppedObject]
 		ifFalse: [
-			| chosenOperation |
-			chosenOperation := UIManager default
-				chooseFrom: #('Make new collection' 'add Relation')
-				title: 'Choose Operation'.
+			instance objectEditorAdd: droppedObject].
 	
-			(chosenOperation == 1) ifTrue: [ | newCollection |
-				newCollection := (OrderedCollection new) 
-									objectEditorAdd: self instance;
-				 					objectEditorAdd: aMorph passenger.
-					self triggerEvent: #addCollection with: newCollection].
-			(chosenOperation == 2) ifTrue: [instance objectEditorAdd: aMorph passenger.].].
-	
+	aMorph rejectDropMorphEvent: evt.
 	self badge resetBorder.

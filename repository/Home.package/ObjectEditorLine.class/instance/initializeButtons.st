@@ -11,6 +11,7 @@ initializeButtons
 		hResizing: #rigid;
 		vResizing: #shrinkWrap;
 		yourself).
+	self buttons hide.
 		
 	deleteButton := IconicButton new
 		labelGraphic: (RIcons icons8Delete64pxIcon scaledToSize: 14@14);

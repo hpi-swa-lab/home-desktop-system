@@ -2,6 +2,7 @@ private
 initializeEventsFrom: aRow with: aWrapper
 
 	aRow when: #objectDropped evaluate: [:obj | 
+		self halt.
 		self commandHistory rememberCommand: (aWrapper setValueUndoCommand: obj).
 		aWrapper setValueTo: obj].
 	aRow when: #deleteRequested evaluate: [ 
