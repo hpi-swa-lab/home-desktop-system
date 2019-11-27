@@ -2,12 +2,15 @@ printing
 tabularPrintString
 
 	^ String streamContents: [:stream | 
-		self teams withIndexDo: [:team :index |
+		self teams do: [:team |
 			stream 
-				<< index asString 
+				<< (team groupName last: 2) 
 				<< String tab
 				<< team assignedTopic asString
 				<< String tab
-				<< ((team members collect: #asString) asArray joinSeparatedBy: ', ')
+				<< ((team members collect: #fullName) asArray joinSeparatedBy: ', ')
+				<< String tab
+				<< team tutor firstName first asUppercase
+				<< team tutor lastName first asUppercase
 				<< String crlf ]]
 	
