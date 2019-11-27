@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNotMatching
 	|obj|
 	obj := DomainObject new.

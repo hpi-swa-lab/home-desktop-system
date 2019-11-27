@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFullName
 	|obj|
 	obj := DomainObject new.

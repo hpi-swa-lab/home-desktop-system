@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTodoMail
 	|obj|
 	obj := ToDo new.
