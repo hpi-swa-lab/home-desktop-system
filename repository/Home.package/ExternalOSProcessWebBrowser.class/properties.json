@@ -1,0 +1,14 @@
+{
+	"category" : "Home-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExternalOSProcessWebBrowser",
+	"pools" : [
+		 ],
+	"super" : "ExternalWebBrowserPlatform",
+	"type" : "normal" }

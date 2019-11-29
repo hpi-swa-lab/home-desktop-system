@@ -13,10 +13,22 @@ baseline: spec
 					spec
 						repository: 'github://hpi-swa/widgets:master/repository';
 						loads: #(full)];
+				"Mostly used for opening files in external viewers (mostly pdf)"
 				project: 'OSProcess' with: [
 					spec
 						className: 'ConfigurationOfOSProcess';
 						repository: 'http://www.squeaksource.com/MetacelloRepository';
+						versionString: #'stable'];
+				"Adds web browser hooks which are used to implement the OSProcessWebBrowser"
+				project: 'ExternalWebBrowser' with: [
+					spec
+						file: 'ExternalWebBrowser-mtf.114';
+						repository: 'http://www.squeaksource.com/ExternalWebBrowser';
+						requires: #(FFI)];
+				project: 'FFI' with: [
+					spec
+						className: 'ConfigurationOfFFI';
+						repository: 'http://source.squeakfoundation.org/FFI';
 						versionString: #'stable'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
@@ -31,7 +43,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess' 'ExternalWebBrowser');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
