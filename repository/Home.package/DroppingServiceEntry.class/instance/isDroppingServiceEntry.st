@@ -1,3 +1,3 @@
-as yet unclassified
+Home-DnD
 isDroppingServiceEntry
 	^true.
