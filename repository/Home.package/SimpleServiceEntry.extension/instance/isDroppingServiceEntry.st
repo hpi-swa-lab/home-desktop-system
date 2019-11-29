@@ -1,3 +1,0 @@
-*Home-DnD
-isDroppingServiceEntry
-	^false.
