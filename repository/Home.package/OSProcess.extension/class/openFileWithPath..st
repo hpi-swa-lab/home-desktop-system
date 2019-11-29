@@ -1,4 +1,4 @@
-*Home-UI
+*Home-Core
 openFileWithPath: aPath
 	"On multiOS systems the paths to 1 external item can be different, depending on which OS is used. This is NOT handled here"
 	Smalltalk platformName = 'Win32' ifTrue: [
