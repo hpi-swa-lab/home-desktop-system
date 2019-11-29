@@ -20,16 +20,16 @@ baseline: spec
 						repository: 'http://www.squeaksource.com/MetacelloRepository';
 						versionString: #'stable'];
 				"Adds web browser hooks which are used to implement the OSProcessWebBrowser"
-				project: 'ExternalWebBrowser' with: [
-					spec
-						file: 'ExternalWebBrowser-mtf.114';
-						repository: 'http://www.squeaksource.com/ExternalWebBrowser';
-						requires: #(FFI)];
 				project: 'FFI' with: [
 					spec
 						className: 'ConfigurationOfFFI';
 						repository: 'http://source.squeakfoundation.org/FFI';
 						versionString: #'stable'];
+				package: 'ExternalWebBrowser' with: [
+					spec
+						repository: 'http://www.squeaksource.com/ExternalWebBrowser';
+						file: 'ExternalWebBrowser-mtf.114';
+						requires: 'FFI'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
