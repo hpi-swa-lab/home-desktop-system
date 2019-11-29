@@ -1,3 +1,0 @@
-Rack
-baseMenuOperationsName
-	^ 'DomainObject'
