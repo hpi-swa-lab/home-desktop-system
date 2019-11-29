@@ -30,6 +30,11 @@ baseline: spec
 						repository: 'http://www.squeaksource.com/ExternalWebBrowser';
 						file: 'ExternalWebBrowser-mtf.114';
 						requires: 'FFI'];
+				"Needed for the CSVResolver to load surrogates for CSV data"
+				package: 'Neo-CSV-Core' with: [
+					spec
+						repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main';
+						file: 'Neo-CSV-Core-SvenVanCaekenberghe.28'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
@@ -43,7 +48,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess' 'ExternalWebBrowser');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess' 'ExternalWebBrowser' 'Neo-CSV-Core');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself
