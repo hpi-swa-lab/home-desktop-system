@@ -2,7 +2,7 @@ as yet unclassified
 importFrom: stream
 
 	| parseResult |
-	parseResult := OhmBibtex match: stream upToEnd startingFrom: 'BibtexDB'.
+	parseResult := OhmBibtex match: stream readStream upToEnd startingFrom: 'BibtexDB'.
 	
 	parseResult failed ifTrue: [self halt].
 	
