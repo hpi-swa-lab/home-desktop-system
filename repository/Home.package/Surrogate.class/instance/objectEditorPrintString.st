@@ -8,4 +8,4 @@ objectEditorPrintString
 			ifFound: [:nameMessage | | nameValue |
 				nameValue := self perform: nameMessage.
 				aStream nextPutAll: nameValue asString]
-			ifNone: [aStream nextPutAll: self uri pathComponents last; nextPutAll: ' (s)']]
+			ifNone: [aStream nextPutAll: self uri asUrl locator; nextPutAll: ' (s)']]

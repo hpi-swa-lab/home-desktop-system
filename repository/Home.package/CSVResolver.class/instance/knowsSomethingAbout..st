@@ -1,4 +1,4 @@
 resolving
 knowsSomethingAbout: anUri
 
-	^ anUri isString and: [anUri beginsWith: 'csv:'] and: [anUri includesSubString: self file name]
+	^ anUri isString and: [anUri beginsWith: 'csv:'] and: [anUri includesSubstring: self file name]
