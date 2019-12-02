@@ -9,7 +9,7 @@ operationsCallableBy: aSelector
 			thenCollect: [:pr | typeObject -> pr method selector]).
 	].
 	self allTypeObjects do: [ :typeObject | | typeSelector |
-		typeSelector := aSelector asMutator.
+		typeSelector := aSelector asSimpleSetter.
 		(typeObject respondsTo: typeSelector) ifTrue: [result add: (typeObject -> typeSelector)].
 	].
 

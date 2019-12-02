@@ -5,6 +5,6 @@ objectEditorWrapperFor: aSelector
 			label: (ObjectEditorSlotWrapper labelFrom: aSelector);
 			instance: self;
 			getterSelector: aSelector;
-			setterSelector: aSelector asMutator;
+			setterSelector: aSelector asSimpleSetter;
 			onDelete: [self removeAdditionalStateAt: aSelector]
 			yourself
