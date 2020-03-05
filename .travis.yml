@@ -2,7 +2,7 @@ language: smalltalk
 sudo: false
 smalltalk:
 - Squeak-trunk
-- Squeak-5.1
+- Squeak-5.3
 
 after_success: travis_wait 40 bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
 deploy:
@@ -17,7 +17,3 @@ deploy:
     repo: hpi-swa-lab/home-desktop-system
     tags: true
     condition: $TRAVIS_SMALLTALK_VERSION = "Squeak-trunk"
-
-matrix:
-  allow_failures:
-  - smalltalk: Squeak-5.1
