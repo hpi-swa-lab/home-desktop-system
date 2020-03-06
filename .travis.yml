@@ -1,8 +1,12 @@
 language: smalltalk
 sudo: false
 smalltalk:
-- Squeak-trunk
-- Squeak-5.1
+- Squeak32-trunk
+- Squeak32-5.3
+- Squeak32-5.1
+- Squeak64-trunk
+- Squeak64-5.3
+- Squeak64-5.1
 
 after_success: travis_wait 40 bash $TRAVIS_BUILD_DIR/scripts/build_images.sh
 deploy:
@@ -20,4 +24,5 @@ deploy:
 
 matrix:
   allow_failures:
-  - smalltalk: Squeak-5.1
+  - smalltalk: Squeak64-5.1
+  - smalltalk: Squeak32-5.1
