@@ -5,6 +5,6 @@ printOn: aStream
 		<< 'Lend ';
 		<< (self itemDescription ifNil: '');
 		<< ' to '; 
-		<< (self borrower ifNil: '' ifNotNil: [:p | p fullName]);
+		in: [:stream | (self borrower ifNil: '' ifNotNil: [:p | p printOn: stream ])];
 		<< ' on ';
 		<< (self date asString ifNil: '')

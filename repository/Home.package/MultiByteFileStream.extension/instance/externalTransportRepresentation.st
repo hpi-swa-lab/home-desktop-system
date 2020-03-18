@@ -2,5 +2,5 @@
 externalTransportRepresentation
 	self reopen.
 		^ Dictionary new
-		at: self name put: (ExternalTransportRepresentation newForFileName: self name andContent: self);
+		at: self name put: (HomeExternalTransportRepresentation newForFileName: self name andContent: self);
 		yourself

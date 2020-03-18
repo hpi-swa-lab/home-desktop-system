@@ -7,5 +7,5 @@ externalTransportRepresentation
 	stream reset.
 	fileName := self name, FileDirectory dot, FileStream st.
 	^ Dictionary new
-		at: fileName put: (ExternalTransportRepresentation newForFileName: fileName  andContent: stream);
+		at: fileName put: (HomeExternalTransportRepresentation newForFileName: fileName  andContent: stream);
 		yourself

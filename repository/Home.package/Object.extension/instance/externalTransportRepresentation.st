@@ -5,5 +5,5 @@ externalTransportRepresentation
 	transfer, e.g. for email."
 	
 	^ Dictionary new
-		at: self worldIconText put: (ExternalTransportRepresentation newForType:  MIMEDocument contentTypePlainText andContent: self storeString readStream);
+		at: self worldIconText put: (HomeExternalTransportRepresentation newForType:  MIMEDocument contentTypePlainText andContent: self storeString readStream);
 		yourself

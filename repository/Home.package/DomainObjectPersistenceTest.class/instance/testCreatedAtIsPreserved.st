@@ -3,5 +3,5 @@ testCreatedAtIsPreserved
 
 	| oldCreatedAt |
 	oldCreatedAt := object createdAt.
-	object storeFull.
+	object storeAway.
 	self assert: object createdAt = oldCreatedAt.

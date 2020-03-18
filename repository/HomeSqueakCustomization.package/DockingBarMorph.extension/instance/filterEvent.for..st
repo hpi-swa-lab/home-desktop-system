@@ -7,7 +7,7 @@ filterEvent: aKeyboardEvent for: anObject
 	aKeyboardEvent controlKeyPressed
 		ifFalse: [^ aKeyboardEvent].
 
-	(aKeyboardEvent isKeyDown or: [aKeyboardEvent isKeystroke]) "We also need #keyDown for Windows platforms because CTRL+X does not trigger key strokes there..."
+	aKeyboardEvent isKeystroke
 		ifFalse: [^ aKeyboardEvent].
 			
 	"Search field."

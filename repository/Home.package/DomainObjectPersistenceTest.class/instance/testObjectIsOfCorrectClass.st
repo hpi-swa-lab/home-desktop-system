@@ -1,6 +1,6 @@
 tests
 testObjectIsOfCorrectClass
 
-	object storeFull.
+	object storeAway.
 	object createdAt.
 	self assert: object class = TestDomainObject.

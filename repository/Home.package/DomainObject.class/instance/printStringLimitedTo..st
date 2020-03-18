@@ -1,3 +1,3 @@
 printing
 printStringLimitedTo: limit
-	^ self printStringLimitedTo: limit in: nil
+	^ super printStringLimitedTo: limit 

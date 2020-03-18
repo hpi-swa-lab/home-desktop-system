@@ -2,7 +2,7 @@ generic-observer
 setInstVarAndSendUpdateFor: instVarName theValue: value 
 
 	self instVarNamed: instVarName put: value.
-	self changed.
-	self changed: instVarName with: value.
+	(#(currentInStorage lastChanged) includes: instVarName) ifFalse: [
+		self noteChangeOf: instVarName to: value].
 	^ value
 	
