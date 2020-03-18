@@ -1,4 +1,0 @@
-materialization
-scorer
-
-	self subclassResponsibility

@@ -1,4 +1,0 @@
-initialization
-defaultCapacity
-
-	^ 25

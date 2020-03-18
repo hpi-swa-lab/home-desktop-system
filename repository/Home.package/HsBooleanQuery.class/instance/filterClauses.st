@@ -1,4 +1,0 @@
-accessing
-filterClauses
-
-	^ filterClauses

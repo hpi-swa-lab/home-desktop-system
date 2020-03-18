@@ -1,4 +1,0 @@
-visiting
-visitWordScorer: aScorer
-
-	

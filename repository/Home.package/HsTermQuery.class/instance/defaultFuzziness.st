@@ -1,4 +1,0 @@
-accessing
-defaultFuzziness
-
-	^ 2

@@ -14,12 +14,6 @@ SystemOrganization addCategory: #'Home-Domain-Travel'!
 SystemOrganization addCategory: #'Home-Domain-World'!
 SystemOrganization addCategory: #'Home-Experiment'!
 SystemOrganization addCategory: #'Home-SWDEva'!
-SystemOrganization addCategory: #'Home-Search-Core'!
-SystemOrganization addCategory: #'Home-Search-Index'!
-SystemOrganization addCategory: #'Home-Search-Language'!
-SystemOrganization addCategory: #'Home-Search-Queries'!
-SystemOrganization addCategory: #'Home-Search-Scoring'!
-SystemOrganization addCategory: #'Home-Search-Tests'!
 SystemOrganization addCategory: #'Home-Surrogates'!
 SystemOrganization addCategory: #'Home-Surrogates-Tests'!
 SystemOrganization addCategory: #'Home-Tests'!
