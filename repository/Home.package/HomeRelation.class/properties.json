@@ -10,7 +10,8 @@
 		"targetCardinality",
 		"identifier",
 		"isOrdered",
-		"defaultInitialization" ],
+		"defaultInitialization",
+		"symmetricPartnerRelation" ],
 	"name" : "HomeRelation",
 	"pools" : [
 		 ],

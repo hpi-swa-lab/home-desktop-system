@@ -2,8 +2,9 @@ relations
 relationAuthor
 
 	^ self new
-		receiverCardinality: 1;
+		receiverCardinality: self many;
 		targetCardinality: self many;
 		isOrdered: false;
 		identifier: 'authorOf' asSymbol;		
+		symmetricPartnerRelation: 'authors' asSymbol;
 		yourself
