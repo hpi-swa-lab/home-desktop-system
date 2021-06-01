@@ -1,4 +1,4 @@
-# A New Home [![Build Status](https://travis-ci.org/hpi-swa-lab/home-desktop-system.svg?branch=master)](https://travis-ci.org/hpi-swa-lab/home-desktop-system)
+# A New Home [![Main Build Status](https://img.shields.io/github/workflow/status/hpi-swa-lab/home-desktop-system/tests/main?logo=github)](https://github.com/hpi-swa-lab/home-desktop-system/actions/workflows/tests.yml)
 
 The Home System is a desktop system build on top of Squeak/Smalltalk. It is based upon the idea of storing data in living objects and allowing its users to adapt it completely to their needs. The system comes with:
 
