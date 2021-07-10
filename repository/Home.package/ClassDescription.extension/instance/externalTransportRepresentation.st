@@ -1,10 +1,11 @@
 *Home-Core
 externalTransportRepresentation
 
-	| stream |
+	| stream fileName |
 	stream := ReadWriteStream on: (String new: 1000).
 	self fileOutOn: stream.
 	stream reset.
+	fileName := self name, FileDirectory dot, FileStream st.
 	^ Dictionary new
-		at: (self name, FileDirectory dot, FileStream st) put: stream;
+		at: fileName put: (HomeExternalTransportRepresentation newForFileName: fileName  andContent: stream);
 		yourself

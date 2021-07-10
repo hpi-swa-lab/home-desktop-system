@@ -1,0 +1,6 @@
+defaults
+defaultColorForObject
+
+	^ Color lightGray
+
+	

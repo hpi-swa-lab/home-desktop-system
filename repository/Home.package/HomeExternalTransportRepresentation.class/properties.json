@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MdlH 7/31/2019 17:31",
+	"instvars" : [
+		"mimetype",
+		"contents" ],
+	"name" : "HomeExternalTransportRepresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

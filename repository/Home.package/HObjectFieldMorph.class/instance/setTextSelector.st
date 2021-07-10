@@ -1,0 +1,4 @@
+toolbuilder-compatability
+setTextSelector
+
+	^ setTextSelector

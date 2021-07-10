@@ -1,4 +1,4 @@
 event handling
 handlesMouseMove: evt
 
-	^ evt isDraggingEvent
+	^ true "evt isDraggingEvent"

@@ -1,0 +1,16 @@
+{
+	"category" : "Home-Database-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"adaptor",
+		"server",
+		"port" ],
+	"name" : "HomeDBAdaptorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

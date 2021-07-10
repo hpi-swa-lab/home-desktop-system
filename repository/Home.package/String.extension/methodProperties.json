@@ -2,6 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asJsonDocumentsWithDatabase:" : "AR 6/28/2019 22:00",
+		"asTitleCase" : "pre 6/11/2019 07:24",
+		"countSubstringsWithEditDistance:to:" : "stlu 8/4/2019 15:44",
+		"damerauLevenshteinDistanceTo:" : "stlu 6/1/2019 10:51",
+		"editDistanceTo:" : "stlu 7/15/2019 20:55",
+		"levenshteinDistanceTo:" : "stlu 6/1/2019 10:40",
 		"objectEditorBeforeChangeConversion" : "pre 8/23/2018 11:00",
 		"objectEditorPrintString" : "pre 6/8/2018 19:22",
-		"objectEditorWidgetFor:" : "pre 6/28/2018 16:23" } }
+		"objectEditorWidgetFor:" : "pre 6/28/2018 16:23",
+		"objectEditorWidgetFor:withCommandHistory:" : "JK 7/9/2019 08:42",
+		"searchWords" : "stlu 8/6/2019 18:18",
+		"substringEditDistanceTo:" : "stlu 7/15/2019 10:45" } }

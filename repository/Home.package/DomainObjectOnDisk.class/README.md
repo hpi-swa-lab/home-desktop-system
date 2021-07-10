@@ -1,0 +1,1 @@
+A DomainObjectOnDisk is an in-image representation of a domain object whose values are all stored on disk. It is transparent in the sense, that if we want to access any values from this object, the system will load the object dynamically.

@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"activatedByKeyboard" : "pre 8/28/2018 10:24",
+		"activatedByKeyboard" : "pre 7/24/2019 13:07",
 		"activatedByKeyboard:" : "pre 3/27/2018 10:19",
 		"instance" : "pre 3/27/2018 10:19" },
 	"instance" : {
 		"handleListenEvent:" : "pre 1/13/2019 17:18",
-		"toggleVisibility" : "pre 1/13/2019 17:17",
+		"initialize" : "pre 6/11/2019 07:42",
+		"toggleVisibility" : "pre 7/24/2019 13:07",
 		"updateVisuals" : "pre 4/4/2018 08:29",
 		"wantsYellowButtonMenu" : "pre 3/29/2018 21:20" } }

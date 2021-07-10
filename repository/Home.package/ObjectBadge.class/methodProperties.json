@@ -2,20 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "pre 7/10/2018 14:50",
 		"addNewFieldRequested" : "pre 8/18/2018 10:39",
 		"createIconMorph" : "pre 6/29/2018 15:38",
-		"createTextMorph" : "pre 6/29/2018 15:37",
+		"createTextMorph" : "pre 11/5/2019 12:16",
 		"handlesMouseDown:" : "pre 6/8/2018 20:28",
 		"handlesMouseOverDragging:" : "pre 7/10/2018 13:41",
-		"initialize" : "pre 7/6/2018 16:24",
+		"initialize" : "pre 11/5/2019 10:38",
 		"instance:" : "pre 6/29/2018 15:04",
 		"mouseEnterDragging:" : "pre 7/10/2018 14:37",
 		"mouseLeaveDragging:" : "pre 7/10/2018 14:37",
 		"mouseUp:" : "pre 7/6/2018 16:26",
-		"openMenu" : "pre 11/19/2018 17:22",
+		"openMenu" : "eb 5/15/2019 21:07",
 		"resetBorder" : "pre 7/10/2018 14:37",
 		"startDragging:" : "pre 7/7/2018 10:54",
 		"update:" : "pre 6/29/2018 15:04",
-		"updateSubmorphs" : "pre 7/3/2018 14:55",
-		"wantsDroppedMorph:event:" : "pre 7/10/2018 13:40" } }
+		"updateSubmorphs" : "pre 7/3/2018 14:55" } }

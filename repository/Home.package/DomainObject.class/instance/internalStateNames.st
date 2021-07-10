@@ -1,4 +1,4 @@
 private
 internalStateNames
 
-	^ #('additionalState' 'uuid')
+	^ #('additionalState' 'uuid' 'lastChanged' 'currentInStorage')

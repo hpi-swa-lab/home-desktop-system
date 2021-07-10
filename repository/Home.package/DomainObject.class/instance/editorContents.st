@@ -3,7 +3,7 @@ editorContents
 	
 	| additionalFields standardFields |
 	standardFields := (super editorContents reject: [:w | 
-		w label asLowercase isAnyOf: self internalStateNames , #('createdAt')]) sorted.
+		w fieldIdentifier isAnyOf: self internalStateNames , #('createdAt')]) sorted.
 	additionalFields := (self additionalStateSelectors collect: [ :selector |
 		self objectEditorWrapperFor: selector]) sorted.
 		

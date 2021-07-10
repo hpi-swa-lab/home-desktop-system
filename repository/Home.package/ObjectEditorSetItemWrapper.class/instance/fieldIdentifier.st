@@ -1,0 +1,4 @@
+accessing
+fieldIdentifier
+
+	^ self index

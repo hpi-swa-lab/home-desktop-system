@@ -1,0 +1,4 @@
+accessing
+wantedObjectAttributeKey
+
+	^ wantedObjectAttributeKey

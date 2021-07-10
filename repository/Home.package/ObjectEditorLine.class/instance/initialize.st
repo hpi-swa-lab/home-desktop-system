@@ -3,9 +3,12 @@ initialize
 
 	super initialize.
 	self
-		layoutPolicy: ObjectEditorLineLayoutPolicy new;
+		changeTableLayout;
+		listDirection: #leftToRight;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		cellInset: 10.
+		cellPositioning: #topLeft;
+		layoutInset: 0;
+		cellInset: 2.
 		
 	self initializeButtons.

@@ -1,0 +1,4 @@
+yellowButtonMenuInteractions
+wantsYellowButtonMenu
+
+	^ true

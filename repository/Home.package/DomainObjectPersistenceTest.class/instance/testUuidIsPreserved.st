@@ -3,5 +3,5 @@ testUuidIsPreserved
 
 	| oldUuid |
 	oldUuid := object uuid.
-	object store.
+	object storeAway.
 	self assert: object uuid = oldUuid.

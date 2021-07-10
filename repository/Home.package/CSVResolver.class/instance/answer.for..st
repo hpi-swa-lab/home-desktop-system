@@ -4,4 +4,4 @@ answer: aMessage for: anUrl
 
 	| selector |
 	selector := aMessage selector = #label ifTrue: [self labelFieldName ifNotNil: [:l | l asSymbol] ifNil: [#label]] ifFalse: [aMessage selector].
-	^ {(self lookup: anUrl) at: selector}.
+	^ {(self lookup: anUrl) at: selector ifAbsent: [#()]}.

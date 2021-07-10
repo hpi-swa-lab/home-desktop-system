@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Domain-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"longitude",
+		"latitude" ],
+	"name" : "HGeolocation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

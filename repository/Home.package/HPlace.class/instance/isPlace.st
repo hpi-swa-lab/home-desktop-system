@@ -1,0 +1,4 @@
+*Home-Travel
+isPlace
+
+	^ true

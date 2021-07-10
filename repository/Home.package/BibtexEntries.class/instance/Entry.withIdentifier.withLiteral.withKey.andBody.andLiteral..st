@@ -26,6 +26,4 @@ Entry: aNode withIdentifier: identifier withLiteral: x withKey: key andBody: bod
 	(BibtexImporter processBibTexProperties: properties) do: [:property |
 		newWork perform: (property key , $:) asSymbol withArguments: {property value}].
 
-	(newWork ?? #authors) do: [:p | p authorOf: newWork].
-
 	^ newWork

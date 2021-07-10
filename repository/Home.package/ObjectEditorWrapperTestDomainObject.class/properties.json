@@ -1,12 +1,12 @@
 {
-	"category" : "Home-UI-Tests",
+	"category" : "Home-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"aDefinedInstanceVariable" ],
 	"name" : "ObjectEditorWrapperTestDomainObject",
 	"pools" : [
 		 ],

@@ -1,11 +1,10 @@
 error handling
 doesNotUnderstand: aMessage
-
-	[^ aMessage selector isUnary
-		ifTrue:  [self getAdditionalStateAt: aMessage selector]
-		ifFalse: [
-			(aMessage selector count: [:c | c = $:]) = 1
-					ifTrue: [(HomeRelation for: aMessage selector) setValue: aMessage arguments first on: self]
-					ifFalse: [super doesNotUnderstand: aMessage]]]
-		on: NotFound
-		do: [super doesNotUnderstand: aMessage]
+	"delegate unknown messages to additional state or Behavior"
+	| success |
+	success := [:val | ^ val].
+	
+	self perforperformBehavior: aMessage onSuccess: success.
+	self performStateAccess: aMessage onSuccess: success.
+	
+	^ super doesNotUnderstand: aMessage

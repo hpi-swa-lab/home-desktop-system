@@ -1,5 +1,5 @@
 tests
 testStoreCanBeCalled
 
-	object store.
+	object storeAway.
 	self assert: object class = DomainObjectOnDisk.

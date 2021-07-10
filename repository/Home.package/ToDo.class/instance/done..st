@@ -1,6 +1,6 @@
 accessing
 done: anObject
- 
+
 	done := anObject. 
 	done  
 		ifTrue: [self setToDone: DateAndTime now]

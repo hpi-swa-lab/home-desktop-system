@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Database-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"syncGateway" ],
+	"name" : "HomeDBSyncTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

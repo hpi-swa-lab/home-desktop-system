@@ -1,4 +1,4 @@
 private
 labelWidth
 
-	^ 100 "px"
+	^ 90 "px"

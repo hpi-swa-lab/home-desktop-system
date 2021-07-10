@@ -1,0 +1,3 @@
+testing
+stateStringOf: object
+	^ 'mail'

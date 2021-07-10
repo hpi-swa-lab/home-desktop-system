@@ -13,21 +13,42 @@ baseline: spec
 					spec
 						repository: 'github://hpi-swa/widgets:master/repository';
 						loads: #(full)];
+				"Mostly used for opening files in external viewers (mostly pdf)"
 				project: 'OSProcess' with: [
 					spec
 						className: 'ConfigurationOfOSProcess';
 						repository: 'http://www.squeaksource.com/MetacelloRepository';
 						versionString: #'stable'];
+				"Adds web browser hooks which are used to implement the OSProcessWebBrowser"
+				project: 'FFI' with: [
+					spec
+						className: 'ConfigurationOfFFI';
+						repository: 'http://source.squeakfoundation.org/FFI';
+						versionString: #'stable'];
+				package: 'ExternalWebBrowser' with: [
+					spec
+						repository: 'http://www.squeaksource.com/ExternalWebBrowser';
+						file: 'ExternalWebBrowser-mtf.114';
+						requires: 'FFI'];
+				"Needed for the CSVResolver to load surrogates for CSV data"
+				package: 'Neo-CSV-Core' with: [
+					spec
+						repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main';
+						file: 'Neo-CSV-Core-SvenVanCaekenberghe.28'];
 				baseline: 'Pheno' with:
 					[ spec repository: 'github://tom95/Pheno:master/src' ];
 				baseline: 'MailDir' with: 
-					[ spec repository: 'github://codezeilen/SMailDir:master/repository' ];
+					[ spec repository: 'github://codezeilen/SMailDir/repository' ];
+				package: 'TiledMaps' with: 
+					[ spec repository: 'http://www.squeaksource.com/TiledMaps' ];
+				baseline: 'Scheduler' with: 
+					[ spec repository: 'github://codezeilen/scheduler/packages' ];
 				package: 'Home' with: [spec requires: #('libraries' 'tools')];
 				package: 'HomeSqueakCustomization' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('Home');
-				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno');
+				group: 'libraries' with: #('Ohm' 'Widgets' 'Pheno' 'TiledMaps' 'Scheduler' 'OSProcess' 'ExternalWebBrowser' 'Neo-CSV-Core');
 				group: 'tools' with: #('MailDir' 'Rack');
 				group: 'release' with: #('default' 'HomeSqueakCustomization')];    
 		yourself

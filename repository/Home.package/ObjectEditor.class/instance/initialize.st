@@ -6,13 +6,15 @@ initialize
 	wrappersToRows := Dictionary new.
 	
 	self 
-		layoutPolicy: HomeVerticalLayout new;
+		changeTableLayout;
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		cellInset: 2;
-		layoutInset: 0.
+		cellInset: 1;
+		layoutInset: 0;
+		dropEnabled: true.
 		
-	self color: (UserInterfaceTheme current userInterfaceTheme get: #color for: PluggableTextMorphPlus).
+	self color: (UserInterfaceTheme current 
+		userInterfaceTheme get: #color for: PluggableTextMorphPlus).
 		
 	self addBadge

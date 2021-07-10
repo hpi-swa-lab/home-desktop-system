@@ -1,0 +1,14 @@
+{
+	"category" : "Home-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HomeStringTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

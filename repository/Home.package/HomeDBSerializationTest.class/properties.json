@@ -1,0 +1,15 @@
+{
+	"category" : "Home-Database-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"database" ],
+	"name" : "HomeDBSerializationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

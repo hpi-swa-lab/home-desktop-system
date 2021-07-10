@@ -1,0 +1,16 @@
+{
+	"category" : "Home-Behavior-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eb 6/5/2019 21:11",
+	"instvars" : [
+		"displayName",
+		"values",
+		"typeSymbol" ],
+	"name" : "DomainObjectTemplate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

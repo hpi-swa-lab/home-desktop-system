@@ -4,13 +4,14 @@ initializeButtons
 	| deleteButton initializeButton |
 	self buttons: (Morph new
 		color: Color transparent;
-		borderWidth: 2;
+		borderWidth: 0;
 		changeTableLayout;
 		listDirection: #leftToRight;
-		layoutFrame: (LayoutFrame 
-							fractions:(1@0 corner: 1@1) 
-							offsets: (-80@0 corner: 0@0));
+		width: 80;
+		hResizing: #rigid;
+		vResizing: #shrinkWrap;
 		yourself).
+	self buttons hide.
 		
 	deleteButton := IconicButton new
 		labelGraphic: (RIcons icons8Delete64pxIcon scaledToSize: 14@14);

@@ -1,0 +1,4 @@
+object-ui
+updateDisplayedString
+
+	self privateTextField contents: self getDisplayedObjectAttributeAsStringWithDefault

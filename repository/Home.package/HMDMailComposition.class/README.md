@@ -1,0 +1,2 @@
+A modified version of MDMailComposition that shows how an HObjectFieldMorph can be used.
+In this version, the morph of the recipient field is replaced with an HObjectFieldMorph after creation. The HObjectFieldMorph is saved in an instance variable, allowing access for other demos like dynamic mail send.

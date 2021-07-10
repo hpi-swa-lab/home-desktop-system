@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 6/24/2019 14:29",
 	"instvars" : [
-		"uuidOfObject",
-		"poolOfObjects" ],
+		"uuidOfObject" ],
 	"name" : "DomainObjectOnDisk",
 	"pools" : [
 		 ],

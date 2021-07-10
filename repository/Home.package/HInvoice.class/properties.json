@@ -1,0 +1,18 @@
+{
+	"category" : "Home-Domain-Travel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"description",
+		"invoicedTo",
+		"paid",
+		"total" ],
+	"name" : "HInvoice",
+	"pools" : [
+		 ],
+	"super" : "DomainObject",
+	"type" : "normal" }

@@ -5,4 +5,4 @@ toggleVisibility
 		ifTrue: [self abandon]
 		ifFalse: [
 			self updateVisuals.
-			(self future: 2000) openInWorld].
+			self openInWorld].
